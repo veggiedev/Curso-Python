@@ -1,0 +1,9 @@
+Se necesitaria un desarrollador front end utilizando un IDE
+como Atom, para crear la pagina con html, css, javascript y php.
+
+Para la tabla de datos utilizaria un editor de texto como Notepad  ++
+por su sencillez y rapidez, puesto que no hace falta crear codigo complejo.
+
+Para el banco de imagenes utilizaria un framework, yo elegiria Spark, 
+ya que esta orientado a big data y hay 5000 imagenes de las que crear
+un algoritmo que reconozca patrones parece el mas indicado.
