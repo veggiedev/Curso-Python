@@ -54,9 +54,9 @@ while continuar == True:
                 elif jugador_2[1] < jugador_1[1] or jugador_2[1] < jugador_3[1] or jugador_2[1] < jugador_4[1]:
                     print(f"{nombre_2.capitalize()} ha ganado con un total de {jugador_2[2]} puntos en la ronda {ronda}")
                 elif jugador_3[1] < jugador_2[1] or jugador_3[1] < jugador_1[1] or jugador_3[1] < jugador_4[1]:
-                    print(f"{nombre_3.capitalize()} ha ganado con un total de {jugador_[3]} puntos en la ronda {ronda}")
+                    print(f"{nombre_3.capitalize()} ha ganado con un total de {jugador_3[3]} puntos en la ronda {ronda}")
                 elif jugador_4[1] < jugador_2[1] or jugador_4[1] < jugador_3[1] or jugador_4[1] < jugador_1[1]:
-                    print(f"{nombre_4.capitalize()} ha ganado con un total de {jugador_[4]} puntos en la ronda {ronda}")
+                    print(f"{nombre_4.capitalize()} ha ganado con un total de {jugador_4[4]} puntos en la ronda {ronda}")
                 fin_rondas = True
             else:
                 ronda += 1
