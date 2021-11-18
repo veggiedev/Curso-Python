@@ -17,7 +17,7 @@ continuar = True
     [=======]  ()       ldb
 """
 while continuar == True:
-    desea_continuar = input("Nueva partida de dardos? Escribe 'si' o 'no'")
+    desea_continuar = input("Nueva partida de dardos? Escribe 'si' o 'no': ")
     if desea_continuar == 'no':
         print("Gracias por jugar")
         continuar = False
