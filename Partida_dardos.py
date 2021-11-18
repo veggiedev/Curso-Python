@@ -8,6 +8,7 @@ fin_rondas = False
 puntos = 121
 ronda = 0
 continuar = True
+
 """               __
     ..=====.. |==|
     ||     || |= |
@@ -16,6 +17,7 @@ continuar = True
 |_|  _______)~`)  |_|
     [=======]  ()       ldb
 """
+
 while continuar == True:
     desea_continuar = input("Nueva partida de dardos? Escribe 'si' o 'no': ")
     if desea_continuar == 'no':
