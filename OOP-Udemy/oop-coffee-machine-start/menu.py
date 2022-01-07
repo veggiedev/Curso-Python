@@ -1,24 +1,24 @@
-class Employee:
-    def __init__(self, name, age, salary):
-        self.name = name
-        self.age = age
-        self.salary = salary
+# class Employee:
+#     def __init__(self, name, age, salary):
+#         self.name = name
+#         self.age = age
+#         self.salary = salary
 
-    def work(self):
-        print(f"{self.name} is working... ")
+#     def work(self):
+#         print(f"{self.name} is working... ")
 
-class SoftwareEngineer(Employee):
-    def __init__(self, name, age, salary, level):
-         super().__init__(name, age, salary)
-         self.level = level
-class Designer(Employee):
-    def __init__(self, name, age, salary):
-         super().__init__(name, age, salary)
-    pass
+# class SoftwareEngineer(Employee):
+#     def __init__(self, name, age, salary, level):
+#          super().__init__(name, age, salary)
+#          self.level = level
+# class Designer(Employee):
+#     def __init__(self, name, age, salary):
+#          super().__init__(name, age, salary)
+#     pass
 
-se = SoftwareEngineer('Bob', 32, 5000, 'Senior Engineer')
+# se = SoftwareEngineer('Bob', 32, 5000, 'Senior Engineer')
 
-de = Designer('Brian', 43, 4000)
+# de = Designer('Brian', 43, 4000)
 
 
 # class Colegio:
@@ -52,56 +52,75 @@ de = Designer('Brian', 43, 4000)
 #print(Colegio.clases[0])
 
 
-class SoftwareEngineer:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-        self._salary = None
-        self._num_bugs_solved = 0
+# class SoftwareEngineer:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#         self._salary = None
+#         self._num_bugs_solved = 0
     
-    def code(self):
-        self._num_bugs_solved += 1
+#     def code(self):
+#         self._num_bugs_solved += 1
     
-    def get_salary(self):
-        if self._salary == None:
-            print("You haven't specified a valid amount yet.")
-        else:
-            print(self._salary)
+#     def get_salary(self):
+#         if self._salary == None:
+#             print("You haven't specified a valid amount yet.")
+#         else:
+#             print(self._salary)
     
-    global set_your_salary
+ #   global set_your_salary
     
-    def set_salary(self, set_your_salary):
-        if set_your_salary < 1000:
-            self._salary = 1000
-        elif set_your_salary > 20000:
-            print('You introduced an amount considered too high')  
-        else:
-            self._salary = set_your_salary
+#     def set_salary(self, set_your_salary):
+#         if set_your_salary < 1000:
+#             self._salary = 1000
+#         elif set_your_salary > 20000:
+#             print('You introduced an amount considered too high')  
+#         else:
+#             self._salary = set_your_salary
 
-se = SoftwareEngineer('Max', 56)
+# se = SoftwareEngineer('Max', 56)
 
-while True:
-    try:
-        set_your_salary = int(input('Set your salary: '))
-        se.set_salary(set_your_salary)
-    except ValueError:
-            print('Enter a valid amount please.')
-            continue
-    break
-
-
+# while True:
+#     try:
+#         set_your_salary = int(input('Set your salary: '))
+#         se.set_salary(set_your_salary)
+#     except ValueError:
+#             print('Enter a valid amount please.')
+#             continue
+#     break
 
 
-while True:
-    ask_salary = input("Get your salary? Answer 'yes' or 'no' ")
-    if ask_salary.lower() == 'yes':
-        se.get_salary()
-    elif ask_salary.lower() == 'no':
-        print('OK')
-    else:
-        print('Enter a valid answer please.')
-        continue
-    break
+
+
+# while True:
+#     ask_salary = input("Get your salary? Answer 'yes' or 'no' ")
+#     if ask_salary.lower() == 'yes':
+#         se.get_salary()
+#     elif ask_salary.lower() == 'no':
+#         print('OK')
+#     else:
+#         print('Enter a valid answer please.')
+#         continue
+#     break
         
 
 #print(se.age, se.name, se._salary)
+
+import json
+
+person = {"name":"John", "age":30, "city":"New York", "hasChildren":False, "titles":["engineer", "programmer"]}
+
+print(person["name"])
+person_list = []
+the_values_keys = person.values() and person.keys()
+
+print(the_values_keys)
+
+for i in person.values():
+    person_list.append(i)
+
+print(person_list)
+
+personJSON = json.dumps(person, indent=4)
+
+print(personJSON)
