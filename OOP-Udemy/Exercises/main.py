@@ -4,7 +4,6 @@ import random
 import cards
 from cards import deck
 import colorama
-
 colorama.init()
 
 
@@ -28,4 +27,4 @@ print(f"{new_card.name} {new_card.emoji}, Element: {new_card.element}")
 
 
 
-print(cards.dragon.name)
+print(f"{cards.dragon.name} {cards.dragon.emoji}")
