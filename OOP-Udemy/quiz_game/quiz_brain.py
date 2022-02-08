@@ -7,22 +7,20 @@ class QuizBrain:
     def next_question(self):
         is_right = True
         current_question = self.question_list[self.question_number]
-        score = 0
         
-
-        while is_right:
-            for item in self.question_list:
-                self.question_number += 1
-                user_answer = input(f"Q.{self.question_number}: {item.text} (True/False)?: ")
-                if user_answer.capitalize() != item.answer:
-                    print(f"Wrong answer. The correct answer was '{item.answer}'")
-                    print(f"Your score was {score}/12")
-                    is_right = False
-                    continue
-                else:
-                    score += 1
-                    print("You got it right!")
-                    print(f"The correct answer was: {item.answer}")
-                    print(f"Your score is {score}/12")
-                    continue
-            print("End of Quiz")
+    
+    def check_answer(self):
+        score = 0
+        for item in self.question_list:
+            self.question_number += 1
+            user_answer = input(f"Q.{self.question_number}: {item.text} (True/False)?: ")    
+            if user_answer.capitalize() != item.answer:
+                print(f"Wrong answer. The correct answer was '{item.answer}'")
+                print(f"Your score was {score}/12")
+                continue
+            else:
+                score += 1
+                print("You got it right!")
+                print(f"The correct answer was: {item.answer}")
+                print(f"Your score is {score}/12")
+                continue
