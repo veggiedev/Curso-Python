@@ -1,0 +1,7 @@
+README.md
+setup.py
+heroes/__init__.py
+heroes.egg-info/PKG-INFO
+heroes.egg-info/SOURCES.txt
+heroes.egg-info/dependency_links.txt
+heroes.egg-info/top_level.txt
