@@ -1,33 +1,52 @@
+# import turtle as t
+# import random
+# from turtle import colormode
+# timmy = t.Turtle()
+# colormode(255)
+
+# number_of_loops = 3
+# timmy = t.Turtle()    
+# pen_size = 1
+# def draw():
+#     timmy.right(random.randint(0, 3)*90)
+#     timmy.left(random.randint(0,3)*90)
+#     timmy.forward(random.randint(5, 125))
+#     timmy.speed(0) 
+# for _ in range(200):
+#     timmy.pencolor((random.randint(0, 255)), (random.randint(0, 255)), (random.randint(0, 255)))
+#     timmy.pensize(pen_size)
+#     pen_size += 0.25
+#     draw()
+
+    
+    
+    
+
 import turtle as t
 import random
+from turtle import colormode
 timmy = t.Turtle()
-number_of_loops = 3
-colors = ['yellow', 'gold', 'orange', 'red', 'maroon', 'violet', 
-        'magenta', 'purple', 'navy', 'blue', 'skyblue', 'cyan', 
-        'turquoise', 'lightgreen', 'green', 'darkgreen', 'chocolate', 
-        'brown', 'black', 'gray',
-          ]
+colormode(255)
+
 timmy = t.Turtle()    
 pen_size = 1
-def draw():
-    timmy.right(random.randint(0, 3)*90)
-    timmy.left(random.randint(0,3)*90)
-    timmy.forward(20)  
-    timmy.speed(0) 
-for _ in range(200):
-    timmy.color("white")
-    random_color = random.choice(colors)
-    timmy.pencolor(random_color)
-    timmy.pensize(pen_size)
-    pen_size += 0.25
-    draw()
+def draw_circle():
+    timmy.speed(0)    
+    timmy.circle(100)
+
+left = 5
+
+for _ in range(72):
+    timmy.pencolor((random.randint(0, 255)), (random.randint(0, 255)), (random.randint(0, 255)))
+    print(left)
+    timmy.left(left)
+    draw_circle()
+    
+    
 
     
     
     
-
-
-
 
 
 
@@ -57,7 +76,6 @@ for _ in range(200):
 
 # # screen.canvheight(500)
 # # screen.canvwidth(500)
-
 
 
 
