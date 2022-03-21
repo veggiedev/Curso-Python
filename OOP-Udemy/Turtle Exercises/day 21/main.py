@@ -3,6 +3,8 @@ from turtle import Turtle, Screen
 import time
 import turtle
 from snake import Snake, MOVING_DISTANCE
+from score import Score
+from food import Food
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -11,13 +13,10 @@ screen.title("My snake game")
 screen.tracer(0)
 score = 0
 speed = 0.150
-decimal = (8, 270)
-non_decimal = (22, 270)
+
 outside_coords = (300, 300)
 coords = [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280,
           -20, -40, -60, -80, -100, -120, -140, -160, -180, -200, -220, -240, -260, -280]
-patch_non_decimal = Turtle("square")        
-patch_decimal = Turtle("square")
 score_turtle = Turtle()
 
 turtle_one = Turtle()
@@ -380,13 +379,7 @@ def draw_score():
 
 game_is_on = True
  
-food = Turtle("circle")
-food.penup()
-food.turtlesize(0.4)
-food.color("yellow")
-food.hideturtle()
 
-segments = []
    
 def up():   
         if snake.heading() == 270:
@@ -408,48 +401,65 @@ def down():
             print("You can't go down")
         else:
             snake.setheading(-90) 
-
+def pause(): 
+    if snake.move() == True:
+        snake.stop()
+    else: 
+        return snake.heading()
+        
 turtle.listen()
 turtle.onkeypress(fun=up, key="w")
 turtle.onkeypress(fun=left, key="a")
 turtle.onkeypress(fun=right, key="d")
 turtle.onkeypress(fun=down, key="s")
-food.goto(random.choice(coords), random.choice(coords))
-food.showturtle() 
+turtle.onkeypress(fun=pause, key="space")
+
+food = Food()
+food.random_spawn()
 snake = Snake()
 snake.create_snake() 
+total_score = 0
+
 def food_and_wall():  
     global game_is_on 
-    global score
     global speed
-    if int(food.xcor()) < int(snake.xcor()) + 2 and int(food.xcor()) > int(snake.xcor()) - 2 and int(food.ycor()) < int(snake.ycor()) + 2 and int(food.ycor()) > int(snake.ycor()) - 2:
-        score += 1
-        print(numbers)
+    global total_score
+    if int(food.xcor()) < int(snake.xcor()) + 2 and int(food.xcor()) > int(snake.xcor()) - 2 and int(food.ycor()) < int(snake.ycor()) + 2 and int(food.ycor()) > int(snake.ycor()) - 2:   
+        total_score += 1
+        print(total_score)
+        
+        points.reset()
+        points.get_score(total_score)
+        
         if speed > 0.100:
             speed -= 0.010
-        elif speed < 0.050 and speed > 0.030:
+        elif speed > 0.050:
             speed -= 0.005
-        elif speed < 0.005:
-            speed = 0 
+        elif speed < 0.050 and speed >= 0.020:
+            speed = 0.020 
         print(speed)
-        food.hideturtle()
-        food.goto(x_coord, y_coord)
-        food.showturtle()
+        food.random_spawn()
         snake.grow()
     elif snake.xcor() > 290 or snake.ycor() > 290 or snake.xcor() < -290 or snake.ycor() < -290:
         print("You crashed!")
-        game_is_on = False                
+        print(f"You scored {score} points!")
+        game_is_on = False 
+    else:
+        points = Score()
+        points.get_score(score)               
 while game_is_on:
-    score_drawing()
+    
+    
     x_coord = random.choice(coords)
     y_coord = random.choice(coords) 
-    numbers = [int(a) for a in str(score)]
-    draw_score()
+    # numbers = [int(a) for a in str(score)]
     if score > 100:
         print("Game Over")
         print("Your score is 100")  
-    screen.update() 
+    screen.update()
     time.sleep(speed)
     snake.move()
-    food_and_wall()   
+    food_and_wall() 
+    points = Score()
+    # score_object.score_drawing()  
 screen.exitonclick()
