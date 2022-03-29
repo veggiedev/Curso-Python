@@ -6,7 +6,8 @@ MOVING_DISTANCE = 20
 class Snake:
     def __init__(self):
         self.segments = []
-        # self.create_snake()
+        self.create_snake()
+        self.head = self.segments[0]
     
     def create_snake(self):
         for position in STARTING_POSITIONS:
@@ -48,3 +49,4 @@ class Snake:
     
     def stop(self):       
         self.segments[0].forward(0)
+        

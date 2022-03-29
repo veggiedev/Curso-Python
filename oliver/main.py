@@ -24,7 +24,7 @@ tortuga.speed(1)
 tortuga.turtlesize(5)
 tortuga.shape("turtle")
 tortuga.color("darkgreen")
-tortuga.forward()078
+tortuga.forward()
 
 
 
