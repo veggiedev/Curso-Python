@@ -21,13 +21,14 @@ class Ball(Turtle):
         self.y_move *= -1
         
     def hit_y(self):
-        self.y_move *= -0.90
+        self.y_move *= -1
     
     def hit_x(self):
-        self.x_move *= -0.9
+        self.x_move *= -1
     
     def new_move(self):
         self.x_move *= -1
+        self.y_move *= -1
         new_x = self.xcor() + self.x_move *-1
         new_y = self.ycor() + self.y_move
         self.goto(new_x, new_y)
