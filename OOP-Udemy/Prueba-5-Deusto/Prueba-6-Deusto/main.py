@@ -1,20 +1,29 @@
 import pandas as pd
-import json, requests
+import requests, json
 
-what_club = input('Introduce la URL del archivo json')
-url = requests.get(what_club)
-text = url.json
 
-data = json.load(text)
-count = 0
-for key, value in data.items():
-    if isinstance(value, list):
-        count = len(value)
-        print(value)
-print(count)  
-print(len(data['clubs']))
-#     print(data['clubs'])
-# # club_json = pd.read_json('OOP-Udemy/Prueba-5-Deusto/Prueba-6-Deusto/es.1.clubs.json')
+game_is_on = True
 
-# # print(club_json)
+while game_is_on:
+    what_club = input('Introduce la URL del archivo json, o escriba salir: ')
+    if what_club == 'salir':
+        game_is_on = False
+    else:
+        url = requests.get(what_club)
+        text = url.text
 
+        json_data = json.loads(text)
+        country = json_data['clubs'][0]['country']
+        print(country)
+        count = 0
+        teams = []
+        for team in json_data['clubs']:
+            count += 1
+            # teams.append(team['name'], team['code'])
+            print(team)
+            team_name = team['name']
+
+            with open(f'{country}.txt', 'a') as file:
+                file.writelines(f'{team_name}\n')
+
+        print(f'---El numero de equipos en esta liga es de {count}---')
