@@ -7,9 +7,17 @@ window.minsize(600, 400)
 
 #Label
 
-my_label = tkinter.Label(text='I am a label', font=('Arial', '18', 'bold'))
-my_label.pack(expand=True)
-  
+
+
+
+open = True
+
+my_label = tkinter.Label(text='I am a button', font=('Arial', '18', 'bold'))
+my_label.pack()
+
+def button_clicked():
+    text = input.get()
+    my_label.config(text=text)
 
 
 
@@ -17,16 +25,11 @@ my_label.pack(expand=True)
 
 
 
-
-
-
-
-
-
-
-
-
-
+input = tkinter.Entry(width=0)
+input.pack()
+button = tkinter.Button(text="Click me", command=button_clicked)
+button.pack()
+# input.bind(button, button_clicked)
 
 
 
