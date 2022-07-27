@@ -1,0 +1,14 @@
+Producto de Consum,Producto de Carrefour,Porcentaje Similitud
+"{'Chocolate con Oreo 100 Gr': '1,15 €'}","{'Chocolate blanco Milka 100 g.': '0,95 €'}",0.6666666666666666
+"{'Chocolate con Leche 270 Gr': '2,25 €'}","{'Chocolate con leche Milka 270 g.': '2,15 €'}",0.7931034482758621
+"{'Chocolate con Oreo 100 Gr': '1,15 €'}","{'Chocolate brownie Oreo Milka 100 g.': '1,16 €'}",0.7333333333333333
+"{'Chocolate con Oreo 300 Gr': '2,95 €'}","{'Chocolate brownie Oreo Milka 100 g.': '1,16 €'}",0.7
+"{'Batido de Chocolate Shake Vaso 200 ml': '1,00 €'}","{'Batido de chocolate shake Milka sin gluten 200 ml.': '1,12 €'}",0.7586206896551724
+"{'Chocolate con Caramelo y Cacahuete 276 Gr': '2,95 €'}","{'Chocolate con leche relleno de caramelo y cacahuetes Milka 276 g.': '3,05 €'}",0.6981132075471698
+"{'Chocolate Relleno Caramelo 100 Gr': '1,15 €'}","{'Chocolate con leche relleno de caramelo Milka 100 g.': '0,97 €'}",0.6823529411764706
+"{'Chocolate Relleno Caramelo y Avellana 300 Gr': '2,95 €'}","{'Chocolate con leche relleno de caramelo y avellanas enteras Milka 300 g.': '3,05 €'}",0.6724137931034483
+"{'Chocolate con Chips Ahoy 100 Gr': '1,15 €'}","{'Chocolate con leche y chips ahoy Milka 100 g.': '0,95 €'}",0.7105263157894737
+"{'Chocolate con Oreo 100 Gr': '1,15 €'}","{'Chocolate con leche y oreo Milka 100 g.': '0,97 €'}",0.6875
+"{'Chocolate Relleno Caramelo y Avellana 300 Gr': '2,95 €'}","{'Chocolate relleno de caramelo y almendras Milka 300 g.': '3,19 €'}",0.7142857142857143
+"{'Chocolate con Caramelo y Cacahuete 276 Gr': '2,95 €'}","{'Chocolate con caramelo y cacahuetes crujientes Milka 90 g.': '1,35 €'}",0.6868686868686869
+"{'Chocolate con Oreo 100 Gr': '1,15 €'}","{'Chocolate blanco Oreo White Milka100 g.': '1,29 €'}",0.6875
