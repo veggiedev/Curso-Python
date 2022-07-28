@@ -48,7 +48,6 @@ driver.find_element(By.XPATH, '/html/body').send_keys(Keys.PAGE_DOWN)
 sleep(4)
 
 boton_ver_mas = driver.find_element(By.XPATH, '/html/body/app-root/app-root/ng-component/div/ng-component/div/div[2]/div/mod-catalog/div/lib-grid/div/div/div[2]/div[2]/cmp-products-grid/div[2]/div[2]/button')
-# action = ActionChains(driver)
 
 boton_ver_mas.click()
 sleep(2)
