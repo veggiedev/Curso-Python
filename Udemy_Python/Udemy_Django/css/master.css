@@ -2,8 +2,8 @@ body{
     background-color: hsl(184, 100%, 50%);
 }
 .innerbox{
-    width: 50%;
-
+    padding: 20 20 20 20 white;
+    text-align: center;
     color: #061853;
 }
 h1{
@@ -16,9 +16,12 @@ h2{
 }
 p{
     color: white;
+    width: 50%;
+    text-align: center;
 }
 .emailform{
     color: white;
+    text-align: center;
 }
 
 #one{
