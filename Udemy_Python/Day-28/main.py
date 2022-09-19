@@ -22,7 +22,7 @@ window = Tk()
 # window.minsize(width=400, height=300)
 window.title('Pomodoro')
 window.config(padx=100, pady=50, bg = YELLOW)
-img = PhotoImage(file='/home/veggiedev/Curso-Python/OOP-Udemy/Day-28/tomato.png')
+img = PhotoImage(file='Udemy_Python/Day-28/tomato.png')
 
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 canvas.create_image(100, 112, image=img)
