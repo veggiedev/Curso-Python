@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(184, 100%, 50%);
+}
+.innerbox{
+    width: 50%;
+
+    color: #061853;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+}
+.emailform{
+    color: white;
+}
+
+#one{
+    background-color: rgb(170, 255, 11);
+}
+#two{
+    background-color: aquamarine;
+}
+#three{
+    background-color: darkorange;
+}
+#four{
+    background-color: rgb(140, 0, 255);
+}
+#five{
+    background-color: rgb(255, 45, 108);
+}
