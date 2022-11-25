@@ -42,15 +42,15 @@ canvas.pack()
 
 
 window.mainloop()
-# count=300
-# def countdown():
-#     global count
-#     # change text in label        
-#     label['text'] = count
+count=300
+def countdown():
+    global count
+    # change text in label        
+    label['text'] = count
 
-#     if count > 0:
-#         # call countdown again after 1000ms (1s)
-#         window.after(1000, countdown, count-1)
+    if count > 0:
+        # call countdown again after 1000ms (1s)
+        window.after(1000, countdown, count-1)
 
 
 
@@ -58,24 +58,24 @@ window.mainloop()
 # call countdown first time    
 
 
-# # window.config(bg = '/home/veggiedev/Curso-Python/OOP-Udemy/Day-28/tomato.png' )
+# window.config(bg = '/home/veggiedev/Curso-Python/OOP-Udemy/Day-28/tomato.png' )
 
 
-# # pomodoro.minsize(width=500)
-# title = Label(text="Break", font=(FONT_NAME, 20), bg="#f7f5dd")
-# title.grid(column=1, row=0)
-# pomodoro = Label(window,image=img, width=400, 
-#                 height=300, bg="#f7f5dd").grid(column=1, row=1)
+# pomodoro.minsize(width=500)
+title = Label(text="Break", font=(FONT_NAME, 20), bg="#f7f5dd")
+title.grid(column=1, row=0)
+pomodoro = Label(window,image=img, width=400, 
+                height=300, bg="#f7f5dd").grid(column=1, row=1)
 
 
-# label = Label(font=(FONT_NAME,  20), bg = "#f36848")
-# label.grid(column=1, row=1)
-# # countdown(300)
-# # timer = Label(text=countdown(5), font=(FONT_NAME, 20), bg = "#f36848")
-# # timer.grid(column=1, row=1)
+label = Label(font=(FONT_NAME,  20), bg = "#f36848")
+label.grid(column=1, row=1)
+# countdown(300)
+# timer = Label(text=countdown(5), font=(FONT_NAME, 20), bg = "#f36848")
+# timer.grid(column=1, row=1)
 
-# start = Button(text="Start", font=(FONT_NAME,  20), command=countdown)
-# start.grid(column=0, row=2)
+start = Button(text="Start", font=(FONT_NAME,  20), command=countdown)
+start.grid(column=0, row=2)
 
-# stop = Button(text="Stop", font=(FONT_NAME, 20))
-# stop.grid(column=2, row=2)
+stop = Button(text="Stop", font=(FONT_NAME, 20))
+stop.grid(column=2, row=2)
