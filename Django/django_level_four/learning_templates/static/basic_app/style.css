@@ -1,0 +1,64 @@
+h1 {
+    padding-top: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color:rgb(245, 141, 71);
+    font-weight: 100;
+    margin: 0;
+}
+
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color:rgb(66, 48, 33);
+    text-align: justify;
+}
+.column {
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    color:rgb(230, 138, 40);
+    padding-top:0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    /* margin: 1em; */    
+}
+
+#others {
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+a:hover {
+    transition: 200ms;
+    background-color: rgb(241, 210, 172);
+}
+
+
+#active {
+    background-color: rgb(236, 176, 102);
+    color:azure;
+}
+
+.navbar {
+    /* border: 1px solid, rgba(216, 111, 25, 0.692); */
+    padding-top:0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    background-color: rgb(245, 231, 214);
+    /* float: left; */
+    max-width: fit-content;
+    box-shadow: 2px 2px #c9c3b2bb;
+
+}
+
+
+body {
+    background-color: rgb(243, 240, 235);
+}
