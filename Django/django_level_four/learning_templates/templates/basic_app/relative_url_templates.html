@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+        <link rel="stylesheet" href="{% static '/basic_app/style.css' %}">
+    <title>Relative</title>
+</head>
+<body>
+    <div class="column">
+        <div class = "navbar">
+            <a class = 'link' href="{% url 'index' %}">Home</a>
+            <a class = 'link' href="{% url 'basic_app:other' %}">Other</a>
+            <a class = 'link' id="active" href="{% url 'basic_app:relative' %}">Relative</a>
+        </div>
+    </div>
+    <div class="column"><h1>Relative Page</h1></div>
+    <div class="column">
+        <h1 id="others">Other Stuff</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt necessitatibus, accusamus nisi temporibus atque ducimus cumque pariatur expedita non hic veniam delectus provident asperiores quisquam culpa iste aut sint porro!</p>  
+    </div>
+    
+</body>
+</html>

@@ -3,5 +3,5 @@
     "python.analysis.extraPaths": [
         "./OOP-Udemy/Turtle Exercises/heroes-1.0.2"
     ],
-    "explorer.copyRelativePathSeparator": "\\"
+    "explorer.copyRelativePathSeparator": "/"
 }

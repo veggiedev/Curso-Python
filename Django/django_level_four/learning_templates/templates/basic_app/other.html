@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+        <link rel="stylesheet" href="{% static '/basic_app/style.css' %}">
+    <title>Other</title>
+</head>
+<body>
+    <div class="column">
+        <div class = "navbar">
+            <a class = 'link' href="{% url 'index' %}">Home</a>
+            <a class = 'link' id="active" href="{% url 'basic_app:other' %}">Other</a>
+            <a class = 'link' href="{% url 'basic_app:relative' %}">Relative</a>
+        </div>
+    </div>
+    <div class="column"><h1>Other</h1></div>
+    <div class="column"><h1 id="others">Other Stuff</h1></div>   
+</body>
+</html>
