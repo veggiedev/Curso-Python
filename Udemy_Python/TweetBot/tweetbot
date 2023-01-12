@@ -1,0 +1,155 @@
+import random
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.keys import Keys
+
+
+my_hashtags = ['anime', 'girl', 'altgirl', 'gothgirl', 'cosplay', 'cawsplay', 'kimetsunoyaiba', 'naruto',
+'cosplayer', 'cosplaygirl', 'cosplayers', 'cosplaying', 'cosplayersofinstagram', 'cosplaymodel', 'cosplays', 
+'cosplayphotography', 'cosplaygirl', 'cosplaylife', 'cosplaymakeup', 'cosplaywip', 'cosplayworld', 
+'cosplayerofinstagram', 'cosplayprogress', 'cosplayergirl', 'cosplayphoto', 'cosplayselfie', 'cosplayboy',
+'cosplaybabe', 'cosplayprop', 'cosplaywig', 'cosplaylove', 'cosplayphotoshoot', 'cosplayphotographer', 
+'cosplaylover', 'cosplaycouple', 'cosplaycomparison', 'cosplaytest', 'cosplaysky', 'cosplayfun', 
+'cosplayingwhileblack', 'cosplayguy', 'cosplayprops', 'cosplayvscharacter', 'cosplaygoals', 'cosplayboudoir', 
+'cosplaybrasil', 'cosplayindonesia', 'cosplayoftheday', 'cosplayanime', 'cosplayersofig', 'cosplaybabes', 
+'cosplaygirlsofinstagram', 'cosplayfitness', 'CosPlaystuff', 'cosplaycostume', 'cosplayofinstagram', 
+'cosplaycommunity', 'cosplayconnectionbabe', 'animegirl', 'AnimeArt', 'animedrawing', 'animes', 'animelover', 
+'animefan', 'animelove', 'animeworld', 'animegirls', 'animememe', 'animememes', 'animeedit', 'animecosplay', 
+'animedraw', 'animeartist', 'animeedits', 'animestyle', 'animekawaii', 'animelife', 'animecouple', 'animefacts', 
+'animefreak', 'animemanga', 'animefanart', 'animelover', 'animeislife', 'animeguy', 'animeartshelp', 
+'animeaccount', 'animeamv', 'animequotes', 'animefans', 'animeotaku', 'animesketch', 'animeshop', 'Animecute', 
+'animeforever', 'Animeindo', 'animeartwork', 'animebreath', 'animepic', 'animeartassistant', 'animestore', 
+'animequote', 'Animerp', 'animefact', ]
+
+search_hashtags = ['girl', 'girls', 'girlswholift', 'girly', 'GirlBoss', 'girlpower', 'girlfriend', 
+'girlswithtattoos', 'girlswithmuscle','GirlsThatLift', 'girlswithpiercings', 'girlsnight', 
+'girlswhosquat', 'girlswithink', 'girlswithmuscles', 'girlgamer', 'girlsnightout', 'girlsgeneration', 
+'girlstrip', 'girlswholikegirls', 'girlswhokissgirls', 'girlfashion', 'girlsday', 'girlfriends', 
+'girlsfashion', 'GirlsWhoTravel', 'girlgains', 'GirlyThings', 'GirlsWhoWorkout', 'girlswithabs',
+'cats', 'catsofinstagram', 'catstagram', 'catsagram', 'catsofig', 'catsofworld', 'CatsOfInsta',
+'catslover', 'catsoninstagram', 'catslife', 'catsgram', 'catselfie', 'catslovers', 'catsoftheday',
+'catskill', 'catsrule', 'catsoftheworld', 'catsfollowers', 'catstocker', 'catsanddog',
+'catsofday', 'Catsuit', 'catsofinstgram', 'catsareawesome', 'catsdaily', 'catsworld', 'catsnet',
+'catsloversworld', 'catslove', 'catsarelife', 'anime', 'girl', 'altgirl', 'gothgirl', 'cosplay', 'cawsplay', 'kimetsunoyaiba', 'naruto',
+'cosplayer', 'cosplaygirl', 'cosplayers', 'cosplaying', 'cosplayersofinstagram', 'cosplaymodel', 'cosplays', 
+'cosplayphotography', 'cosplaygirl', 'cosplaylife', 'cosplaymakeup', 'cosplaywip', 'cosplayworld', 
+'cosplayerofinstagram', 'cosplayprogress', 'cosplayergirl', 'cosplayphoto', 'cosplayselfie', 'cosplayboy',
+'cosplaybabe', 'cosplayprop', 'cosplaywig', 'cosplaylove', 'cosplayphotoshoot', 'cosplayphotographer', 
+'cosplaylover', 'cosplaycouple', 'cosplaycomparison', 'cosplaytest', 'cosplaysky', 'cosplayfun', 
+'cosplayingwhileblack', 'cosplayguy', 'cosplayprops', 'cosplayvscharacter', 'cosplaygoals', 'cosplayboudoir', 
+'cosplaybrasil', 'cosplayindonesia', 'cosplayoftheday', 'cosplayanime', 'cosplayersofig', 'cosplaybabes', 
+'cosplaygirlsofinstagram', 'cosplayfitness', 'CosPlaystuff', 'cosplaycostume', 'cosplayofinstagram', 
+'cosplaycommunity', 'cosplayconnectionbabe', 'animegirl', 'AnimeArt', 'animedrawing', 'animes', 'animelover', 
+'animefan', 'animelove', 'animeworld', 'animegirls', 'animememe', 'animememes', 'animeedit', 'animecosplay', 
+'animedraw', 'animeartist', 'animeedits', 'animestyle', 'animekawaii', 'animelife', 'animecouple', 'animefacts', 
+'animefreak', 'animemanga', 'animefanart', 'animelover', 'animeislife', 'animeguy', 'animeartshelp', 
+'animeaccount', 'animeamv', 'animequotes', 'animefans', 'animeotaku', 'animesketch', 'animeshop', 'Animecute', 
+'animeforever', 'Animeindo', 'animeartwork', 'animebreath', 'animepic', 'animeartassistant', 'animestore', 
+'animequote', 'Animerp', 'animefact',]
+
+
+comments = ["Nice!!!", "That's awesome!", "Love it❤️ ❤️ ❤️", "❤️ ❤️ ❤️ ❤️ ❤️", "😍 😍 😍 😍 ", "Wooow!", "Oh yeah!",
+"Grrrrrr 😻 😻 😻 😻 ", ""]
+
+likes = 0
+bot_on = True
+used_hashtags = []
+comments = []
+following = []
+followers = []
+driver = webdriver.Firefox()
+driver.get("https://twitter.com")
+driver.set_window_size(1280, 1440)
+time.sleep(2)
+
+try:
+    signin = driver.find_element(By.XPATH, "//a[@data-testid='login']")
+    signin.click()     
+except NoSuchElementException:
+        time.sleep(4)
+        print('exception raised')
+        alt_signin = driver.find_element(By.XPATH, "//a[@data-testid='loginButton']")
+        alt_signin.click()
+# 
+# accept_cookies = driver.find_element(By.CLASS_NAME, "css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0")
+time.sleep(4)
+email = 'mybotisbetterthanyourbot@outlook.com'
+password = 'ifThisIsMyPasswordThenFuckYou'
+signin_email = driver.find_element(By.XPATH, "//input[@autocomplete='username']")
+signin_email.send_keys(email)
+next_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Next')]")
+next_button.click()
+try:
+    signin_pwd = driver.find_element(By.XPATH, "//input[@type='password']")
+    signin_pwd.send_keys(password)
+    next_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Log in')]")
+    next_button.click()
+    time.sleep(5)
+except NoSuchElementException:
+    print('Exception Raised for unusual behaviour')
+username = 'jenbrightsun'
+time.sleep(2)
+username_entry = driver.find_element(By.XPATH, "//input[@data-testid='ocfEnterTextTextInput']")
+username_entry.send_keys(username)
+time.sleep(2)
+username_next = driver.find_element(By.XPATH, "//*[contains(text(), 'Next')]")
+username_next.click()
+time.sleep(3)
+signin_pwd = driver.find_element(By.XPATH, "//input[@type='password']")
+signin_pwd.send_keys(password)
+next_button = driver.find_element(By.XPATH, "//div[@data-testid='LoginForm_Login_Button']")
+next_button.click()
+time.sleep(2)
+
+
+# signup = driver.find_element(By.LINK_TEXT, "Sign up with phone or email")
+# signup.click()
+    
+
+feed_number = 0
+
+search = driver.find_element(By.XPATH, "//a[@data-testid='AppTabBar_Explore_Link']")
+search.click()
+
+while bot_on == True:
+    
+    # gererate random hashtag from list
+    random_hashtag = random.choice(search_hashtags)
+    # make a search every 5 seconds of random hashtag
+    if random_hashtag not in used_hashtags:
+        used_hashtags.append(random_hashtag)        
+        time.sleep(5)
+        search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
+        search_box.send_keys(random.choice(search_hashtags))
+        search_box.send_keys(Keys.ENTER)
+
+        # get like element by xpath
+        feed = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
+        print(feed)
+        for i in feed:
+            feed_number =+ 1
+            driver.execute_script("arguments[0].scrollIntoView();", i[feed_number])
+            likes += 1
+            time.sleep(3)
+            i.click()
+        for photo in range (30):
+            # driver.find_element(By.XPATH, '/html/body').send_keys(Keys.PAGE_DOWN)
+
+            feed = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
+            for photo in feed:
+                feed_number =+ 1
+                driver.execute_script("arguments[0].scrollIntoView();", photo)
+                likes += 1
+                photo.click()
+                # driver.find_element(By.XPATH, '/html/body').send_keys(Keys.PAGE_DOWN)
+                time.sleep(2)
+            time.sleep(5)
+        time.sleep(5)
+        search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
+        search_box.click()
+        clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
+        clear_button.click()
+    else:
+        continue
