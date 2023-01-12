@@ -130,7 +130,7 @@ while bot_on == True:
         print(feed)
         for i in feed:
             feed_number =+ 1
-            driver.execute_script("arguments[0].scrollIntoView();", i[feed_number])
+            driver.execute_script("arguments[0].scrollIntoView();", i)
             likes += 1
             time.sleep(3)
             i.click()
