@@ -6371,3 +6371,621 @@ Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
 Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
 1673532035421	Marionette	INFO	Stopped listening on port 45133
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673599238327	geckodriver	INFO	Listening on 127.0.0.1:38647
+1673599238862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerfHJGi"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.287899) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1673599239195	Marionette	INFO	Marionette enabled
+1673599239197	Marionette	INFO	Listening on port 35079
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 35079
+WebDriver BiDi listening on ws://127.0.0.1:38265
+1673599239298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerfHJGi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38265/devtools/browser/1f8654fe-41c8-4ccb-a41b-2619f1f12fa3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1673599445222	geckodriver	INFO	Listening on 127.0.0.1:40929
+1673599445256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39137" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePipOXH"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.258653) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1673599445544	Marionette	INFO	Marionette enabled
+1673599445547	Marionette	INFO	Listening on port 39835
+Read port: 39835
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:39137
+1673599445633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePipOXH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39137/devtools/browser/9aa7a3b7-b6f1-47cd-b9b8-1e4610459a9d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.1377x.to."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.1377x.to."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.1377x.to."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+1673606741519	geckodriver	INFO	Listening on 127.0.0.1:39507
+1673606741555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9w50yX"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.284001) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1673606741872	Marionette	INFO	Marionette enabled
+1673606741875	Marionette	INFO	Listening on port 38893
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:41115
+Read port: 38893
+1673606742097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9w50yX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41115/devtools/browser/95cecd57-30a1-48e9-8c63-4d7b1bbab6c1
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+1673606753287	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1673606758075	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1673606778090	Marionette	INFO	Stopped listening on port 38893
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673606780953	geckodriver	INFO	Listening on 127.0.0.1:52033
+1673606780987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52671" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegmJsG2"
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.288674) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1673606781312	Marionette	INFO	Marionette enabled
+1673606781316	Marionette	INFO	Listening on port 45069
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 45069
+WebDriver BiDi listening on ws://127.0.0.1:52671
+1673606781428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegmJsG2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52671/devtools/browser/622163d2-2ee1-40e2-aa22-1acb6b9ab4ae
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index2/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/cpu0/cache/index3/size
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/present
+Sandbox: attempt to open unexpected file /sys/devices/system/cpu/possible

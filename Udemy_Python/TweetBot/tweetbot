@@ -89,6 +89,8 @@ try:
     time.sleep(5)
 except NoSuchElementException:
     print('Exception Raised for unusual behaviour')
+
+
 username = 'jenbrightsun'
 time.sleep(2)
 username_entry = driver.find_element(By.XPATH, "//input[@data-testid='ocfEnterTextTextInput']")
@@ -105,15 +107,14 @@ time.sleep(2)
 
 search = driver.find_element(By.XPATH, "//a[@data-testid='AppTabBar_Explore_Link']")
 search.click()
-print('Loading search page')
+print('Loading search page...')
 
 while bot_on == True:
     
     # gererate random hashtag from list
     random_hashtag = random.choice(search_hashtags)
-    # make a search every 10 seconds of random hashtag
+    # make a search every time all loaded content has been liked
     if random_hashtag not in used_hashtags:
-        # if (likes + 1)%10 != 0:
             used_hashtags.append(random_hashtag)
             time.sleep(5)        
             
@@ -126,7 +127,6 @@ while bot_on == True:
             time.sleep(2)
             # print feed like elements
             print(feed_likes)
-            # driver.execute_script("arguments[0].scrollIntoView();", feed_likes[0])
 
             for like in feed_likes:
                 try:
@@ -137,10 +137,10 @@ while bot_on == True:
                     driver.execute_script("arguments[0].scrollIntoView();", like)
                     time.sleep(2)
                 except ElementClickInterceptedException:
-                    driver.execute_script("arguments[0].scrollIntoView();", like)
+                    # driver.execute_script("arguments[0].scrollIntoView();", like)
                     continue
                 except NoSuchElementException:
-                    driver.execute_script("arguments[0].scrollIntoView();", like)
+                    # driver.execute_script("arguments[0].scrollIntoView();", like)
                     continue
                 try:
                     time.sleep(2)
@@ -149,32 +149,19 @@ while bot_on == True:
                         retweet_element.click() 
                         retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
                         retweet.click()   
-                        # driver.execute_script("arguments[0].scrollIntoView();", retweet_element)                    
                     time.sleep(2)
                 except ElementClickInterceptedException:
                     driver.execute_script("arguments[0].scrollIntoView();", retweet_element)
                     continue
             
-            # driver.execute_script("arguments[0].scrollIntoView();", feed_retweet)
-            # try:
-            #     feed_retweet.click()
-            # except ElementClickInterceptedException:
-            #     driver.execute_script("arguments[0].scrollIntoView();", feed_retweet)
-            #     feed_retweet.click()
- 
             search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
             search_box.click()
             clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
             clear_button.click()
-        # elif (likes + 1)%10 != 0:
-        #     feed_retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweet']")
-        #     feed_retweet.click()
-        #     retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
-        #     retweet.click()
 
     else:
         random_hashtag = random.choice(search_hashtags)
-        print("this hastag is already been used")
+        print("This hastag is already been used, startign new search...")
         if (likes + 1)%10 != 0:
             used_hashtags.append(random_hashtag)
             time.sleep(5)        
