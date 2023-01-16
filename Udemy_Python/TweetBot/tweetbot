@@ -33,7 +33,7 @@ search_hashtags = ['girl', 'girls', 'girlswholift', 'girly', 'GirlBoss', 'girlpo
 'catslover', 'catsoninstagram', 'catslife', 'catsgram', 'catselfie', 'catslovers', 'catsoftheday',
 'catskill', 'catsrule', 'catsoftheworld', 'catsfollowers', 'catstocker', 'catsanddog',
 'catsofday', 'Catsuit', 'catsofinstgram', 'catsareawesome', 'catsdaily', 'catsworld', 'catsnet',
-'catsloversworld', 'catslove', 'catsarelife', 'anime', 'girl', 'altgirl', 'gothgirl', 'cosplay', 'cawsplay', 'kimetsunoyaiba', 'naruto',
+'catsloversworld', 'catslove', 'catsarelife', 'anime', 'girl', 'altgirl', 'gothgirl', 'cosplay', 'cawsplay', 
 'cosplayer', 'cosplaygirl', 'cosplayers', 'cosplaying', 'cosplayersofinstagram', 'cosplaymodel', 'cosplays', 
 'cosplayphotography', 'cosplaygirl', 'cosplaylife', 'cosplaymakeup', 'cosplaywip', 'cosplayworld', 
 'cosplayerofinstagram', 'cosplayprogress', 'cosplayergirl', 'cosplayphoto', 'cosplayselfie', 'cosplayboy',
@@ -48,11 +48,20 @@ search_hashtags = ['girl', 'girls', 'girlswholift', 'girly', 'GirlBoss', 'girlpo
 'animefreak', 'animemanga', 'animefanart', 'animelover', 'animeislife', 'animeguy', 'animeartshelp', 
 'animeaccount', 'animeamv', 'animequotes', 'animefans', 'animeotaku', 'animesketch', 'animeshop', 'Animecute', 
 'animeforever', 'Animeindo', 'animeartwork', 'animebreath', 'animepic', 'animeartassistant', 'animestore', 
-'animequote', 'Animerp', 'animefact',]
+'animequote', 'Animerp', 'animefact', 'model', 'models', 'Modeling', 'modelo', 'modellife', 'modelling', 
+'modelagency', 'Modelos', 'modelphotography', 'modelsearch', 'ModelStatus', 'modelingagency', 'modelfitness', 
+'ModelsWanted', 'modelshoot', 'modella', 'modelmanagement', 'modelscout', 'modeltest', 'modelindonesia', 
+'modele', 'modelife', 'modelmayhem', 'modelgirl', 'modell', 'modelslife', 'modelkids', 'modelcall' , 
+'modelpose', 'ModelOfTheDay', 'kimetsunoyaiba', 'naruto', 'latina', 'latinas', 'latinamerica', 'latinasbelike',
+ 'latinablogger', 'latinAMAs', 'latinamerican', 'latinagirl', 'latinamericanart', 'latinabloggers', 
+ 'latinasexy', 'latinactor', 'latinartist', 'latinaboss', 'latinamom', 'latinasdoitbetter', 'latinastyle', 
+ 'latinafeet', 'latinapower', 'latinamodel', 'latinabooty', 'latinart', 'latinagirls', 'LatinAmas2017', 
+ 'latinabeauty', 'latinaequalpay', 'latinastrong', 'LatinaArtist', 'latinasaram', 'latinahair']
 
 
-comments = ["Nice!!!", "That's awesome!", "Love it❤️ ❤️ ❤️", "❤️ ❤️ ❤️ ❤️ ❤️", "😍 😍 😍 😍 ", "Wooow!", "Oh yeah!",
-"Grrrrrr 😻 😻 😻 😻 ", "Love it!", "So cool!!!", "OMG  😍", "That looks amazin!", "OMG I love it!",  ]
+comments = ["Nice!!!", "That's awesome!", "Love it❤️ ❤️ ❤️", "❤️ ❤️ ❤️ ❤️ ❤️", "😍 😍 😍 😍 ", "Wooow!", 
+"Oh yeah!", "Grrrrrr 😻 😻 😻 😻 ", "Love it!", "So cool!!!", "OMG  😍", "That looks amazin!", "OMG I love it!", 
+ "Grrrrrr", "Me encanta!", "Love it so much", "That is wonderful", "Yeah!!",]
 
 likes = 0
 bot_on = True
@@ -75,13 +84,14 @@ except NoSuchElementException:
         alt_signin.click()
 
 time.sleep(4)
-email = 'mybotisbetterthanyourbot@outlook.com'
-password = 'ifThisIsMyPasswordThenFuckYou'
+email = input("Enter email address: ")
+
 signin_email = driver.find_element(By.XPATH, "//input[@autocomplete='username']")
 signin_email.send_keys(email)
 next_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Next')]")
 next_button.click()
 try:
+    password = input('Please, enter password: ')
     signin_pwd = driver.find_element(By.XPATH, "//input[@type='password']")
     signin_pwd.send_keys(password)
     next_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Log in')]")
@@ -91,7 +101,7 @@ except NoSuchElementException:
     print('Exception Raised for unusual behaviour')
 
 
-username = 'jenbrightsun'
+username = input("Enter twitter name: ")
 time.sleep(2)
 username_entry = driver.find_element(By.XPATH, "//input[@data-testid='ocfEnterTextTextInput']")
 username_entry.send_keys(username)
@@ -104,35 +114,32 @@ signin_pwd.send_keys(password)
 next_button = driver.find_element(By.XPATH, "//div[@data-testid='LoginForm_Login_Button']")
 next_button.click()
 time.sleep(2)
-
+retweets = 0
 search = driver.find_element(By.XPATH, "//a[@data-testid='AppTabBar_Explore_Link']")
 search.click()
 print('Loading search page...')
 
 while bot_on == True:
-    
     # gererate random hashtag from list
     random_hashtag = random.choice(search_hashtags)
     # make a search every time all loaded content has been liked
     if random_hashtag not in used_hashtags:
             used_hashtags.append(random_hashtag)
-            time.sleep(5)        
-            
             search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
             search_box.send_keys(random_hashtag)
             search_box.send_keys(Keys.ENTER)
-            time.sleep(5)
+            print("Making a new search, please wait.")
+            time.sleep(3)
             # get like element by xpath
             feed_likes = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
             time.sleep(2)
             # print feed like elements
-            print(feed_likes)
 
             for like in feed_likes:
                 try:
                     time.sleep(2)
                     likes += 1
-                    print(likes)
+                    print(f'Number of likes= {likes}')
                     like.click()
                     driver.execute_script("arguments[0].scrollIntoView();", like)
                     time.sleep(2)
@@ -148,7 +155,9 @@ while bot_on == True:
                     for retweet_element in feed_retweet:
                         retweet_element.click() 
                         retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
-                        retweet.click()   
+                        retweet.click()
+                        retweets += 1
+                        print(f'Number of retweets = {retweets}')   
                     time.sleep(2)
                 except ElementClickInterceptedException:
                     driver.execute_script("arguments[0].scrollIntoView();", retweet_element)
@@ -161,44 +170,32 @@ while bot_on == True:
 
     else:
         random_hashtag = random.choice(search_hashtags)
-        print("This hastag is already been used, startign new search...")
-        if (likes + 1)%10 != 0:
-            used_hashtags.append(random_hashtag)
-            time.sleep(5)        
-            
-            search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
-            search_box.send_keys(random_hashtag)
-            search_box.send_keys(Keys.ENTER)
-            time.sleep(5)
-            # get like element by xpath
-            feed_likes = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
-            time.sleep(2)
-            # print feed like elements
-            print(feed_likes)
+        print("This hashtag is already been used, startign new search...")
+        used_hashtags.append(random_hashtag)        
+        search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
+        search_box.send_keys(random_hashtag)
+        search_box.send_keys(Keys.ENTER)
+        print("Making a new search, please wait.")
+        time.sleep(3)
+        # get like element by xpath
+        feed_likes = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
+        time.sleep(2)
 
-            for like in feed_likes:
-                try:
-                    time.sleep(2)
-                    feed_retweet = driver.find_elements(By.XPATH, "//div[@data-testid='retweet']")
-                    for retweet_element in feed_retweet:
-                        retweet_element.click() 
-                        retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
-                        retweet.click()   
-                    time.sleep(2)
-                except ElementClickInterceptedException:
-                    driver.execute_script("arguments[0].scrollIntoView();", retweet_element)
-                    continue 
-            search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
-            search_box.click()
-            clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
-            clear_button.click()
-        elif (likes + 1)%10 != 0:
-            feed_retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweet']")
-            feed_retweet.click()
-            retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
-            retweet.click()
-        continue
-
-
-    # if likes < 100:
-    #     if (likes / 10) == 1
+        for like in feed_likes:
+            try:
+                time.sleep(2)
+                feed_retweet = driver.find_elements(By.XPATH, "//div[@data-testid='retweet']")
+                for retweet_element in feed_retweet:
+                    retweet_element.click() 
+                    retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
+                    retweet.click()
+                    retweets += 1
+                    print(f'Number of retweets = {retweets}') 
+                time.sleep(2)
+            except ElementClickInterceptedException:
+                driver.execute_script("arguments[0].scrollIntoView();", retweet_element)
+                continue 
+        search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
+        search_box.click()
+        clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
+        clear_button.click()
