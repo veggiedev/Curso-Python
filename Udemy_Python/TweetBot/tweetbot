@@ -177,12 +177,17 @@ while bot_on == True:
             print(feed_likes)
 
             for like in feed_likes:
-                time.sleep(2)
-                likes += 1
-                print(likes)
-                like.click()
-                driver.execute_script("arguments[0].scrollIntoView();", like)
-                time.sleep(2)
+                try:
+                    time.sleep(2)
+                    feed_retweet = driver.find_elements(By.XPATH, "//div[@data-testid='retweet']")
+                    for retweet_element in feed_retweet:
+                        retweet_element.click() 
+                        retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
+                        retweet.click()   
+                    time.sleep(2)
+                except ElementClickInterceptedException:
+                    driver.execute_script("arguments[0].scrollIntoView();", retweet_element)
+                    continue 
             search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
             search_box.click()
             clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
