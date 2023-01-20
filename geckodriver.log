@@ -8850,3 +8850,1934 @@ DevTools listening on ws://127.0.0.1:41329/devtools/browser/6f1ae7be-f060-4ed5-8
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1674120422059	geckodriver	INFO	Listening on 127.0.0.1:47747
+1674120422563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51033" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezzpDkV"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120422965	Marionette	INFO	Marionette enabled
+1674120422968	Marionette	INFO	Listening on port 44693
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:51033
+Read port: 44693
+1674120423173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezzpDkV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51033/devtools/browser/042d4b4a-6d41-4d78-94d4-0ffca6bcea93
+1674120427823	Marionette	INFO	Stopped listening on port 44693
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674120547483	geckodriver	INFO	Listening on 127.0.0.1:41305
+1674120547486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0TYACi"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120547825	Marionette	INFO	Marionette enabled
+1674120547827	Marionette	INFO	Listening on port 45309
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 45309
+WebDriver BiDi listening on ws://127.0.0.1:56691
+1674120547925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0TYACi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56691/devtools/browser/68e155c8-c2f0-4c53-bed8-46613f20a05f
+1674120556713	Marionette	INFO	Stopped listening on port 45309
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674120614303	geckodriver	INFO	Listening on 127.0.0.1:42811
+1674120614306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49773" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXh4DLm"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120614654	Marionette	INFO	Marionette enabled
+1674120614657	Marionette	INFO	Listening on port 38543
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 38543
+WebDriver BiDi listening on ws://127.0.0.1:49773
+1674120614755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXh4DLm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49773/devtools/browser/042f4189-8313-45d2-9fea-fd2a10c27d4b
+1674120619373	Marionette	INFO	Stopped listening on port 38543
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674120693473	geckodriver	INFO	Listening on 127.0.0.1:46003
+1674120693475	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRygGzx"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120693805	Marionette	INFO	Marionette enabled
+1674120693807	Marionette	INFO	Listening on port 33767
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 33767
+WebDriver BiDi listening on ws://127.0.0.1:57507
+1674120693907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRygGzx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57507/devtools/browser/cd753957-c5cb-4be5-a71f-8e9ee21459f2
+1674120711443	Marionette	INFO	Stopped listening on port 33767
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674120759056	geckodriver	INFO	Listening on 127.0.0.1:58701
+1674120759058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezVCXD1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120759392	Marionette	INFO	Marionette enabled
+1674120759395	Marionette	INFO	Listening on port 35357
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 35357
+WebDriver BiDi listening on ws://127.0.0.1:48141
+1674120759494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezVCXD1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48141/devtools/browser/f4390eef-9cc8-40c8-bf64-e3107c140bce
+1674120777689	Marionette	INFO	Stopped listening on port 35357
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674120784537	geckodriver	INFO	Listening on 127.0.0.1:51299
+1674120784539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXzCsGX"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120784873	Marionette	INFO	Marionette enabled
+1674120784876	Marionette	INFO	Listening on port 33291
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 33291
+WebDriver BiDi listening on ws://127.0.0.1:52127
+1674120784976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXzCsGX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52127/devtools/browser/774f9d9f-221f-4a33-9f9a-c038b2614a66
+1674120813466	Marionette	INFO	Stopped listening on port 33291
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674120867490	geckodriver	INFO	Listening on 127.0.0.1:49671
+1674120867493	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePl2Sbo"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120867830	Marionette	INFO	Marionette enabled
+1674120867833	Marionette	INFO	Listening on port 45311
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 45311
+WebDriver BiDi listening on ws://127.0.0.1:39715
+1674120867930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePl2Sbo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39715/devtools/browser/4b60bddc-657e-47f1-84c2-ea1734533917
+1674120875025	Marionette	INFO	Stopped listening on port 45311
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674120932488	geckodriver	INFO	Listening on 127.0.0.1:51489
+1674120932491	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHkjwwt"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120932838	Marionette	INFO	Marionette enabled
+1674120932841	Marionette	INFO	Listening on port 42263
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 42263
+WebDriver BiDi listening on ws://127.0.0.1:40211
+1674120932940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHkjwwt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40211/devtools/browser/f81fa96b-42b8-416c-ab31-927db0a22960
+1674120941257	Marionette	INFO	Stopped listening on port 42263
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674120965609	geckodriver	INFO	Listening on 127.0.0.1:40565
+1674120965611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelMhQXG"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674120965938	Marionette	INFO	Marionette enabled
+1674120965941	Marionette	INFO	Listening on port 35031
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 35031
+WebDriver BiDi listening on ws://127.0.0.1:41097
+1674120966041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelMhQXG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41097/devtools/browser/f9f0e63b-85d0-4408-bfeb-7e7bda46aec3
+1674120973583	Marionette	INFO	Stopped listening on port 35031
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121036899	geckodriver	INFO	Listening on 127.0.0.1:52011
+1674121036902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41759" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6hYBhQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121037226	Marionette	INFO	Marionette enabled
+1674121037228	Marionette	INFO	Listening on port 37723
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 37723
+WebDriver BiDi listening on ws://127.0.0.1:41759
+1674121037339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6hYBhQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41759/devtools/browser/ca43b850-e997-4a56-8fc9-52cccd1c6697
+1674121044076	Marionette	INFO	Stopped listening on port 37723
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121055677	geckodriver	INFO	Listening on 127.0.0.1:58183
+1674121055680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEgCqMK"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121056056	Marionette	INFO	Marionette enabled
+1674121056059	Marionette	INFO	Listening on port 36061
+Read port: 36061
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:55819
+1674121056156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEgCqMK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55819/devtools/browser/d47ecf08-a0bd-42f1-b5c6-a4fec124f221
+1674121062909	Marionette	INFO	Stopped listening on port 36061
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121159234	geckodriver	INFO	Listening on 127.0.0.1:36409
+1674121159236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFUsyKG"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121159579	Marionette	INFO	Marionette enabled
+1674121159581	Marionette	INFO	Listening on port 38313
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 38313
+WebDriver BiDi listening on ws://127.0.0.1:39951
+1674121159680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFUsyKG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39951/devtools/browser/92364e52-cfe7-4160-840e-2deab850efa2
+1674121203856	geckodriver	INFO	Listening on 127.0.0.1:37977
+1674121203858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMEjua6"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121204207	Marionette	INFO	Marionette enabled
+1674121204209	Marionette	INFO	Listening on port 34191
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 34191
+WebDriver BiDi listening on ws://127.0.0.1:39997
+1674121204306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMEjua6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39997/devtools/browser/2563eaf3-abaf-41e2-8b61-ace5224c40bd
+1674121207947	Marionette	INFO	Stopped listening on port 38313
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121217816	Marionette	INFO	Stopped listening on port 34191
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121470102	geckodriver	INFO	Listening on 127.0.0.1:43497
+1674121470105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqDTJuJ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121470467	Marionette	INFO	Marionette enabled
+1674121470470	Marionette	INFO	Listening on port 41657
+Read port: 41657
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:45895
+1674121470588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqDTJuJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45895/devtools/browser/2f32257c-999d-4af5-bd49-26b10d23e3ef
+1674121635422	geckodriver	INFO	Listening on 127.0.0.1:51791
+1674121635425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58247" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKSsUkS"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121635756	Marionette	INFO	Marionette enabled
+1674121635759	Marionette	INFO	Listening on port 44887
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 44887
+WebDriver BiDi listening on ws://127.0.0.1:58247
+1674121635857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKSsUkS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58247/devtools/browser/463f2fd7-40f6-4b59-8345-5bff36a769db
+1674121645729	Marionette	INFO	Stopped listening on port 44887
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121660062	geckodriver	INFO	Listening on 127.0.0.1:54295
+1674121660064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36025" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1ZNP6q"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121660387	Marionette	INFO	Marionette enabled
+1674121660389	Marionette	INFO	Listening on port 39065
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:36025
+Read port: 39065
+1674121660497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1ZNP6q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36025/devtools/browser/0906401e-a3fa-4246-9e75-6791c3c2e221
+1674121668176	Marionette	INFO	Stopped listening on port 39065
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121682323	geckodriver	INFO	Listening on 127.0.0.1:38939
+1674121682325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49367" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9Yz7Se"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121682671	Marionette	INFO	Marionette enabled
+1674121682674	Marionette	INFO	Listening on port 40733
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 40733
+WebDriver BiDi listening on ws://127.0.0.1:49367
+1674121682772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9Yz7Se/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49367/devtools/browser/9dc06895-eea6-47e7-a78b-c594c98de585
+1674121684633	Marionette	INFO	Stopped listening on port 41657
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121688407	Marionette	INFO	Stopped listening on port 40733
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121721963	geckodriver	INFO	Listening on 127.0.0.1:35325
+1674121721966	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36173" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileF5z5na"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121722370	Marionette	INFO	Marionette enabled
+1674121722374	Marionette	INFO	Listening on port 44095
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:36173
+Read port: 44095
+1674121722560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF5z5na/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36173/devtools/browser/7454a4d0-83ef-47e5-a9eb-3fd2279a2b7d
+1674121790223	Marionette	INFO	Stopped listening on port 44095
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121825196	geckodriver	INFO	Listening on 127.0.0.1:39731
+1674121825198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHoU2rq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121825533	Marionette	INFO	Marionette enabled
+1674121825535	Marionette	INFO	Listening on port 44939
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 44939
+WebDriver BiDi listening on ws://127.0.0.1:50515
+1674121825637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHoU2rq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50515/devtools/browser/ae722155-17db-42cf-84e1-af316852f183
+1674121861552	Marionette	INFO	Stopped listening on port 44939
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674121887607	geckodriver	INFO	Listening on 127.0.0.1:50221
+1674121887610	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileu9sEfj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674121887956	Marionette	INFO	Marionette enabled
+1674121887958	Marionette	INFO	Listening on port 35787
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 35787
+WebDriver BiDi listening on ws://127.0.0.1:45319
+1674121888060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu9sEfj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45319/devtools/browser/04f61f5c-d4b9-43ba-b746-80d3405ef5bf
+1674122176693	Marionette	INFO	Stopped listening on port 35787
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674123757096	geckodriver	INFO	Listening on 127.0.0.1:44329
+1674123757099	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39763" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewB6aLy"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674123757441	Marionette	INFO	Marionette enabled
+1674123757444	Marionette	INFO	Listening on port 39549
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 39549
+WebDriver BiDi listening on ws://127.0.0.1:39763
+1674123757546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewB6aLy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39763/devtools/browser/d232a6c0-ac4c-4d1f-a859-dd1b476ca5cd
+1674123947751	Marionette	INFO	Stopped listening on port 39549
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674123948798	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1674124020778	geckodriver	INFO	Listening on 127.0.0.1:60315
+1674124020780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCcUAxg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674124021142	Marionette	INFO	Marionette enabled
+1674124021144	Marionette	INFO	Listening on port 45413
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 45413
+WebDriver BiDi listening on ws://127.0.0.1:56355
+1674124021248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCcUAxg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56355/devtools/browser/ee2beeec-cf14-473f-9b6e-a58a90407842
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674124313785	Marionette	INFO	Stopped listening on port 45413
+1674124314758	geckodriver	INFO	Listening on 127.0.0.1:43603
+1674124314760	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejdhWIc"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674124315152	Marionette	INFO	Marionette enabled
+1674124315155	Marionette	INFO	Listening on port 40715
+Read port: 40715
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:49225
+1674124315268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejdhWIc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49225/devtools/browser/b852b901-98ff-4e7d-b821-4352c455cff0
+1674124555707	Marionette	INFO	Stopped listening on port 40715
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674124560860	geckodriver	INFO	Listening on 127.0.0.1:52489
+1674124560862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51861" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuwswHx"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674124561232	Marionette	INFO	Marionette enabled
+1674124561235	Marionette	INFO	Listening on port 46071
+Read port: 46071
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:51861
+1674124561336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuwswHx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51861/devtools/browser/06af4102-e60c-4a01-b6d7-6e8c4e08b436
+1674124625162	Marionette	INFO	Stopped listening on port 46071
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674124661760	geckodriver	INFO	Listening on 127.0.0.1:43493
+1674124661762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8YB1sc"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674124662110	Marionette	INFO	Marionette enabled
+1674124662113	Marionette	INFO	Listening on port 32833
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 32833
+WebDriver BiDi listening on ws://127.0.0.1:47857
+1674124662213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8YB1sc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47857/devtools/browser/7e85ff82-cc3a-4778-96fc-50221c9cc607
+1674124697737	Marionette	INFO	Stopped listening on port 32833
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674124698947	geckodriver	INFO	Listening on 127.0.0.1:57663
+1674124698950	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGR8fdP"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674124699279	Marionette	INFO	Marionette enabled
+1674124699281	Marionette	INFO	Listening on port 36697
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 36697
+WebDriver BiDi listening on ws://127.0.0.1:47123
+1674124699380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGR8fdP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47123/devtools/browser/7284d083-5bf1-43b3-9bb0-fe4a616f73b7
+No permissions.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+
+(ruby.ruby3.1:11611): GLib-CRITICAL **: 15:18:21.249: g_main_context_pop_thread_default: assertion 'stack != NULL' failed
+1674137903380	Marionette	INFO	Stopped listening on port 36697
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674204404839	geckodriver	INFO	Listening on 127.0.0.1:41405
+1674204405340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileO9HtZn"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674204405767	Marionette	INFO	Marionette enabled
+1674204405770	Marionette	INFO	Listening on port 41433
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 41433
+WebDriver BiDi listening on ws://127.0.0.1:50523
+1674204405886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO9HtZn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50523/devtools/browser/bfa358cc-39e3-4a89-9965-a9b91c37cc82
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/attribution/event.json HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/strato/column/None/1612783865285722113,Linux%2FFirefox,pushNotifications/clients/permissionsState HTTP-403 codes:[64] trace_ids:[null]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S487092997%3A1674206117604785&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fclient%3Dfirefox-b-d%26q%3Dgoogle%2Bphotos&ec=GAZAAQ&hl=es&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHdBfOYUhNU-fpXhHYPdDHRvBseVQ2-uTves4RB4rq4I7v32NjREXY1QFlgknzs_DTPMaf9iRw line 323 > injectedScript line 2 > eval line 5111 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S487092997%3A1674206117604785&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fclient%3Dfirefox-b-d%26q%3Dgoogle%2Bphotos&ec=GAZAAQ&hl=es&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHdBfOYUhNU-fpXhHYPdDHRvBseVQ2-uTves4RB4rq4I7v32NjREXY1QFlgknzs_DTPMaf9iRw line 323 > injectedScript line 2 > eval line 5043 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/attribution/event.json HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/onboarding/sso_init.json HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/onboarding/sso_init.json HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/onboarding/sso_init.json HTTP-403 codes:[64] trace_ids:[null]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/attribution/event.json HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/strato/column/None/1612783865285722113,Linux%2FFirefox,pushNotifications/clients/permissionsState HTTP-403 codes:[64] trace_ids:[null]
+JavaScript warning: https://help.twitter.com/etc/clientlibs/dtm/help-twitter/c411b4930511/4121f48d5646/launch-aa3ff817aa50.min.js.twhash.a.f.ac2e4257644727c3bfcbb497a851f1fb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://help.twitter.com/etc/clientlibs/dtm/help-twitter/c411b4930511/4121f48d5646/launch-aa3ff817aa50.min.js.twhash.a.f.ac2e4257644727c3bfcbb497a851f1fb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/strato/column/None/1612783865285722113,Linux%2FFirefox,pushNotifications/clients/permissionsState HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/attribution/event.json HTTP-403 codes:[64] trace_ids:[null]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/attribution/event.json HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://twitter.com/i/api/1.1/strato/column/None/1612783865285722113,Linux%2FFirefox,pushNotifications/clients/permissionsState HTTP-403 codes:[64] trace_ids:[null]
+JavaScript warning: https://fpt.live.com/?session_id=20e605242f87409cbf82e8c5f25ef168&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SU, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://signup.live.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/39eca341811c50f1f573c72f14bd5612e0f6cd3c/standard/funcaptcha_api.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/39eca341811c50f1f573c72f14bd5612e0f6cd3c/standard/funcaptcha_api.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://acctcdn.msftauth.net/lightweightsignuppackage_JJwKyIbcoS3piKuour0v0Q2.js?v=1, line 90: uncaught exception: Enforcement load error
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+JavaScript error: https://res.cdn.office.net/owamail/20230113006.10/scripts/owa.ven.extframework.js, line 2: Error: Minified React error #200; visit https://reactjs.org/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/attribution/event.json HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://twitter.com/i/api/1.1/strato/column/None/1612783865285722113,Linux%2FFirefox,pushNotifications/clients/permissionsState HTTP-403 codes:[64] trace_ids:[null]
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/main.a5a0e09a.js, line 1: Error: ApiError: https://api.twitter.com/1.1/jot/client_event.json HTTP-0 codes:[1004] trace_ids:[null]
+JavaScript error: https://res.cdn.office.net/owamail/20230109005.07/scripts/owa.61596.js, line 1: Error: Error processing options response
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/39eca341811c50f1f573c72f14bd5612e0f6cd3c/standard/funcaptcha_api.js?onload=loadChallenge, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://help.twitter.com/etc/clientlibs/dtm/help-twitter/c411b4930511/4121f48d5646/launch-aa3ff817aa50.min.js.twhash.a.f.ac2e4257644727c3bfcbb497a851f1fb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/39eca341811c50f1f573c72f14bd5612e0f6cd3c/standard/funcaptcha_api.js?onload=loadChallenge, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://signup.live.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/39eca341811c50f1f573c72f14bd5612e0f6cd3c/standard/funcaptcha_api.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/39eca341811c50f1f573c72f14bd5612e0f6cd3c/standard/funcaptcha_api.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+JavaScript error: https://res.cdn.office.net/owamail/20230113006.10/scripts/owa.61596.js, line 1: Error: Error processing options response
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/39eca341811c50f1f573c72f14bd5612e0f6cd3c/standard/funcaptcha_api.js?onload=loadChallenge, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.40.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QkZn2XWhGLuUeJCWE_Zylly3qUWdX-KWqHVIqMIXcrk.js line 2 > eval line 2319 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674210682846	geckodriver	INFO	Listening on 127.0.0.1:40605
+1674210682853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile70iDq1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674210683189	Marionette	INFO	Marionette enabled
+1674210683192	Marionette	INFO	Listening on port 38539
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 38539
+WebDriver BiDi listening on ws://127.0.0.1:44383
+1674210683286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile70iDq1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44383/devtools/browser/b1567783-503d-463c-8a47-d2e6187f617d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674210737030	Marionette	INFO	Stopped listening on port 38539
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account.live.com."
+1674211057067	Marionette	INFO	Stopped listening on port 41433
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674211060375	geckodriver	INFO	Listening on 127.0.0.1:43179
+1674211060377	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePSC5zq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674211060692	Marionette	INFO	Marionette enabled
+1674211060695	Marionette	INFO	Listening on port 33419
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:48237
+Read port: 33419
+1674211060856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePSC5zq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48237/devtools/browser/a0c518b4-539b-4b16-a7f6-8a48983641e4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674211122894	Marionette	INFO	Stopped listening on port 33419
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674214662132	geckodriver	INFO	Listening on 127.0.0.1:59561
+1674214662135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59493" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRzqPny"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674214662446	Marionette	INFO	Marionette enabled
+1674214662448	Marionette	INFO	Listening on port 36509
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:59493
+Read port: 36509
+1674214662632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRzqPny/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59493/devtools/browser/0bdfa1d8-7daa-4481-8812-e69fe290cc3d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674215121055	geckodriver	INFO	Listening on 127.0.0.1:58989
+1674215121057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7aaNoA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674215121359	Marionette	INFO	Marionette enabled
+1674215121362	Marionette	INFO	Listening on port 39383
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:57119
+Read port: 39383
+1674215121552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7aaNoA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57119/devtools/browser/65195112-06b9-4a98-b1e4-2e9eef32b3c8
+1674215158722	Marionette	INFO	Stopped listening on port 39383
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674215164922	geckodriver	INFO	Listening on 127.0.0.1:41171
+1674215164924	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52731" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNuryAy"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674215165234	Marionette	INFO	Marionette enabled
+1674215165236	Marionette	INFO	Listening on port 34775
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:52731
+Read port: 34775
+1674215165423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNuryAy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52731/devtools/browser/71198a2e-14ec-47c0-8605-89a227197ad4
+1674215250904	Marionette	INFO	Stopped listening on port 34775
+1674215929860	geckodriver	INFO	Listening on 127.0.0.1:46289
+1674215929862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemlSdMp"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674215930169	Marionette	INFO	Marionette enabled
+1674215930171	Marionette	INFO	Listening on port 36511
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:58971
+Read port: 36511
+1674215930359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemlSdMp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58971/devtools/browser/61b433fe-af21-44f1-8b6b-bb6351ad7223
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 572))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 1012))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:1012:7
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+setNodeFront@resource://devtools/client/framework/selection.js:203:10
+onDetached@resource://devtools/client/inspector/inspector.js:1685:20
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new Error("Can not send request 'getUniqueSelector' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967298/pagestyle23 (resource://devtools/server/actors/page-style.js:572:5)", "resource://devtools/shared/protocol/Front.js", 383))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+1674216701399	geckodriver	INFO	Listening on 127.0.0.1:39391
+1674216701401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48241" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLMTR4a"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674216701715	Marionette	INFO	Marionette enabled
+1674216701718	Marionette	INFO	Listening on port 35763
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:48241
+Read port: 35763
+1674216701896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLMTR4a/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674216702389	Marionette	INFO	Stopped listening on port 36511
+DevTools listening on ws://127.0.0.1:48241/devtools/browser/efd40484-76b9-4fb2-9097-995005de64a1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674217028134	Marionette	INFO	Stopped listening on port 35763
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674217030536	geckodriver	INFO	Listening on 127.0.0.1:35925
+1674217030538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerxrhmi"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674217030842	Marionette	INFO	Marionette enabled
+1674217030844	Marionette	INFO	Listening on port 36827
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:35283
+Read port: 36827
+1674217031040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerxrhmi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35283/devtools/browser/e5965b95-ef7d-4341-a921-55b9573c30a5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674217183721	Marionette	INFO	Stopped listening on port 36827
+1674217189356	geckodriver	INFO	Listening on 127.0.0.1:43341
+1674217189358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesjaoqe"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674217189688	Marionette	INFO	Marionette enabled
+1674217189691	Marionette	INFO	Listening on port 40921
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 40921
+WebDriver BiDi listening on ws://127.0.0.1:44613
+1674217189793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesjaoqe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44613/devtools/browser/7520eeb3-22e8-4993-8997-c3b25be90fa6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: (new TypeError("null has no properties", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: null has no properties: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674217302031	Marionette	INFO	Stopped listening on port 40921
+1674217309476	geckodriver	INFO	Listening on 127.0.0.1:46593
+1674217309479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuFju4O"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674217309783	Marionette	INFO	Marionette enabled
+1674217309786	Marionette	INFO	Listening on port 44681
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50965
+Read port: 44681
+1674217309974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuFju4O/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50965/devtools/browser/46643e9a-0dda-4bd6-93cd-929659220aa1
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1674217330361	geckodriver	INFO	Listening on 127.0.0.1:52939
+1674217330364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileg7mvz8"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674217330682	Marionette	INFO	Marionette enabled
+1674217330684	Marionette	INFO	Listening on port 33499
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:36473
+Read port: 33499
+1674217330850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileg7mvz8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36473/devtools/browser/ad9f3fcd-6246-4482-a1b8-2f54c32c274d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674217394173	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674217484565	Marionette	INFO	Stopped listening on port 33499
+1674217489552	geckodriver	INFO	Listening on 127.0.0.1:49627
+1674217489554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJzQ1nh"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674217489867	Marionette	INFO	Marionette enabled
+1674217489870	Marionette	INFO	Listening on port 38061
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:54219
+Read port: 38061
+1674217490057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJzQ1nh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54219/devtools/browser/09279a71-4dfc-41dc-9423-0528f529ecd7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 1012))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:1012:7
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+setNodeFront@resource://devtools/client/framework/selection.js:203:10
+onDetached@resource://devtools/client/inspector/inspector.js:1685:20
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new Error("Can not send request 'getUniqueSelector' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674217679696	Marionette	INFO	Stopped listening on port 38061
+1674217689180	geckodriver	INFO	Listening on 127.0.0.1:53119
+1674217689183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileARvThr"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674217689497	Marionette	INFO	Marionette enabled
+1674217689500	Marionette	INFO	Listening on port 39931
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:33017
+Read port: 39931
+1674217689684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileARvThr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33017/devtools/browser/28f57b1d-a04e-4d10-9314-dc7dc96e7f26
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674218219998	Marionette	INFO	Stopped listening on port 39931
+1674218228237	geckodriver	INFO	Listening on 127.0.0.1:49337
+1674218228239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52193" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemQZP0h"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674218228542	Marionette	INFO	Marionette enabled
+1674218228545	Marionette	INFO	Listening on port 40443
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:52193
+Read port: 40443
+1674218228733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemQZP0h/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52193/devtools/browser/060aa719-2a86-4e80-aa52-8bb97aa74af2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674218372882	Marionette	INFO	Stopped listening on port 40443
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674218379780	geckodriver	INFO	Listening on 127.0.0.1:55819
+1674218379782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57935" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerwPCnf"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674218380080	Marionette	INFO	Marionette enabled
+1674218380082	Marionette	INFO	Listening on port 39615
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:57935
+Read port: 39615
+1674218380274	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerwPCnf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57935/devtools/browser/b3beb4d8-e424-44f3-988e-7514a6e8a204
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674218435509	Marionette	INFO	Stopped listening on port 39615
+1674218446584	geckodriver	INFO	Listening on 127.0.0.1:50125
+1674218446587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56357" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekORu59"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674218446907	Marionette	INFO	Marionette enabled
+1674218446909	Marionette	INFO	Listening on port 36219
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56357
+Read port: 36219
+1674218447068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekORu59/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56357/devtools/browser/6f61c3c1-37bf-45ec-bb7f-420ad9d987e5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1674218615592	geckodriver	INFO	Listening on 127.0.0.1:36293
+1674218615594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiled5rJFj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674218615925	Marionette	INFO	Marionette enabled
+1674218615928	Marionette	INFO	Listening on port 34267
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 34267
+WebDriver BiDi listening on ws://127.0.0.1:56785
+1674218616020	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiled5rJFj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56785/devtools/browser/50346a67-b001-4b0e-9930-90b6274daa0d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674218797215	Marionette	INFO	Stopped listening on port 34267
+1674218803633	geckodriver	INFO	Listening on 127.0.0.1:45221
+1674218803635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileR4NSMb"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674218803952	Marionette	INFO	Marionette enabled
+1674218803954	Marionette	INFO	Listening on port 42443
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:47017
+Read port: 42443
+1674218804112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileR4NSMb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47017/devtools/browser/5edcba21-9281-490c-8b02-0745999afb99
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674220303202	Marionette	INFO	Stopped listening on port 36509
+1674220304155	geckodriver	INFO	Listening on 127.0.0.1:59497
+1674220304157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50623" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezXPaOt"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674220304458	Marionette	INFO	Marionette enabled
+1674220304460	Marionette	INFO	Listening on port 41345
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50623
+Read port: 41345
+1674220304648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezXPaOt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50623/devtools/browser/7d0c7abc-f893-4fa3-9bf1-eab22aafb51a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674220360880	Marionette	INFO	Stopped listening on port 41345
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674220367890	geckodriver	INFO	Listening on 127.0.0.1:44841
+1674220367893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezPv5mH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674220368195	Marionette	INFO	Marionette enabled
+1674220368198	Marionette	INFO	Listening on port 39309
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:49613
+Read port: 39309
+1674220368387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezPv5mH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49613/devtools/browser/245513f7-07f2-4725-8979-30b88194974b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674220447793	Marionette	INFO	Stopped listening on port 39309
+1674220448936	geckodriver	INFO	Listening on 127.0.0.1:52855
+1674220448938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39347" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUI3Llb"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674220449239	Marionette	INFO	Marionette enabled
+1674220449241	Marionette	INFO	Listening on port 36647
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:39347
+Read port: 36647
+1674220449432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUI3Llb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39347/devtools/browser/6cd2821a-4aa3-4619-9a19-cec372b8ae98
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674220712577	Marionette	INFO	Stopped listening on port 36647
+1674220720582	geckodriver	INFO	Listening on 127.0.0.1:36791
+1674220720585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33953" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNypOao"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674220720909	Marionette	INFO	Marionette enabled
+1674220720912	Marionette	INFO	Listening on port 41847
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:33953
+Read port: 41847
+1674220721017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNypOao/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33953/devtools/browser/6706f550-483b-482d-8b39-9f4c84036cb9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674220789509	Marionette	INFO	Stopped listening on port 41847
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674220797551	geckodriver	INFO	Listening on 127.0.0.1:41955
+1674220797553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40759" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezcRp2t"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674220797859	Marionette	INFO	Marionette enabled
+1674220797861	Marionette	INFO	Listening on port 35855
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:40759
+Read port: 35855
+1674220798047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezcRp2t/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40759/devtools/browser/ee05ab99-29d3-4329-b3a8-20c0c15d40bc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674220843792	Marionette	INFO	Stopped listening on port 35855
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674220852858	geckodriver	INFO	Listening on 127.0.0.1:50615
+1674220852861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46407" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8LGY3B"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674220853176	Marionette	INFO	Marionette enabled
+1674220853178	Marionette	INFO	Listening on port 43077
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:46407
+Read port: 43077
+1674220853336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8LGY3B/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46407/devtools/browser/f964ac9b-12fd-4cde-8907-041b06f26d0f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674221074638	Marionette	INFO	Stopped listening on port 43077
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674221083176	geckodriver	INFO	Listening on 127.0.0.1:38035
+1674221083178	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6DszkG"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674221083505	Marionette	INFO	Marionette enabled
+1674221083507	Marionette	INFO	Listening on port 34087
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 34087
+WebDriver BiDi listening on ws://127.0.0.1:41353
+1674221083617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6DszkG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41353/devtools/browser/5686a8f4-d553-4f1b-8d61-ade2835846b6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674221181146	Marionette	INFO	Stopped listening on port 34087
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674221186961	geckodriver	INFO	Listening on 127.0.0.1:40179
+1674221186963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHR0Ts1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674221187267	Marionette	INFO	Marionette enabled
+1674221187269	Marionette	INFO	Listening on port 45795
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:38593
+Read port: 45795
+1674221187457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHR0Ts1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38593/devtools/browser/41d4a49b-3778-46e6-bbd1-670e8d751a21
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674221276752	Marionette	INFO	Stopped listening on port 45795
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674221285513	geckodriver	INFO	Listening on 127.0.0.1:56035
+1674221285516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50883" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilee8xwrw"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674221285816	Marionette	INFO	Marionette enabled
+1674221285818	Marionette	INFO	Listening on port 33033
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50883
+Read port: 33033
+1674221286006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee8xwrw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50883/devtools/browser/5549c573-bedb-4b24-93f8-fa8cb53c8716
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674221409536	Marionette	INFO	Stopped listening on port 33033
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674221417447	geckodriver	INFO	Listening on 127.0.0.1:55755
+1674221417449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenF5IU5"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674221417760	Marionette	INFO	Marionette enabled
+1674221417763	Marionette	INFO	Listening on port 43907
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56813
+Read port: 43907
+1674221417949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenF5IU5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56813/devtools/browser/bc10cc16-090b-46f0-8a6d-ef585727b0d0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674221487086	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674221711361	Marionette	INFO	Stopped listening on port 43907
+1674221719403	geckodriver	INFO	Listening on 127.0.0.1:34157
+1674221719406	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46435" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDc743b"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674221719715	Marionette	INFO	Marionette enabled
+1674221719717	Marionette	INFO	Listening on port 45357
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:46435
+Read port: 45357
+1674221719905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDc743b/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46435/devtools/browser/09ab46a7-ec63-4128-ba81-3f9242e497e5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674221813773	Marionette	INFO	Stopped listening on port 45357
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674221823824	geckodriver	INFO	Listening on 127.0.0.1:47591
+1674221823826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53917" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileha0XSM"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674221824129	Marionette	INFO	Marionette enabled
+1674221824132	Marionette	INFO	Listening on port 41603
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:53917
+Read port: 41603
+1674221824318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileha0XSM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53917/devtools/browser/81326cb7-b467-4749-a1d0-92dedd58d015
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674222041291	Marionette	INFO	Stopped listening on port 41603
+1674222052734	geckodriver	INFO	Listening on 127.0.0.1:46451
+1674222052736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNWsEFb"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674222053036	Marionette	INFO	Marionette enabled
+1674222053038	Marionette	INFO	Listening on port 34213
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56021
+Read port: 34213
+1674222053228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNWsEFb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56021/devtools/browser/1a3dc1f0-228a-49af-badd-59b4d5463c90
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674222131113	Marionette	INFO	Stopped listening on port 34213
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674222138445	geckodriver	INFO	Listening on 127.0.0.1:46663
+1674222138447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuuD4nJ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674222138750	Marionette	INFO	Marionette enabled
+1674222138752	Marionette	INFO	Listening on port 37633
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50697
+Read port: 37633
+1674222138939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuuD4nJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50697/devtools/browser/d1013159-3e6e-4e5c-bf8f-4638e2c32d3b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674222347770	Marionette	INFO	Stopped listening on port 37633
+1674222353883	geckodriver	INFO	Listening on 127.0.0.1:51093
+1674222353885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilem4giPH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674222354185	Marionette	INFO	Marionette enabled
+1674222354188	Marionette	INFO	Listening on port 40439
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56101
+Read port: 40439
+1674222354375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem4giPH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56101/devtools/browser/7ea09312-66b4-4fbf-a023-c491900abbee
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674222421205	Marionette	INFO	Stopped listening on port 40439
+1674222422210	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1674222423937	geckodriver	INFO	Listening on 127.0.0.1:34097
+1674222423940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47015" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileF0ok4N"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674222424262	Marionette	INFO	Marionette enabled
+1674222424264	Marionette	INFO	Listening on port 40029
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:47015
+Read port: 40029
+1674222424420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF0ok4N/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47015/devtools/browser/28decdc6-d899-4f63-97b6-3fb9250ce1d2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674222807304	Marionette	INFO	Stopped listening on port 40029
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674224080737	geckodriver	INFO	Listening on 127.0.0.1:44407
+1674224080740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55929" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegRlpmx"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674224081077	Marionette	INFO	Marionette enabled
+1674224081080	Marionette	INFO	Listening on port 39189
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 39189
+WebDriver BiDi listening on ws://127.0.0.1:55929
+1674224081176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegRlpmx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55929/devtools/browser/35ee796e-f5e2-471d-a2ce-73c9b1c7b867
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."

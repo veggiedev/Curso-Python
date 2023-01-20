@@ -2,71 +2,112 @@ import random
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.keys import Keys
+from datetime import datetime
+import os
 
 
-my_hashtags = ['anime', 'girl', 'altgirl', 'gothgirl', 'cosplay', 'cawsplay', 'kimetsunoyaiba', 'naruto',
-'cosplayer', 'cosplaygirl', 'cosplayers', 'cosplaying', 'cosplayersofinstagram', 'cosplaymodel', 'cosplays', 
-'cosplayphotography', 'cosplaygirl', 'cosplaylife', 'cosplaymakeup', 'cosplaywip', 'cosplayworld', 
-'cosplayerofinstagram', 'cosplayprogress', 'cosplayergirl', 'cosplayphoto', 'cosplayselfie', 'cosplayboy',
-'cosplaybabe', 'cosplayprop', 'cosplaywig', 'cosplaylove', 'cosplayphotoshoot', 'cosplayphotographer', 
-'cosplaylover', 'cosplaycouple', 'cosplaycomparison', 'cosplaytest', 'cosplaysky', 'cosplayfun', 
-'cosplayingwhileblack', 'cosplayguy', 'cosplayprops', 'cosplayvscharacter', 'cosplaygoals', 'cosplayboudoir', 
-'cosplaybrasil', 'cosplayindonesia', 'cosplayoftheday', 'cosplayanime', 'cosplayersofig', 'cosplaybabes', 
-'cosplaygirlsofinstagram', 'cosplayfitness', 'CosPlaystuff', 'cosplaycostume', 'cosplayofinstagram', 
-'cosplaycommunity', 'cosplayconnectionbabe', 'animegirl', 'AnimeArt', 'animedrawing', 'animes', 'animelover', 
-'animefan', 'animelove', 'animeworld', 'animegirls', 'animememe', 'animememes', 'animeedit', 'animecosplay', 
-'animedraw', 'animeartist', 'animeedits', 'animestyle', 'animekawaii', 'animelife', 'animecouple', 'animefacts', 
-'animefreak', 'animemanga', 'animefanart', 'animelover', 'animeislife', 'animeguy', 'animeartshelp', 
-'animeaccount', 'animeamv', 'animequotes', 'animefans', 'animeotaku', 'animesketch', 'animeshop', 'Animecute', 
-'animeforever', 'Animeindo', 'animeartwork', 'animebreath', 'animepic', 'animeartassistant', 'animestore', 
-'animequote', 'Animerp', 'animefact', ]
-
-search_hashtags = ['girl', 'girls', 'girlswholift', 'girly', 'GirlBoss', 'girlpower', 'girlfriend', 
-'girlswithtattoos', 'girlswithmuscle','GirlsThatLift', 'girlswithpiercings', 'girlsnight', 
-'girlswhosquat', 'girlswithink', 'girlswithmuscles', 'girlgamer', 'girlsnightout', 'girlsgeneration', 
-'girlstrip', 'girlswholikegirls', 'girlswhokissgirls', 'girlfashion', 'girlsday', 'girlfriends', 
-'girlsfashion', 'GirlsWhoTravel', 'girlgains', 'GirlyThings', 'GirlsWhoWorkout', 'girlswithabs',
-'cats', 'catsofinstagram', 'catstagram', 'catsagram', 'catsofig', 'catsofworld', 'CatsOfInsta',
+hashtags = ['cats', 'catsofinstagram', 'catstagram', 'catsagram', 'catsofig', 'catsofworld', 'CatsOfInsta',
 'catslover', 'catsoninstagram', 'catslife', 'catsgram', 'catselfie', 'catslovers', 'catsoftheday',
 'catskill', 'catsrule', 'catsoftheworld', 'catsfollowers', 'catstocker', 'catsanddog',
 'catsofday', 'Catsuit', 'catsofinstgram', 'catsareawesome', 'catsdaily', 'catsworld', 'catsnet',
-'catsloversworld', 'catslove', 'catsarelife', 'anime', 'girl', 'altgirl', 'gothgirl', 'cosplay', 'cawsplay', 
-'cosplayer', 'cosplaygirl', 'cosplayers', 'cosplaying', 'cosplayersofinstagram', 'cosplaymodel', 'cosplays', 
-'cosplayphotography', 'cosplaygirl', 'cosplaylife', 'cosplaymakeup', 'cosplaywip', 'cosplayworld', 
-'cosplayerofinstagram', 'cosplayprogress', 'cosplayergirl', 'cosplayphoto', 'cosplayselfie', 'cosplayboy',
-'cosplaybabe', 'cosplayprop', 'cosplaywig', 'cosplaylove', 'cosplayphotoshoot', 'cosplayphotographer', 
-'cosplaylover', 'cosplaycouple', 'cosplaycomparison', 'cosplaytest', 'cosplaysky', 'cosplayfun', 
-'cosplayingwhileblack', 'cosplayguy', 'cosplayprops', 'cosplayvscharacter', 'cosplaygoals', 'cosplayboudoir', 
-'cosplaybrasil', 'cosplayindonesia', 'cosplayoftheday', 'cosplayanime', 'cosplayersofig', 'cosplaybabes', 
-'cosplaygirlsofinstagram', 'cosplayfitness', 'CosPlaystuff', 'cosplaycostume', 'cosplayofinstagram', 
-'cosplaycommunity', 'cosplayconnectionbabe', 'animegirl', 'AnimeArt', 'animedrawing', 'animes', 'animelover', 
-'animefan', 'animelove', 'animeworld', 'animegirls', 'animememe', 'animememes', 'animeedit', 'animecosplay', 
-'animedraw', 'animeartist', 'animeedits', 'animestyle', 'animekawaii', 'animelife', 'animecouple', 'animefacts', 
-'animefreak', 'animemanga', 'animefanart', 'animelover', 'animeislife', 'animeguy', 'animeartshelp', 
-'animeaccount', 'animeamv', 'animequotes', 'animefans', 'animeotaku', 'animesketch', 'animeshop', 'Animecute', 
-'animeforever', 'Animeindo', 'animeartwork', 'animebreath', 'animepic', 'animeartassistant', 'animestore', 
-'animequote', 'Animerp', 'animefact', 'model', 'models', 'Modeling', 'modelo', 'modellife', 'modelling', 
-'modelagency', 'Modelos', 'modelphotography', 'modelsearch', 'ModelStatus', 'modelingagency', 'modelfitness', 
-'ModelsWanted', 'modelshoot', 'modella', 'modelmanagement', 'modelscout', 'modeltest', 'modelindonesia', 
-'modele', 'modelife', 'modelmayhem', 'modelgirl', 'modell', 'modelslife', 'modelkids', 'modelcall' , 
-'modelpose', 'ModelOfTheDay', 'kimetsunoyaiba', 'naruto', 'latina', 'latinas', 'latinamerica', 'latinasbelike',
- 'latinablogger', 'latinAMAs', 'latinamerican', 'latinagirl', 'latinamericanart', 'latinabloggers', 
- 'latinasexy', 'latinactor', 'latinartist', 'latinaboss', 'latinamom', 'latinasdoitbetter', 'latinastyle', 
- 'latinafeet', 'latinapower', 'latinamodel', 'latinabooty', 'latinart', 'latinagirls', 'LatinAmas2017', 
- 'latinabeauty', 'latinaequalpay', 'latinastrong', 'LatinaArtist', 'latinasaram', 'latinahair']
+'catsloversworld', 'catslove', 'catsarelife', 'cat', 'catsofinstagram', 'cats', 'catstagram', 'catlover', 'instacat', 
+'kitty', 'cutecat', 'kitten', 'pet', 'cats_of_instagram', 'catoftheday', 'meow', 'pets', 'lovecats', 'kittens', 'animals',
+ 'catlovers', 'selfie', 'petstagram', 'catsagram', 'catlove']
+
 
 
 comments = ["Nice!!!", "That's awesome!", "Love it❤️ ❤️ ❤️", "❤️ ❤️ ❤️ ❤️ ❤️", "😍 😍 😍 😍 ", "Wooow!", 
-"Oh yeah!", "Grrrrrr 😻 😻 😻 😻 ", "Love it!", "So cool!!!", "OMG  😍", "That looks amazin!", "OMG I love it!", 
- "Grrrrrr", "Me encanta!", "Love it so much", "That is wonderful", "Yeah!!",]
+"Oh yeah!", "Grrrrrr 😻 😻 😻 😻 ", "Love it!", "So cool!!!", "OMG 😍", "That looks amazin!", "OMG I love it!", 
+ "Grrrrrr", "Love it so much", "That is wonderful", "Yeah!!"]
+
+positive_answers = ['Thank you!😻😻😻','😻😻😻','Meow 😻😻','Prrrrrrrr','PrrrrrMeow','Thanks human 😻',
+'Thanks, have you seen the puss in boot? 😻','Thank you!! Puss in boots... Prrrr...😻😻😻','Prrr 😻😻',
+'Meow human','❤️ ❤️ ❤️ ❤️ ❤️','😍 😍 😍 😍','Appreciate the prrr... love!','Catastic! 😍 😍']
+
+my_tweets_collection = ['Greetings humans', 'Give me food, and I will spare your human life. Meow', 'I chill. Hard. Meow',
+'prrrrrrr', 'meowww', "I don't love you, but I don't hate you", "Kneel in my presence"]
+
+positive_words = ['able', 'abundant', 'accepting', 'accomplished', 'accurate', 'achiever', 'active', 'adaptable', 
+'adept', 'admirable', 'admired', 'adoptive', 'adorable', 'adventurous', 'affection', 'affectionate', 'affluent', 
+'agreeable', 'alert', 'aligned', 'alive', 'amazing', 'ambitious', 'amusement', 'analytical', 'appealing', 
+'appreciate', 'articulate', 'artistic', 'assertive', 'astounding', 'astute', 'attentive', 'attractive', 'auspicious', 
+'authentic', 'awake', 'aware', 'awesome', 'balanced', 'beaming', 'beautiful', 'best', 'blessed', 'bliss', 
+'blithesome', 'bold', 'bright', 'brilliant', 'brisk', 'broad-minded', 'buoyant', 'calm', 'candid', 'capable', 
+'careful', 'caring', 'cautious', 'centered', 'certain', 'changeable', 'charming', 'cheerful', 'childlike', 
+'clear', 'clear-thinking', 'clever', 'committed', 'communicative', 'compassionate', 'competent', 'competitive', 
+'complete', 'confident', 'connected', 'conscientious', 'conscious', 'consciousness', 'considerate', 'consistent', 
+'constructive', 'content', 'controversial', 'convenient', 'cooperative', 'courage', 'courageous', 'creative', 
+'curious', 'customary', 'daring', 'dazzling', 'delicious', 'delight', 'delightful', 'dependable', 'desirable', 
+'determined', 'devoted', 'diligent', 'diplomatic', 'direct', 'discerning', 'discover', 'dynamic', 'eager', 'easy', 
+'easy going', 'efficient', 'effortless', 'elation', 'elegant', 'eloquent', 'emotional', 'empathetic', 'empathy', 
+'endless', 'energetic', 'engaging', 'enhancer', 'enormous', 'enterprise', 'enterprising', 'enthusiastic', 'enticing', 
+'excellent', 'excellent', 'exceptional', 'excitement', 'exciting', 'experienced', 'exquisite', 'fabulous', 'fabulous', 
+'facilitator', 'fair', 'fair-minded', 'faithful', 'fantastic', 'farewell', 'fascinating', 'fast', 'favorable', 
+'fine', 'fit', 'flattering', 'flexible', 'flourishing', 'focused', 'forgiving', 'fortuitous', 'fortunate', 'free', 
+'friendliness', 'friendly', 'fulfilled', 'fun', 'funny', 'generous', 'gentle', 'genuine', 'gifted', 'glad', 'glorious', 
+'glowing', 'good', 'listener', 'natural', 'good-looking', 'gorgeous', 'graceful', 'gracious', 'grand', 'great', 
+'great', 'green', 'growing', 'handsome', 'happiness', 'happy', 'hard worker', 'hardworking', 'hardy', 'harmonious', 
+'healed', 'healthy', 'helpful', 'honest', 'hope', 'hopeful', 'humorous', 'ideal', 'idealistic', 'imaginative', 
+'impressive', 'incredible', 'incredible', 'independent', 'individual', 'individualistic', 'industrious', 'ineffable', 
+'informal', 'ingenious', 'initiator', 'innovative', 'insightful', 'inspired', 'intelligent', 'intense', 'interest', 
+'interested', 'interesting', 'intuitive', 'inventive', 'invincible', 'inviting', 'irresistible', 'joy', 'joyous', 
+'judicious', 'keen', 'kind', 'knowing', 'knowledgeable', 'leader', 'learning', 'leisurely', 'light-hearted', 'likable', 
+'limitless', 'literate', 'lively', 'logical', 'lovable', 'love', 'loving', 'loyal', 'lucky', 'luminous', 'magical', 
+'magnificent', 'marvellous', 'masterful', 'mature', 'mediator', 'meditative', 'merry', 'methodical', 'mighty', 'mild', 
+'miraculous', 'mirthful', 'moderate', 'modest', 'motivated', 'natural', 'neat', 'nice', 'noble', 'nonjudgmental', 
+'nurture', 'objective', 'open-minded', 'optimistic', 'organized', 'original', 'outgoing', 'outstanding', 'outstanding', 
+'particular', 'passionate', 'patient', 'peaceful', 'perceptive', 'perfect', 'perfect', 'persevering', 'persistent', 
+'personable', 'persuasive', 'playful', 'pleasant', 'pleasing', 'pleasure', 'plentiful', 'polite', 'politeness', 
+'political', 'positive', 'powerful', 'practical', 'precious', 'precise', 'prepared', 'pride', 'proactive', 'productive', 
+'professional', 'profound', 'progressive', 'prompt', 'propitious', 'prosperous', 'proud', 'punctual', 'qualified', 
+'quality', 'quick', 'quiet', 'quirky', 'quixotic', 'racy', 'radiant', 'rational', 'realistic', 'reasonable', 'rebellious', 
+'refined', 'reflective', 'refreshing', 'relaxed', 'relaxing', 'reliable', 'relieved', 'remarkable', 'remarkable', 
+'resolute', 'resourceful', 'respected', 'respectful', 'responsible', 'result', 'resultant', 'rewarding', 'robust', 
+'safe', 'satisfaction', 'satisfied', 'secure', 'seductive', 'self-disciplined', 'self-determination', 'sensational', 
+'sense of humor', 'sensible', 'sensitive', 'sensuous', 'serene', 'sharing', 'sincere', 'skilful', 'skilled', 'smart', 
+'smashing', 'smooth', 'sociable', 'self-consciousness', 'solid', 'sophisticated', 'sparkling', 'special', 'spectacular', 
+'spiritual', 'splendid', 'spontaneous', 'sporty', 'spunky', 'stable', 'stellar', 'strong', 'stunning', 'stupendous', 
+'successful', 'super', 'superb', 'surprised', 'swift', 'tactful', 'talented', 'tenacious', 'terrific', 'thankful', 
+'thorough', 'thoughtful', 'thrilling', 'thriving', 'timely', 'tolerant', 'traditional', 'trust', 'trusting', 'trustworthy', 
+'truthful', 'ultimate', 'unbelievable', 'unconventional', 'understanding', 'uninhabited', 'unique', 'unselfish', 'upbeat', 
+'valiant', 'valuable', 'versatile', 'vibrant', 'victorious', 'vigorous', 'vivacious', 'vivid', 'warm', 'wealthy', 'well', 
+'whole', 'wise', 'integrity', 'witty', 'wonderful', 'wondrous', 'worthy', 'youthful', 'zeal', 'zest', 'veritable']
+
+
+negative_words = ['appalling', 'atrocious', 'abominable', 'deplorable', 'despicable', 'dreadful', 'enraged', 'harmful', 
+'hurtful', 'insidious', 'malicious', 'offensive', 'poisonous', 'sinister', 'shocking', 'pleasant', 'vindictive', 
+'aggressive', 'barbarous', 'cantankerous', 'choleric', 'craven', 'deceitful', 'detestable', 'dishonorable', 'egotistical', 
+'gauche', 'harsh', 'hostile', 'inhumane', 'irascible', 'narcissistic', 'obnoxious', 'ornery', 'pitiless', 'ruthless', 
+'saturnine', 'treacherous', 'vicious', 'arrogant', 'avaricious', 'belligerent', 'boorish', 'churlish', 'crotchety', 'crude', 
+'curmudgeonly', 'dour', 'duplicitous', 'grim', 'gross', 'implacable', 'miserly', 'morose', 'nasty', 'notorious', 'pompous', 
+'quarrelsome', 'savage', 'selfish', 'vainglorious', 'vile', 'vulgar', 'abysmal', 'adverse', 'alarming', 'angry', 'annoy', 
+'anxious', 'apathy', 'awful', 'bad', 'banal', 'barbed', 'bemoan', 'beneath', 'boring', 'broken', 'callous', 'clumsy', 
+'coarse', 'cold', 'collapse', 'confused', 'contradictory', 'contrary', 'corrosive', 'corrupt', 'coward', 'crazy', 'creep', 
+'criminal', 'cruel', 'cry', 'cutting', 'damage', 'dastardly', 'dead', 'decay', 'deform', 'deny', 'depressed', 'deprived', 
+'detrimental', 'dirty', 'disease', 'disgusting', 'disheveled', 'dishonest', 'dismal', 'distress', 'dreary', 'erode', 'evil', 
+'fail', 'fat', 'faulty', 'fear', 'feeble', 'fight', 'filthy', 'foul', 'frighten', 'frightfully', 'gawky', 'ghastly', 
+'grave', 'greed', 'grimace', 'grotesque', 'gruesome', 'guilty', 'haggard', 'hard', 'hate', 'hideous', 'homely', 'horrendous', 
+'horrible', 'hurt', 'icky', 'idiot', 'ignorant', 'ignore', 'ill', 'immature', 'imperfect', 'impossible', 'inane', 
+'inelegant', 'infernal', 'injure', 'injurious', 'insane', 'insipid', 'jealous', 'junky', 'kill', 'life', 'lose', 'louse', 
+'lump', 'mean', 'menacing', 'messy', 'misshapen', 'missing', 'misunderstood', 'moan', 'moldy', 'monstrous', 'moron', 'naive', 
+'naughty', 'negate', 'negative', 'never', 'no', 'nobody', 'nondescript', 'nonsense', 'not', 'noxious', 'objectionable', 
+'odious', 'old', 'oppressive', 'pain', 'perturb', 'pessimistic', 'petty', 'pity', 'plain', 'poor', 'prejudice', 
+'questionable', 'quirky', 'quit', 'reject', 'renege', 'repellant', 'reptilian', 'repugnant', 'repulsive', 'revenge', 
+'revolting', 'rocky', 'rotten', 'rude', 'sad', 'scare', 'scary', 'scream', 'severe', 'shoddy', 'sick', 'sickening', 'slimy', 
+'smelly', 'sob', 'sorry', 'spiteful', 'stab', 'sticky', 'stink', 'stormy', 'stressful', 'stuck', 'stupid', 'substandard', 
+'suspect', 'suspicious', 'tense', 'terrible', 'terrify', 'threaten', 'torture', 'ugly', 'undermine', 'fair', 'favorable', 
+'unhappy', 'healthy', 'unintelligent', 'unjust', 'unlucky', 'satisfactory', 'unsightly', 'untoward', 'unwanted', 'unwelcome', 
+'wholesome', 'unwieldy', 'wise', 'upset', 'vice', 'villainous', 'wary', 'weary', 'wicked', 'woeful', 'worthless', 'wound', 
+'yell', 'yucky', 'zero',]
+
+
 
 likes = 0
 bot_on = True
 used_hashtags = []
-comments = []
 following = []
 followers = []
 driver = webdriver.Firefox()
@@ -84,14 +125,14 @@ except NoSuchElementException:
         alt_signin.click()
 
 time.sleep(4)
-email = input("Enter email address: ")
-
+email = 'michifuchi101@outlook.com'
+password = 'mybotisbetter101'
 signin_email = driver.find_element(By.XPATH, "//input[@autocomplete='username']")
 signin_email.send_keys(email)
 next_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Next')]")
 next_button.click()
 try:
-    password = input('Please, enter password: ')
+    
     signin_pwd = driver.find_element(By.XPATH, "//input[@type='password']")
     signin_pwd.send_keys(password)
     next_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Log in')]")
@@ -99,9 +140,16 @@ try:
     time.sleep(5)
 except NoSuchElementException:
     print('Exception Raised for unusual behaviour')
+    try:
+        signin_pwd = driver.find_element(By.XPATH, "//input[@type='password']")
+        signin_pwd.send_keys(password)
+        next_button = driver.find_element(By.XPATH, "//div[@data-testid='LoginForm_Login_Button']")
+        next_button.click()
+    except NoSuchElementException:
+        print('error')
+    
 
-
-username = input("Enter twitter name: ")
+username = 'michifuchi101'
 time.sleep(2)
 username_entry = driver.find_element(By.XPATH, "//input[@data-testid='ocfEnterTextTextInput']")
 username_entry.send_keys(username)
@@ -120,11 +168,141 @@ search.click()
 print('Loading search page...')
 
 while bot_on == True:
-    # gererate random hashtag from list
-    random_hashtag = random.choice(search_hashtags)
-    # make a search every time all loaded content has been liked
-    if random_hashtag not in used_hashtags:
-            used_hashtags.append(random_hashtag)
+    random_comment = random.choice(comments)
+    now = datetime.now()
+    current_time = now.strftime("%H%M")
+    if int(current_time) == 1000:
+        home_button = driver.find_element(By.XPATH, "//a[@data-testid='AppTabBar_Home_Link']")
+        home_button.click()
+        time.sleep(5)
+        comment_posts = driver.find_elements(By.XPATH, "//div[@data-testid='reply']")
+        print(comment_posts)
+        comment_posts[0].click()
+        comment_text = driver.find_element(By.XPATH, "//div[@data-testid='tweetTextarea_0']")
+        time.sleep(2)
+        comment_text.send_keys(random_comment)
+        reply_button = driver.find_element(By.XPATH, "//div[@data-testid='tweetButton']")
+        reply_button.click()
+    elif int(current_time) == 1030:
+        home_button = driver.find_element(By.XPATH, "//a[@data-testid='AppTabBar_Home_Link']")
+        home_button.click()
+        time.sleep(5)
+        comment_posts = driver.find_elements(By.XPATH, "//div[@data-testid='reply']")
+        print(comment_posts)
+        comment_posts[0].click()
+        comment_text = driver.find_element(By.XPATH, "//div[@data-testid='tweetTextarea_0']")
+        time.sleep(2)
+        comment_text.send_keys(random_comment)
+        reply_button = driver.find_element(By.XPATH, "//div[@data-testid='tweetButton']")
+        reply_button.click()
+    elif int(current_time) == 1100:
+        home_button = driver.find_element(By.XPATH, "//a[@data-testid='AppTabBar_Home_Link']")
+        home_button.click()
+        time.sleep(5)
+        comment_posts = driver.find_elements(By.XPATH, "//div[@data-testid='reply']")
+        print(comment_posts)
+        comment_posts[0].click()
+        comment_text = driver.find_element(By.XPATH, "//div[@data-testid='tweetTextarea_0']")
+        time.sleep(2)
+        comment_text.send_keys(random_comment)
+        reply_button = driver.find_element(By.XPATH, "//div[@data-testid='tweetButton']")
+        reply_button.click()
+    elif int(current_time) == 1130:
+        home_button = driver.find_element(By.XPATH, "//a[@data-testid='AppTabBar_Home_Link']")
+        home_button.click()
+        time.sleep(5)
+        comment_posts = driver.find_elements(By.XPATH, "//div[@data-testid='reply']")
+        print(comment_posts)
+        comment_posts[0].click()
+        comment_text = driver.find_element(By.XPATH, "//div[@data-testid='tweetTextarea_0']")
+        time.sleep(2)
+        comment_text.send_keys(random_comment)
+        reply_button = driver.find_element(By.XPATH, "//div[@data-testid='tweetButton']")
+        reply_button.click()
+    elif int(current_time) == 1515:
+        home_button = driver.find_element(By.XPATH, "//a[@data-testid='AppTabBar_Home_Link']")
+        home_button.click()
+        time.sleep(5)
+        post_photo = driver.find_element(By.XPATH, "//input[@data-testid='fileInput']")
+        post_photo.send_keys(os.getcwd()+f"/Udemy_Python/TweetBot//MichiFuchi/{random.randint(1,94)}.jpg")
+        time.sleep(2)
+        tweet_text_area = driver.find_element(By.XPATH, "//label[@data-testid='tweetTextarea_0_label']")
+        tweet_text_area.click()
+        input_tweet = driver.find_element(By.XPATH, "//div[@data-testid='tweetTextarea_0']")
+
+        time.sleep(2)
+        input_tweet.send_keys(random.choice(my_tweets_collection))
+        confirm_tweet = driver.find_element(By.XPATH, "//div[@data-testid='tweetButtonInline']")
+        confirm_tweet.click()
+    
+        time.sleep(2)
+        print('tweet posted')
+        # # comment_posts[0].click()
+        # comment_text_area = driver.find_element(By.XPATH, "//div[@data-testid='tweetTextarea_0']")
+        # comment_text_area.send_keys(random_comment)
+        # tweet_button = driver.find_element(By.XPATH, "//div[@data-testid='tweetButton']")
+        # tweet_button.click()
+        # time.sleep(8)        
+        
+        
+        print('Replied to comment')
+        time.sleep(60)
+    else:
+        # gererate random hashtag from list
+        random_hashtag = random.choice(hashtags)
+        # make a search every time all loaded content has been liked
+        if random_hashtag not in used_hashtags:
+                used_hashtags.append(random_hashtag)
+                search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
+                search_box.send_keys(random_hashtag)
+                search_box.send_keys(Keys.ENTER)
+                print("Making a new search, please wait.")
+                time.sleep(3)
+                # get like element by xpath
+                feed_likes = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
+                time.sleep(2)
+                # print feed like elements
+
+                for like in feed_likes:
+                    try:
+                        time.sleep(2)
+                        likes += 1
+                        print(f'Number of likes= {likes}')
+                        like.click()
+                        driver.execute_script("arguments[0].scrollIntoView();", like)
+                        time.sleep(2)
+                    except ElementClickInterceptedException:
+                        driver.execute_script("arguments[0].scrollIntoView();", like)
+                        continue
+                    except NoSuchElementException:
+                        driver.execute_script("arguments[0].scrollIntoView();", like)
+                        continue
+                    except StaleElementReferenceException:
+                        continue
+                    try:
+                        time.sleep(2)
+                        feed_retweet = driver.find_elements(By.XPATH, "//div[@data-testid='retweet']")
+                        for retweet_element in feed_retweet:
+                            retweet_element.click() 
+                            retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
+                            retweet.click()
+                            retweets += 1
+                            print(f'Number of retweets = {retweets}')   
+                        time.sleep(2)
+                    except ElementClickInterceptedException:
+                        driver.execute_script("arguments[0].scrollIntoView();", retweet_element)
+                        continue
+                
+                
+                search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
+                search_box.click()
+                clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
+                clear_button.click()
+
+        else:
+            random_hashtag = random.choice(hashtags)
+            print("This hashtag is already been used, startign new search...")
+            used_hashtags.append(random_hashtag)        
             search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
             search_box.send_keys(random_hashtag)
             search_box.send_keys(Keys.ENTER)
@@ -133,22 +311,8 @@ while bot_on == True:
             # get like element by xpath
             feed_likes = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
             time.sleep(2)
-            # print feed like elements
 
             for like in feed_likes:
-                try:
-                    time.sleep(2)
-                    likes += 1
-                    print(f'Number of likes= {likes}')
-                    like.click()
-                    driver.execute_script("arguments[0].scrollIntoView();", like)
-                    time.sleep(2)
-                except ElementClickInterceptedException:
-                    # driver.execute_script("arguments[0].scrollIntoView();", like)
-                    continue
-                except NoSuchElementException:
-                    # driver.execute_script("arguments[0].scrollIntoView();", like)
-                    continue
                 try:
                     time.sleep(2)
                     feed_retweet = driver.find_elements(By.XPATH, "//div[@data-testid='retweet']")
@@ -157,45 +321,15 @@ while bot_on == True:
                         retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
                         retweet.click()
                         retweets += 1
-                        print(f'Number of retweets = {retweets}')   
+                        print(f'Number of retweets = {retweets}') 
                     time.sleep(2)
                 except ElementClickInterceptedException:
                     driver.execute_script("arguments[0].scrollIntoView();", retweet_element)
-                    continue
-            
+                    continue 
             search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
             search_box.click()
             clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
             clear_button.click()
 
-    else:
-        random_hashtag = random.choice(search_hashtags)
-        print("This hashtag is already been used, startign new search...")
-        used_hashtags.append(random_hashtag)        
-        search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
-        search_box.send_keys(random_hashtag)
-        search_box.send_keys(Keys.ENTER)
-        print("Making a new search, please wait.")
-        time.sleep(3)
-        # get like element by xpath
-        feed_likes = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
-        time.sleep(2)
-
-        for like in feed_likes:
-            try:
-                time.sleep(2)
-                feed_retweet = driver.find_elements(By.XPATH, "//div[@data-testid='retweet']")
-                for retweet_element in feed_retweet:
-                    retweet_element.click() 
-                    retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
-                    retweet.click()
-                    retweets += 1
-                    print(f'Number of retweets = {retweets}') 
-                time.sleep(2)
-            except ElementClickInterceptedException:
-                driver.execute_script("arguments[0].scrollIntoView();", retweet_element)
-                continue 
-        search_box = driver.find_element(By.XPATH, "//input[@data-testid='SearchBox_Search_Input']")
-        search_box.click()
-        clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
-        clear_button.click()
+    # comment_button = driver.find_element(By.XPATH, "//span[@data-testid='app-text-transition-container']")
+    # commentator_name = ''
