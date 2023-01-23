@@ -257,7 +257,7 @@ while bot_on == True:
                 search_box.send_keys(random_hashtag)
                 search_box.send_keys(Keys.ENTER)
                 print("Making a new search, please wait.")
-                time.sleep(3)
+                time.sleep(10)
                 # get like element by xpath
                 feed_likes = driver.find_elements(By.XPATH, "//div[@data-testid='like']")
                 time.sleep(2)
@@ -298,6 +298,7 @@ while bot_on == True:
                 search_box.click()
                 clear_button = driver.find_element(By.XPATH, "//div[@data-testid='clearButton']")
                 clear_button.click()
+                time.sleep(600)
 
         else:
             random_hashtag = random.choice(hashtags)

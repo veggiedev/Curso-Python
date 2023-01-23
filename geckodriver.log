@@ -10781,3 +10781,5 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1674225002939	Marionette	INFO	Stopped listening on port 39189
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
