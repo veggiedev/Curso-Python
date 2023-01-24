@@ -10783,3 +10783,17 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
 1674225002939	Marionette	INFO	Stopped listening on port 39189
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674475190317	geckodriver	INFO	Listening on 127.0.0.1:53659
+
+Command '/usr/bin/firefox' requires the firefox snap to be installed.
+Please install it with:
+
+snap install firefox
+
+1674475190322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecVBvwv"
+
+Command '/usr/bin/firefox' requires the firefox snap to be installed.
+Please install it with:
+
+snap install firefox
+
