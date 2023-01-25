@@ -125,7 +125,7 @@ except NoSuchElementException:
 
 time.sleep(4)
 email = 'michifuchi101@outlook.com'
-password = 'mybotisbetter101'
+password = ''
 signin_email = driver.find_element(By.XPATH, "//input[@autocomplete='username']")
 signin_email.send_keys(email)
 next_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Next')]")

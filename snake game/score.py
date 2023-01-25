@@ -5,7 +5,7 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0    
-        with open('OOP-Udemy/Turtle Exercises/day 21/data.txt') as data:
+        with open('/home/veggiedev/Curso-Python/snake game/data.txt') as data:
             self.highscore = int(data.read())
             
 

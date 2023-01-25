@@ -8,6 +8,8 @@ from score import Scoreboard
 from food import Food
 from game_over import gameover
 from newgame import Newgame
+
+
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
