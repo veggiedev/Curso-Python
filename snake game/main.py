@@ -29,7 +29,7 @@ def left():
         if snake.heading() == 0:
             print("You can't go left")
         else:   
-            snake.setheading(180)        
+            snake.setheading(180)         
 def right():    
         if snake.heading() == 180:
             print("You can't go right")
