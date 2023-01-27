@@ -3,8 +3,10 @@ import colorgram
 import turtle as t
 import random
 from turtle import colormode
+import os
+from time import sleep
 
-colors = colorgram.extract('/Users/veggiedev/Curso-Python/OOP-Udemy/Turtle Exercises/hirst_painting/spots.gif', 20)
+colors = colorgram.extract('/home/veggiedev/Curso-Python/Udemy_Python/Turtle Exercises/hirst_painting/spots.gif', 20)
 all_colors = [(246, 241, 244), (222, 152, 103), (233, 237, 240), (128, 172, 199), 
               (221, 130, 149), (221, 73, 90), (243, 208, 99), (17, 121, 157), (118, 176, 147), 
               (34, 120, 82), (18, 165, 204), (230, 74, 70), (142, 86, 60), (116, 85, 102), 
@@ -18,7 +20,7 @@ all_colors = [(246, 241, 244), (222, 152, 103), (233, 237, 240), (128, 172, 199)
 #     new_color = (r, g, b)
 #     all_colors.append(new_color)
 
-print(all_colors)
+# print(all_colors)
 timmy = t.Turtle()
 timmy.pensize(30)
 timmy.hideturtle()
@@ -37,10 +39,13 @@ def move_fw():
        
 def turn_left():
     timmy.left(90)
+screen = t.Screen()
+screen.bgcolor(169,169,169)
     
 move = 1   
 
 while move <= 99:
+    
     if move == 1:
         make_dot()
         paint_color += 1
@@ -74,9 +79,10 @@ while move <= 99:
             paint_color += 1
             move_fw()
             move += 1
+    os.system('clear')        
     print(move)
+    
         
-
-
-screen = t.Screen()
 screen.exitonclick()
+
+
