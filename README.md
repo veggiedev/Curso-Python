@@ -38,3 +38,8 @@ Comments in own photos
 Replies the own comments
 Comment retweets
 More...
+
+---------------------------------------------------------------------------------------------------------
+
+5 - Squirrels Census with Pandas<br>
+A census done using pandas in python, where we analize the squirrels population in Central Park in 2018 and check the numbers of different colors of the rodent
