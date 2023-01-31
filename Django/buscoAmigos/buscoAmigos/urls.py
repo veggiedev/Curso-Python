@@ -19,6 +19,7 @@ from buscoAmigosApp import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('second_page', views.second_page, name='second page'),
     path('admin/', admin.site.urls),
     
 ]
