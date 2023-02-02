@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from buscoAmigosApp import views
+# from buscoAmigosApp import views
+from django.conf.urls import include
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('second_page', views.second_page, name='second page'),
+    path('', include('buscoAmigosApp.urls')),
     path('admin/', admin.site.urls),
     
 ]
