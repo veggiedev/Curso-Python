@@ -1,0 +1,363 @@
+,NOMBRE
+0,Abusejo
+1,Agallas
+2,Ahigal de los Aceiteros
+3,Ahigal de Villarino
+4,"Alameda de Gardón, La"
+5,"Alamedilla, La"
+6,Alaraz
+7,Alba de Tormes
+8,Alba de Yeltes
+9,"Alberca, La"
+10,"Alberguería de Argañán, La"
+11,Alconada
+12,Aldea del Obispo
+13,Aldeacipreste
+14,Aldeadávila de la Ribera
+15,Aldealengua
+16,Aldeanueva de Figueroa
+17,Aldeanueva de la Sierra
+18,Aldearrodrigo
+19,Aldearrubia
+20,Aldeaseca de Alba
+21,Aldeaseca de la Frontera
+22,Aldeatejada
+23,Aldeavieja de Tormes
+24,Aldehuela de la Bóveda
+25,Aldehuela de Yeltes
+26,Almenara de Tormes
+27,Almendra
+28,Anaya de Alba
+29,Añover de Tormes
+30,Arabayona de Mógica
+31,Arapiles
+32,Arcediano
+33,"Arco, El"
+34,Armenteros
+35,"Atalaya, La"
+36,Babilafuente
+37,Bañobárez
+38,Barbadillo
+39,Barbalos
+40,Barceo
+41,Barruecopardo
+42,"Bastida, La"
+43,Béjar
+44,Beleña
+45,Bermellar
+46,Berrocal de Huebra
+47,Berrocal de Salvatierra
+48,Boada
+49,"Bodón, El"
+50,Bogajo
+51,"Bouza, La"
+52,Bóveda del Río Almar
+53,Brincones
+54,Buenamadre
+55,Buenavista
+56,"Cabaco, El"
+57,"Cabeza de Béjar, La"
+58,Cabeza del Caballo
+59,Cabezabellosa de la Calzada
+60,Cabrerizos
+61,Cabrillas
+62,Calvarrasa de Abajo
+63,Calvarrasa de Arriba
+64,"Calzada de Béjar, La"
+65,Calzada de Don Diego
+66,Calzada de Valdunciel
+67,Campillo de Azaba
+68,"Campo de Peñaranda, El"
+69,Candelario
+70,Canillas de Abajo
+71,Cantagallo
+72,Cantalapiedra
+73,Cantalpino
+74,Cantaracillo
+75,Carbajosa de la Sagrada
+76,Carpio de Azaba
+77,Carrascal de Barregas
+78,Carrascal del Obispo
+79,Casafranca
+80,"Casas del Conde, Las"
+81,Casillas de Flores
+82,Castellanos de Moriscos
+83,Castellanos de Villiquera
+84,Castillejo de Martín Viejo
+85,Castraz
+86,Cepeda
+87,Cereceda de la Sierra
+88,Cerezal de Peñahorcada
+89,Cerralbo
+90,"Cerro, El"
+91,Cespedosa de Tormes
+92,Chagarcía Medianero
+93,Cilleros de la Bastida
+94,Cipérez
+95,Ciudad Rodrigo
+96,Coca de Alba
+97,Colmenar de Montemayor
+98,Cordovilla
+99,Cristóbal
+100,"Cubo de Don Sancho, El"
+101,Dios le Guarde
+102,Doñinos de Ledesma
+103,Doñinos de Salamanca
+104,Ejeme
+105,"Encina, La"
+106,Encina de San Silvestre
+107,Encinas de Abajo
+108,Encinas de Arriba
+109,Encinasola de los Comendadores
+110,Endrinal
+111,Escurial de la Sierra
+112,Espadaña
+113,Espeja
+114,Espino de la Orbada
+115,Florida de Liébana
+116,Forfoleda
+117,Frades de la Sierra
+118,"Fregeneda, La"
+119,Fresnedoso
+120,Fresno Alhándiga
+121,"Fuente de San Esteban, La"
+122,Fuenteguinaldo
+123,Fuenteliante
+124,Fuenterroble de Salvatierra
+125,Fuentes de Béjar
+126,Fuentes de Oñoro
+127,Gajates
+128,Galindo y Perahuy
+129,Galinduste
+130,Galisancho
+131,Gallegos de Argañán
+132,Gallegos de Solmirón
+133,Garcibuey
+134,Garcihernández
+135,Garcirrey
+136,Gejuelo del Barro
+137,Golpejas
+138,Gomecello
+139,Guadramiro
+140,Guijo de Ávila
+141,Guijuelo
+142,Herguijuela de Ciudad Rodrigo
+143,Herguijuela de la Sierra
+144,Herguijuela del Campo
+145,Hinojosa de Duero
+146,Horcajo de Montemayor
+147,Horcajo Medianero
+148,"Hoya, La"
+149,Huerta
+150,Iruelos
+151,Ituero de Azaba
+152,Juzbado
+153,Lagunilla
+154,Larrodrigo
+155,Ledesma
+156,Ledrada
+157,Linares de Riofrío
+158,Lumbrales
+159,Machacón
+160,Macotera
+161,Madroñal
+162,"Maíllo, El"
+163,Malpartida
+164,Mancera de Abajo
+165,"Manzano, El"
+166,Martiago
+167,Martín de Yeltes
+168,Martinamor
+169,Masueco
+170,"Mata de Ledesma, La"
+171,Matilla de los Caños del Río
+172,"Maya, La"
+173,Membribe de la Sierra
+174,Mieza
+175,"Milano, El"
+176,Miranda de Azán
+177,Miranda del Castañar
+178,Mogarraz
+179,Molinillo
+180,Monforte de la Sierra
+181,Monleón
+182,Monleras
+183,Monsagro
+184,Montejo
+185,Montemayor del Río
+186,Monterrubio de Armuña
+187,Monterrubio de la Sierra
+188,Morasverdes
+189,Morille
+190,Moríñigo
+191,Moriscos
+192,Moronta
+193,Mozárbez
+194,Narros de Matalayegua
+195,Nava de Béjar
+196,Nava de Francia
+197,Nava de Sotrobal
+198,Navacarros
+199,Navales
+200,Navalmoral de Béjar
+201,Navamorales
+202,Navarredonda de la Rinconada
+203,Navasfrías
+204,Negrilla de Palencia
+205,Olmedo de Camaces
+206,"Orbada, La"
+207,Pajares de la Laguna
+208,Palacios del Arzobispo
+209,Palaciosrubios
+210,Palencia de Negrilla
+211,Parada de Arriba
+212,Parada de Rubiales
+213,Paradinas de San Juan
+214,Pastores
+215,"Payo, El"
+216,Pedraza de Alba
+217,Pedrosillo de Alba
+218,Pedrosillo de los Aires
+219,Pedrosillo el Ralo
+220,"Pedroso de la Armuña, El"
+221,Pelabravo
+222,Pelarrodríguez
+223,Pelayos
+224,"Peña, La"
+225,Peñacaballera
+226,Peñaparda
+227,Peñaranda de Bracamonte
+228,Peñarandilla
+229,Peralejos de Abajo
+230,Peralejos de Arriba
+231,Pereña de la Ribera
+232,Peromingo
+233,Pinedas
+234,"Pino de Tormes, El"
+235,Pitiegua
+236,Pizarral
+237,Poveda de las Cintas
+238,Pozos de Hinojo
+239,Puebla de Azaba
+240,Puebla de San Medel
+241,Puebla de Yeltes
+242,Puente del Congosto
+243,Puertas
+244,Puerto de Béjar
+245,Puerto Seguro
+246,Rágama
+247,"Redonda, La"
+248,Retortillo
+249,"Rinconada de la Sierra, La"
+250,Robleda
+251,Robliza de Cojos
+252,Rollán
+253,Saelices el Chico
+254,"Sagrada, La"
+255,"Sahugo, El"
+256,Salamanca
+257,Saldeana
+258,Salmoral
+259,Salvatierra de Tormes
+260,San Cristóbal de la Cuesta
+261,San Esteban de la Sierra
+262,San Felices de los Gallegos
+263,San Martín del Castañar
+264,San Miguel de Valero
+265,San Miguel del Robledo
+266,San Morales
+267,San Muñoz
+268,San Pedro de Rozados
+269,San Pedro del Valle
+270,San Pelayo de Guareña
+271,Sanchón de la Ribera
+272,Sanchón de la Sagrada
+273,Sanchotello
+274,Sancti-Spíritus
+275,Sando
+276,Santa María de Sando
+277,Santa Marta de Tormes
+278,Santiago de la Puebla
+279,Santibáñez de Béjar
+280,Santibáñez de la Sierra
+281,Santiz
+282,"Santos, Los"
+283,Sardón de los Frailes
+284,Saucelle
+285,Sepulcro-Hilario
+286,Sequeros
+287,Serradilla del Arroyo
+288,Serradilla del Llano
+289,"Sierpe, La"
+290,Sieteiglesias de Tormes
+291,Sobradillo
+292,Sorihuela
+293,Sotoserrano
+294,Tabera de Abajo
+295,"Tala, La"
+296,Tamames
+297,Tarazona de Guareña
+298,Tardáguila
+299,"Tejado, El"
+300,Tejeda y Segoyuela
+301,Tenebrón
+302,Terradillos
+303,Topas
+304,Tordillos
+305,"Tornadizo, El"
+306,Torresmenudas
+307,Trabanca
+308,Tremedal de Tormes
+309,Valdecarros
+310,Valdefuentes de Sangusín
+311,Valdehijaderos
+312,Valdelacasa
+313,Valdelageve
+314,Valdelosa
+315,Valdemierque
+316,Valderrodrigo
+317,Valdunciel
+318,Valero
+319,Vallejera de Riofrío
+320,Valsalabroso
+321,Valverde de Valdelacasa
+322,Valverdón
+323,Vecinos
+324,Vega de Tirados
+325,"Veguillas, Las"
+326,"Vellés, La"
+327,Ventosa del Río Almar
+328,"Vídola, La"
+329,Villaflores
+330,Villagonzalo de Tormes
+331,Villalba de los Llanos
+332,Villamayor
+333,Villanueva del Conde
+334,Villar de Argañán
+335,Villar de Ciervo
+336,Villar de Gallimazo
+337,Villar de la Yegua
+338,Villar de Peralonso
+339,Villar de Samaniego
+340,Villares de la Reina
+341,Villares de Yeltes
+342,Villarino de los Aires
+343,Villarmayor
+344,Villarmuerto
+345,Villasbuenas
+346,Villasdardo
+347,Villaseco de los Gamitos
+348,Villaseco de los Reyes
+349,Villasrubias
+350,Villaverde de Guareña
+351,Villavieja de Yeltes
+352,Villoria
+353,Villoruela
+354,Vilvestre
+355,Vitigudino
+356,Yecla de Yeltes
+357,Zamarra
+358,Zamayón
+359,Zarapicos
+360,"Zarza de Pumareda, La"
+361,Zorita de la Frontera

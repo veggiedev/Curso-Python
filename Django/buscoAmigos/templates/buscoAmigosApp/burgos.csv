@@ -1,0 +1,372 @@
+,NOMBRE
+0,Abajas
+1,Adrada de Haza
+2,Aguas Cándidas
+3,Aguilar de Bureba
+4,Albillos
+5,Alcocero de Mola
+6,Alfoz de Bricia
+7,Alfoz de Quintanadueñas
+8,Alfoz de Santa Gadea
+9,Altable
+10,"Altos, Los"
+11,Ameyugo
+12,Anguix
+13,Aranda de Duero
+14,Arandilla
+15,Arauzo de Miel
+16,Arauzo de Salce
+17,Arauzo de Torre
+18,Arcos
+19,Arenillas de Riopisuerga
+20,Arija
+21,Arlanzón
+22,Arraya de Oca
+23,Atapuerca
+24,"Ausines, Los"
+25,Avellanosa de Muñó
+26,Bahabón de Esgueva
+27,"Balbases, Los"
+28,Baños de Valdearados
+29,Bañuelos de Bureba
+30,Barbadillo de Herreros
+31,Barbadillo del Mercado
+32,Barbadillo del Pez
+33,Barrio de Muñó
+34,"Barrios de Bureba, Los"
+35,Barrios de Colina
+36,Basconcillos del Tozo
+37,Bascuñana
+38,Belbimbre
+39,Belorado
+40,Berberana
+41,Berlangas de Roa
+42,Berzosa de Bureba
+43,Bozoó
+44,Brazacorta
+45,Briviesca
+46,Bugedo
+47,Buniel
+48,Burgos
+49,Busto de Bureba
+50,Cabañes de Esgueva
+51,Cabezón de la Sierra
+52,Caleruega
+53,Campillo de Aranda
+54,Campolara
+55,Canicosa de la Sierra
+56,Cantabrana
+57,Carazo
+58,Carcedo de Bureba
+59,Carcedo de Burgos
+60,Cardeñadijo
+61,Cardeñajimeno
+62,Cardeñuela Riopico
+63,Carrias
+64,Cascajares de Bureba
+65,Cascajares de la Sierra
+66,Castellanos de Castro
+67,Castil de Peones
+68,Castildelgado
+69,Castrillo de la Reina
+70,Castrillo de la Vega
+71,Castrillo de Riopisuerga
+72,Castrillo del Val
+73,Castrillo Matajudíos
+74,Castrojeriz
+75,Cavia
+76,Cayuela
+77,Cebrecos
+78,Celada del Camino
+79,Cerezo de Río Tirón
+80,Cerratón de Juarros
+81,Ciadoncha
+82,Cillaperlata
+83,Cilleruelo de Abajo
+84,Cilleruelo de Arriba
+85,Ciruelos de Cervera
+86,Cogollos
+87,Condado de Treviño
+88,Contreras
+89,Coruña del Conde
+90,Covarrubias
+91,Cubillo del Campo
+92,Cubo de Bureba
+93,"Cueva de Roa, La"
+94,Cuevas de San Clemente
+95,Encío
+96,Espinosa de Cervera
+97,Espinosa de los Monteros
+98,Espinosa del Camino
+99,Estépar
+100,Fontioso
+101,Frandovínez
+102,Fresneda de la Sierra Tirón
+103,Fresneña
+104,Fresnillo de las Dueñas
+105,Fresno de Río Tirón
+106,Fresno de Rodilla
+107,Frías
+108,Fuentebureba
+109,Fuentecén
+110,Fuentelcésped
+111,Fuentelisendo
+112,Fuentemolinos
+113,Fuentenebro
+114,Fuentespina
+115,Galbarros
+116,"Gallega, La"
+117,Grijalba
+118,Grisaleña
+119,Gumiel de Izán
+120,Gumiel de Mercado
+121,Hacinas
+122,Haza
+123,Hontanas
+124,Hontangas
+125,Hontoria de la Cantera
+126,Hontoria de Valdearados
+127,Hontoria del Pinar
+128,"Hormazas, Las"
+129,Hornillos del Camino
+130,"Horra, La"
+131,Hortigüela
+132,Hoyales de Roa
+133,Huérmeces
+134,Huerta de Arriba
+135,Huerta de Rey
+136,Humada
+137,Hurones
+138,Ibeas de Juarros
+139,Ibrillos
+140,Iglesiarrubia
+141,Iglesias
+142,Isar
+143,Itero del Castillo
+144,Jaramillo de la Fuente
+145,Jaramillo Quemado
+146,Junta de Traslaloma
+147,Junta de Villalba de Losa
+148,Jurisdicción de Lara
+149,Jurisdicción de San Zadornil
+150,Lerma
+151,Llano de Bureba
+152,Madrigal del Monte
+153,Madrigalejo del Monte
+154,Mahamud
+155,Mambrilla de Castrejón
+156,Mambrillas de Lara
+157,Mamolar
+158,Manciles
+159,Mazuela
+160,Mecerreyes
+161,Medina de Pomar
+162,Melgar de Fernamental
+163,Merindad de Cuesta-Urria
+164,Merindad de Montija
+165,Merindad de Río Ubierna
+166,Merindad de Sotoscueva
+167,Merindad de Valdeporres
+168,Merindad de Valdivielso
+169,Milagros
+170,Miranda de Ebro
+171,Miraveche
+172,Modúbar de la Emparedada
+173,Monasterio de la Sierra
+174,Monasterio de Rodilla
+175,Moncalvillo
+176,Monterrubio de la Demanda
+177,Montorio
+178,Moradillo de Roa
+179,Nava de Roa
+180,Navas de Bureba
+181,Nebreda
+182,Neila
+183,Olmedillo de Roa
+184,Olmillos de Muñó
+185,Oña
+186,Oquillas
+187,Orbaneja Riopico
+188,Padilla de Abajo
+189,Padilla de Arriba
+190,Padrones de Bureba
+191,Palacios de la Sierra
+192,Palacios de Riopisuerga
+193,Palazuelos de la Sierra
+194,Palazuelos de Muñó
+195,Pampliega
+196,Pancorbo
+197,Pardilla
+198,Partido de la Sierra en Tobalina
+199,Pedrosa de Duero
+200,Pedrosa de Río Úrbel
+201,Pedrosa del Páramo
+202,Pedrosa del Príncipe
+203,Peñaranda de Duero
+204,Peral de Arlanza
+205,Piérnigas
+206,Pineda de la Sierra
+207,Pineda Trasmonte
+208,Pinilla de los Barruecos
+209,Pinilla de los Moros
+210,Pinilla Trasmonte
+211,Poza de la Sal
+212,Prádanos de Bureba
+213,Pradoluengo
+214,Presencio
+215,"Puebla de Arganzón, La"
+216,Puentedura
+217,Quemada
+218,Quintana del Pidio
+219,Quintanabureba
+220,Quintanaélez
+221,Quintanaortuño
+222,Quintanapalla
+223,Quintanar de la Sierra
+224,Quintanavides
+225,Quintanilla de la Mata
+226,Quintanilla del Agua y Tordueles
+227,Quintanilla del Coco
+228,Quintanilla San García
+229,Quintanilla Vivar
+230,"Quintanillas, Las"
+231,Rabanera del Pinar
+232,Rábanos
+233,Rabé de las Calzadas
+234,Rebolledo de la Torre
+235,Redecilla del Camino
+236,Redecilla del Campo
+237,Regumiel de la Sierra
+238,Reinoso
+239,Retuerta
+240,Revilla del Campo
+241,Revilla Vallejera
+242,"Revilla y Ahedo, La"
+243,Revillarruz
+244,Rezmondo
+245,Riocavado de la Sierra
+246,Roa
+247,Rojas
+248,Royuela de Río Franco
+249,Rubena
+250,Rublacedo de Abajo
+251,Rucandio
+252,Salas de Bureba
+253,Salas de los Infantes
+254,Saldaña de Burgos
+255,Salinillas de Bureba
+256,San Adrián de Juarros
+257,San Juan del Monte
+258,San Mamés de Burgos
+259,San Martín de Rubiales
+260,San Millán de Lara
+261,San Vicente del Valle
+262,Santa Cecilia
+263,Santa Cruz de la Salceda
+264,Santa Cruz del Valle Urbión
+265,Santa Gadea del Cid
+266,Santa Inés
+267,Santa María del Campo
+268,Santa María del Invierno
+269,Santa María del Mercadillo
+270,Santa María Rivarredonda
+271,Santa Olalla de Bureba
+272,Santibáñez de Esgueva
+273,Santibáñez del Val
+274,Santo Domingo de Silos
+275,Sargentes de la Lora
+276,Sarracín
+277,Sasamón
+278,"Sequera de Haza, La"
+279,Solarana
+280,Sordillos
+281,Sotillo de la Ribera
+282,Sotragero
+283,Sotresgudo
+284,Susinos del Páramo
+285,Tamarón
+286,Tardajos
+287,Tejada
+288,Terradillos de Esgueva
+289,Tinieblas de la Sierra
+290,Tobar
+291,Tordómar
+292,Torrecilla del Monte
+293,Torregalindo
+294,Torrelara
+295,Torrepadre
+296,Torresandino
+297,Tórtoles de Esgueva
+298,Tosantos
+299,Trespaderne
+300,Tubilla del Agua
+301,Tubilla del Lago
+302,Úrbel del Castillo
+303,Vadocondes
+304,Valdeande
+305,Valdezate
+306,Valdorros
+307,Vallarta de Bureba
+308,Valle de las Navas
+309,Valle de Losa
+310,Valle de Manzanedo
+311,Valle de Mena
+312,Valle de Oca
+313,Valle de Santibáñez
+314,Valle de Sedano
+315,Valle de Tobalina
+316,Valle de Valdebezana
+317,Valle de Valdelaguna
+318,Valle de Valdelucio
+319,Valle de Zamanzas
+320,Vallejera
+321,Valles de Palenzuela
+322,Valluércanes
+323,Valmala
+324,"Vid de Bureba, La"
+325,"Vid y Barrios, La"
+326,Vileña
+327,Villadiego
+328,Villaescusa de Roa
+329,Villaescusa la Sombría
+330,Villaespasa
+331,Villafranca Montes de Oca
+332,Villafruela
+333,Villagalijo
+334,Villagonzalo Pedernales
+335,Villahoz
+336,Villalba de Duero
+337,Villalbilla de Burgos
+338,Villalbilla de Gumiel
+339,Villaldemiro
+340,Villalmanzo
+341,Villamayor de los Montes
+342,Villamayor de Treviño
+343,Villambistia
+344,Villamedianilla
+345,Villamiel de la Sierra
+346,Villangómez
+347,Villanueva de Argaño
+348,Villanueva de Carazo
+349,Villanueva de Gumiel
+350,Villanueva de Teba
+351,Villaquirán de la Puebla
+352,Villaquirán de los Infantes
+353,Villarcayo de Merindad de Castilla la Vieja
+354,Villariezo
+355,Villasandino
+356,Villasur de Herreros
+357,Villatuelda
+358,Villaverde del Monte
+359,Villaverde-Mogina
+360,Villayerno Morquillas
+361,Villazopeque
+362,Villegas
+363,Villoruebo
+364,Viloria de Rioja
+365,Vilviestre del Pinar
+366,Vizcaínos
+367,Zael
+368,Zarzosa de Río Pisuerga
+369,Zazuar
+370,Zuñeda
