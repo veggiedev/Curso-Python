@@ -142,6 +142,39 @@ genero = ['hombre', 'mujer', 'otro','hombre',
         'hombre', 'mujer','hombre', 'mujer','hombre', 
         'mujer','hombre', 'mujer','hombre', 'mujer',
         'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre',
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
+        'mujer','hombre', 'mujer','hombre', 'mujer',
+        'hombre', 'mujer','hombre', 'mujer','hombre', 
         'mujer','hombre', 'mujer']
 p1_disponibilidad_dias = ['find de semana','estresemana']
 p2_horarios = ['mañana', 'tarde', 'noche']
@@ -179,14 +212,14 @@ all_longitud = []
 
 
 # print(random_provincia.capitalize())
-for i in range (400):
+for i in range (50):
         rand_photo = (f'/home/veggiedev/Curso-Python/Django/buscoAmigos/templates/buscoAmigosApp/Images/{random.randint(1, 2031)}.jpg')
         all__full_names.append(random.choice(nombres) + ' ' + random.choice(apellidos))
         all_edades.append(random.randint(18, 99))
         all_generos.append(random.choice(genero))
         random_provincia = random.choice(provincias_ordenadas)
         all_provincias.append(random_provincia.capitalize())
-        provincia_csv = pandas.read_csv(f'buscoAmigos/templates/buscoAmigosApp/{random_provincia.lower()}.csv')
+        provincia_csv = pandas.read_csv(f'buscoAmigos/templates/buscoAmigosApp/provincias/{random_provincia.lower()}.csv')
         lista_municipios = provincia_csv.NOMBRE.to_list()
         random_ciudad = random.choice(lista_municipios)
         all_ciudades.append(random_ciudad.capitalize())
@@ -203,7 +236,7 @@ for i in range (400):
         getLoc = loc.geocode(random_ciudad)
         all_latitud.append(getLoc.latitude)
         all_longitud.append(getLoc.longitude)
-        time.sleep(0.5)
+        time.sleep(1)
 
 
 rand_user_data = {
