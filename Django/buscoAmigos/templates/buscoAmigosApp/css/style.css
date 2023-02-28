@@ -1,0 +1,22 @@
+body {
+ color: rgb(219, 55, 83);
+ text-align: justify;
+ } 
+
+.navbar {
+    color:rgb(192, 60, 60);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color:rgb(180, 30, 155);
+    text-decoration: none;
+    
+}
+a:hover {
+    color:rgb(116, 20, 100);
+}
