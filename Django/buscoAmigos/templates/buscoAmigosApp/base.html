@@ -2,13 +2,20 @@
 <link rel="stylesheet" href="{% static 'style.css'  %}">
 
 <header>
-  <h1 class = 'title'>Coolegas.com</h1>
-  <div class="navbar">
-    <a href="{% url 'home' %}">Home |</a>
-    <a href="{% url 'signup' %}">Sign Up |</a>
-    <a href="{% url 'login' %}">Login |</a>
-    <a href="{% url 'sugerencias' %}">Sugerencias</a>
-  </div>
+  
+  <container class="navbar">
+    <container class = "title">
+      <h1>Coolegas.com</h1>
+    </container>
+    <container class="navbar-items">
+      <a href="{% url 'home' %}">Home</a>
+      <a href="{% url 'signup' %}">Sign Up</a>
+      <a href="{% url 'sugerencias' %}">Sugerencias</a> 
+    </container>
+  </container>
+  <container class="login">
+    <a class ='login' href="{% url 'login' %}">Login</a>
+  </container>
     <!-- <a href="{% url 'about' %}">About</a> -->
   </header>
   

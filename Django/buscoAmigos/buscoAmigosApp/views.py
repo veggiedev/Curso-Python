@@ -1,10 +1,10 @@
 from django.http import HttpResponse
-from django.shortcuts import  render, redirect
+from django.shortcuts import  render
 from .forms import NewUserForm
-from django.contrib.auth import login
+# from django.contrib.auth import login
 from django.contrib import messages
 from django.views.generic import TemplateView
-
+from .forms import NewUserForm
 # def register_request(request):
 	
 
@@ -12,8 +12,7 @@ from django.views.generic import TemplateView
 
 
 def index(request):
-    my_dict = {'insert_me':'Hello I am from '}
-    return render(request, 'buscoAmigosApp/index.html', context=my_dict)
+    return render(request, 'home.html')
 
 def second_page(request):
     return HttpResponse("<em>Second Page!</em>")
@@ -26,9 +25,27 @@ def sugerencias(request):
     my_dict = {'pagina_sugerencias':'Hello this is the sugerencias page.'}
     return render(request, 'sugerencias.html', context= my_dict)
 
+def signup(request):
+
+    form = NewUserForm()
+    if request.method == 'POST':
+        form = NewUserForm(request.POST)
+        if form.is_valid():
+            form.save(commit=True)
+            return index(request)
+        else:
+            print('Error, Form is invalid')
+    return render(request, 'templates/buscoAmigosApp/users/signup.html',{'form':form})
+
+def login(request):
+    return render(request, 'templates/buscoAmigosApp/users/login.html')
+
 
 class HomePageView(TemplateView):
     template_name = "home.html"
 
 class AboutPageView(TemplateView):
     template_name = "about.html"
+
+# class SignUpView(TemplateView):
+#     template = "signup.html"

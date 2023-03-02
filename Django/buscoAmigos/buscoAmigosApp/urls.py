@@ -21,9 +21,9 @@ from .views import HomePageView, AboutPageView
 urlpatterns = [
     path("", HomePageView.as_view(), name="home"),
     path("about", AboutPageView.as_view(), name="about"),
-    path('', views.index, name='index'),
-    path('second_page', views.second_page, name='second page'),
-    path('help', views.help, name='help page' ),
+    # path('', views.index, name='index'),
+    # path('second_page', views.second_page, name='second page'),
+    # path('help', views.help, name='help page' ),
     path('sugerencias', views.sugerencias, name='sugerencias'),
     # path('signup', views.signup, name='signup'),
     

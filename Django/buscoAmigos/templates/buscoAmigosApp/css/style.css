@@ -1,22 +1,75 @@
 body {
- color: rgb(219, 55, 83);
- text-align: justify;
+    color: rgb(233, 80, 105);
+    /* text-align: justify; */
+    background-color: rgb(255, 236, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    /* flex: auto; */
  } 
 
-.navbar {
-    color:rgb(192, 60, 60);
-    text-align: center;
+.login {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    /* grid-column:; */
+    float: right;
+    color:rgb(231, 157, 157);
+    background-color: rgb(255, 236, 243);
+    border-color: rgb(255, 236, 243);
+
 }
+
+.title {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.navbar-items {
+    background-color:rgb(231, 157, 157);
+    border-style: solid;
+    border-color:rgb(231, 157, 157);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    /* display:inline-grid; */
+    color:rgb(37, 9, 9);
+    text-align: center;
+    padding: 0.5em;
+
+}
+
+.navbar-items a {
+    margin: 1em;
+}
+
+
 
 h1 {
     text-align: center;
 }
 
 a {
-    color:rgb(180, 30, 155);
+    transition: 0.5s;
+    color:rgb(88, 18, 24);
     text-decoration: none;
+    background-color:rgb(231, 157, 157);
+    border-style: solid;
+    border-color:rgb(231, 157, 157);
+    box-shadow: 5px;
+
     
 }
+
 a:hover {
-    color:rgb(116, 20, 100);
+    transition: 0.5s;
+    color:rgb(240, 223, 237);
+    text-shadow: 2px;
+
+}
+
+h3 {
+    text-align: center;
 }
