@@ -1,22 +1,21 @@
 body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
     color: rgb(233, 80, 105);
-    /* text-align: justify; */
     background-color: rgb(255, 236, 243);
     font-family: Arial, Helvetica, sans-serif;
-    /* flex: auto; */
  } 
 
 .login {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 1;
-    /* grid-column:; */
+    grid-row-end:auto;
     float: right;
     color:rgb(231, 157, 157);
     background-color: rgb(255, 236, 243);
     border-color: rgb(255, 236, 243);
-
 }
 
 .title {
@@ -24,6 +23,17 @@ body {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
+    border-bottom: 2;
+    font-size: 2em;
+}
+
+
+
+.pie-de-pagina{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
 }
 
 .navbar-items {
@@ -34,21 +44,16 @@ body {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
-    /* display:inline-grid; */
     color:rgb(37, 9, 9);
     text-align: center;
     padding: 0.5em;
-
-}
-
-.navbar-items a {
-    margin: 1em;
 }
 
 
 
 h1 {
     text-align: center;
+    font-size: 1.5em;
 }
 
 a {
