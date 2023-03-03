@@ -1,5 +1,6 @@
 body {
-    min-height: 98vh; margin:0;
+    min-height: 98vh; 
+    margin:0;
     color: rgb(233, 80, 105);
     background-color: rgb(255, 236, 243);
     font-family: Arial, Helvetica, sans-serif;
@@ -19,9 +20,9 @@ header {
     background-color:rgb(231, 157, 157);
     border-color:rgb(231, 157, 157); ;
     border-style: solid;
-    padding: 0.5em;
+    padding: 1em;
     text-align: center;
-    min-height: 4em;
+    min-height: 1em;
 }
 
 header a {
@@ -52,11 +53,12 @@ header a {
 
 .page-name:hover {
     border-style: solid;
-    border-color: rgb(233, 80, 105);
-    background-color: rgb(233, 80, 105);
+    border-color: rgb(231, 157, 157);
+    background-color: rgb(231, 157, 157);
     border-width: 0.1em;
     border-right: 0em;
     color: antiquewhite;
+    font-weight: 1.5em;
 }
 
 
@@ -74,29 +76,26 @@ header a {
 }
 
 
-h4 {
-    text-align: center;
-    font-size: 0.8em;
-}
 
 
 
     
 
 .title {
+    text-align: center;
     margin: 4em;
-    min-width: 50px;
 }
 
 
 main {
     color: rgb(46, 38, 38);
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+
 }
 
 h1 {
-    text-align: center;
     font-size: 1.5em;
     color: rgb(233, 80, 105);
 
@@ -132,4 +131,21 @@ a:hover {
 
 h3 {
     text-align: center;
+}
+
+.pie-de-pagina {
+    background-color:rgb(231, 157, 157);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0.6em;
+}
+
+
+
+.intro-pie-pagina {
+    margin-bottom: 0.2em;
+ 
 }
