@@ -6,20 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
 </head>
-<body>
   {% extends "base.html" %}
 
   {% block title %}Sign Up{% endblock %}
 
-  {% block content %}
-
-  <h1>Sign up</h1>
-  <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    
-    <button type="submit">Sign Up</button>
-  </form>
+{% block content %}
+  <h1 class = "title">Sign up</h1>
+  <div class = "signup-form">
+    <form  method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button class = "boton" type="submit">Registrate</button>
+    </form>
+  </div>
 {% endblock %}
-</body>
 </html>

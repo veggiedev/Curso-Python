@@ -9,7 +9,7 @@
 </head>
 <body>
   {% block content %}
-  <h1>Log In</h1>
+  <h1 class = "title">Log In</h1>
   <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
