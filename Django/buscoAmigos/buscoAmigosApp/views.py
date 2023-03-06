@@ -1,10 +1,10 @@
 from django.http import HttpResponse
 from django.shortcuts import  render
-from .forms import NewUserForm
+# from .forms import NewUserForm
 # from django.contrib.auth import login
 from django.contrib import messages
 from django.views.generic import TemplateView
-from .forms import NewUserForm
+
 # def register_request(request):
 	
 
@@ -25,6 +25,8 @@ def sugerencias(request):
     my_dict = {'pagina_sugerencias':'Hello this is the sugerencias page.'}
     return render(request, 'sugerencias.html', context= my_dict)
 
+
+
 def signup(request):
 
     form = NewUserForm()
@@ -37,15 +39,15 @@ def signup(request):
             print('Error, Form is invalid')
     return render(request, 'templates/buscoAmigosApp/users/signup.html',{'form':form})
 
-def login(request):
-    return render(request, 'templates/buscoAmigosApp/users/login.html')
+# def login_page(request):
+#     return render(request, 'templates/buscoAmigosApp/users/login.html')
 
 
 class HomePageView(TemplateView):
     template_name = "home.html"
 
-class AboutPageView(TemplateView):
-    template_name = "about.html"
+# class AboutPageView(TemplateView):
+#     template_name = "about.html"
 
 # class SignUpView(TemplateView):
 #     template = "signup.html"

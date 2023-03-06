@@ -149,3 +149,9 @@ h3 {
     margin-bottom: 0.2em;
  
 }
+
+.enlace-centrado {
+    text-align: center;
+    width: 100%;
+    color: blueviolet;
+}

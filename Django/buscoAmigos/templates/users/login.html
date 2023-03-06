@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% extends "base.html" %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logiin</title>
 </head>
 <body>
-  {% block content %}
-  <h1 class = "title">Log In</h1>
+  {% extends "base.html" %}
+
+  {% block content %} 
+  <h1 class = "title">Entra a tu cuenta</h1>
   <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <button type="submit">Log In</button>
+    <button class = "boton" type="submit">Entrar</button>
   </form>
   {% endblock %}
 

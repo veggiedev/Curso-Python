@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from buscoAmigosApp import views
-from .views import HomePageView, AboutPageView
+from .views import HomePageView
 
 urlpatterns = [
     path("", HomePageView.as_view(), name="home"),
-    path("about", AboutPageView.as_view(), name="about"),
+    # path("about", views.about, name="about"),
     # path('', views.index, name='index'),
     # path('second_page', views.second_page, name='second page'),
     # path('help', views.help, name='help page' ),

@@ -1,5 +1,6 @@
 from django.db import models
 from datetime import date
+from django import forms
 # Create your models here.
 import os
 import pandas
@@ -47,7 +48,7 @@ for path in os.listdir(dir_path):
 
 # # lista_municipios = 
 today = date.today()
-today_formated = today.strftime("%d/%m/%Y")
+today_formated = today.strftime("%Y-%m-%d")
 
  #----------------------------------end of logic functions--------------------------------------------#
 
@@ -55,16 +56,16 @@ today_formated = today.strftime("%d/%m/%Y")
 
 
 class User(models.Model):
-    nombre_usuario = models.CharField(verbose_name=('Nombre'),max_length=264,unique=False)
-    nacimiento = models.DateField(default=today_formated, null=True,verbose_name=('Fecha de nacimiento (dd/mm/aaaa)'),)
+    nombre_usuario = models.CharField(verbose_name=('Nombre completo'),max_length=264,unique=False)   
+    email = models.EmailField(null=True,verbose_name=('Correo electronico'),max_length=264,unique=True)
+    nacimiento = models.DateField(null=True,verbose_name=('Fecha de nacimiento (dd/mm/aaaa)'),)
     fecha_creacion  = models.DateField(
         verbose_name=('Fecha cuenta creada'),
         auto_now_add=True
     )
-    email = models.EmailField(null=True,verbose_name=('Correo electronico'),max_length=264,unique=True)
+    password = models.CharField(max_length=50)
     genero = models.CharField(null=True,verbose_name=('Genero'),max_length=64,unique=False)
     provincia = models.CharField(choices=provincias_ordenadas, default='A Coruna', null=True,verbose_name=('Provincia'),max_length=264, unique=False)
-    print(provincia)
     ciudad = models.CharField(choices=municipios_ordenados, default='Ababuj', null=True,verbose_name=('Ciudad'),max_length=264,unique=False)
     disponibilidad = models.CharField(null=True,max_length=264,unique=False)
     lugar_comida = models.CharField(null=True,max_length=264,unique=False)
