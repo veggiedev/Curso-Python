@@ -71,9 +71,9 @@ TEMPLATES = [
 ]
 
 PASSWORD_HASHERS = [
+    'django.contrib.auth.hashers.Argon2PasswordHasher',
     'django.contrib.auth.hashers.PBKDF2PasswordHasher',
     'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
-    'django.contrib.auth.hashers.Argon2PasswordHasher',
     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
     'django.contrib.auth.hashers.ScryptPasswordHasher',
 ]
@@ -103,6 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'OPTIONS':{'min_length':8}
     },
     {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
@@ -116,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-LANGUAGE_CODE = 'es-us'
+LANGUAGE_CODE = 'es-es'
 
 TIME_ZONE = 'UTC'
 
@@ -128,14 +129,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 STATIC_URL = os.path.join(TEMPLATES_DIR, "static/")
-
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, "templates/buscoAmigosApp/css")]
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "templates/buscoAmigosApp/css"),
     STATIC_URL,
 ]
 
 STATIC_ROOT = Path.joinpath(BASE_DIR, 'templates/buscoAmigosApp/')
-
+MEDIA_URL = 'templates/buscoAmigosApp/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

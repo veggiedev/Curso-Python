@@ -5,7 +5,7 @@ from django import forms
 import os
 import pandas
 from unidecode import unidecode
- 
+from django.contrib.auth.models import User
  
  
  #----------------------------------logic functions--------------------------------------------#
@@ -55,9 +55,11 @@ today_formated = today.strftime("%Y-%m-%d")
 
 
 
-class User(models.Model):
+class UserProfile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     nombre_usuario = models.CharField(verbose_name=('Nombre completo'),max_length=264,unique=False)   
     email = models.EmailField(null=True,verbose_name=('Correo electronico'),max_length=264,unique=True)
+    foto_perfil = models.ImageField(upload_to='fotos_perfil', blank=True)
     nacimiento = models.DateField(null=True,verbose_name=('Fecha de nacimiento (dd/mm/aaaa)'),)
     fecha_creacion  = models.DateField(
         verbose_name=('Fecha cuenta creada'),
@@ -76,9 +78,7 @@ class User(models.Model):
     actividades = models.CharField(null=True,max_length=264,unique=False)
     latitud = models.CharField(null=True,max_length=264,unique=False)
     longitud = models.CharField(null=True,max_length=264,unique=False)
-    activo = models.BooleanField(
-        verbose_name= ('Active'),
-        default=True)
+
     
     # def age(self):
     #     today = date.today()
