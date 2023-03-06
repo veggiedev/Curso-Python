@@ -21,7 +21,7 @@ def signup (request):
             return index(request)
         else:
             print('Error, Form is invalid')
-    return render(request, 'signup.html',{'form':form})
+    return render(request, 'signup.html',{'user_form':form})
 # class SignUpView(generic.CreateView):
 #     form_class = UserCreationForm
 #     success_url = reverse_lazy("login")

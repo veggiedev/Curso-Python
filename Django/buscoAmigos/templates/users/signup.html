@@ -11,13 +11,17 @@
   {% block title %}Sign Up{% endblock %}
 
 {% block content %}
-  <h1 class = "title">Sign up</h1>
+  {% if registered %}
+    <h1>Gracias por registrarte!</h1>
+  {% else %}
+  <h1 class = "title">Registro</h1>
   <div class = "signup-form">
-    <form  method="post">
+    <form  enctype='multipart/form-data' method="post">
       {% csrf_token %}
-      {{ form.as_p }}
+      {{ user_form.as_p }}
       <button class = "boton" type="submit">Registrate</button>
     </form>
   </div>
+  {% endif %}
 {% endblock %}
 </html>
