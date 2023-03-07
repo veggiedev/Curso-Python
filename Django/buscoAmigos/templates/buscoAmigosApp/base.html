@@ -5,11 +5,15 @@
     <div class="navbar-all">
       <div class = "navegacion">
         <a class = "page-name" href="{% url 'home' %}">Coolegas.com</a>
-        <ul cclass='dropdown-nav'>
-          <li><a href="{% url 'sugerencias' %}">Sugerencias</a></li>
-          <li><a href="{% url 'about' %}">About</a></li> 
-        </ul>
+        <div class="navegacion-dropdown">
+            <img class="dropdown-button" src="{% static 'dropdown-icon.png' %}" alt="drop-down">
 
+          <div class="dropdown-content">
+            <a href="{% url 'sugerencias' %}">Sugerencias</a>
+            <a href="{% url 'about' %}">Nosotros</a>
+          </div>
+        </div>
+        
       </div>
       
       <div class = "user">

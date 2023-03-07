@@ -39,12 +39,47 @@ header a {
 }
 
 .navegacion {
+    float: left;
+}
+
+.dropdown-button {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: -0.3em;
+}
+
+
+
+.navegacion-dropdown {
     position: relative;
     display: inline-block;
     /* float: left; */
     /* width: 50%; */
     color:antiquewhite;
 }
+
+/* .dropdown-nav {
+    border-style: solid;
+    border-color: rgb(231, 157, 157);;
+    background-color:rgb(231, 157, 157);
+} */
+
+
+
+.navegacion-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(231, 157, 157);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0.4em;
+    z-index: 1;
+  }
 
 .page-name {
     float: left;
@@ -62,7 +97,7 @@ header a {
     background-color: rgb(231, 157, 157);
     border-width: 0.1em;
     border-right: 0em;
-    color: antiquewhite;
+    color: #faebd7;
     font-weight: 1.5em;
 }
 
