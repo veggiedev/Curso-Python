@@ -39,7 +39,9 @@ header a {
 }
 
 .navegacion {
-    float: left;
+    position: relative;
+    display: inline-block;
+    /* float: left; */
     /* width: 50%; */
     color:antiquewhite;
 }
