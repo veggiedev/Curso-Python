@@ -1,12 +1,15 @@
 {% load static %}
 <link rel="stylesheet" href="{% static 'style.css'  %}">
-
+<link rel="shortcut icon" type="image/png" href="{% static 'favicon.png' %}"/>
 <header>
     <div class="navbar-all">
       <div class = "navegacion">
         <a class = "page-name" href="{% url 'home' %}">Coolegas.com</a>
-        <a href="{% url 'sugerencias' %}">Sugerencias</a>
-        <a href="{% url 'about' %}">About</a> 
+        <ul cclass='dropdown-nav'>
+          <li><a href="{% url 'sugerencias' %}">Sugerencias</a></li>
+          <li><a href="{% url 'about' %}">About</a></li> 
+        </ul>
+
       </div>
       
       <div class = "user">

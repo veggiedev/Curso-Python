@@ -10,7 +10,9 @@
     {% block title %}Coolegas.com{% endblock %}
     {% block content %}
     <h1 class = "title">Has salido de tu cuenta</h1>
-    <h3>Deseas entrar en tu cuenta?</h3>
-    <a  class = 'enlace-centrado' href="{% url 'home' %}">Entrar</a>
+      <div class="main-centered">
+        <p class="main-content">Deseas entrar en tu cuenta?</p>
+        <a  class = 'boton' href="{% url 'login_page' %}">Entrar</a>
+      </div>
     {% endblock %}
 </html>
