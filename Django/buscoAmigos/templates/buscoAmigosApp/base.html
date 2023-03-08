@@ -8,16 +8,17 @@
         <div class="navegacion-dropdown">
             <img class="dropdown-button" src="{% static 'dropdown-icon.png' %}" alt="drop-down">
 
-          <div class="dropdown-content">
-            <a href="{% url 'sugerencias' %}">Sugerencias</a>
-            <a href="{% url 'about' %}">Nosotros</a>
-          </div>
+          <ul class="dropdown-content">
+              <a class="menu-item" href="{% url 'sugerencias' %}"><li>Sugerencias</li></a>
+              <a class="menu-item" href="{% url 'about' %}"><li>Nosotros</li></a>
+
+          </ul>
         </div>
         
       </div>
       
       <div class = "user">
-        <a class = "signup" href="{% url 'signup' %}">Registro</a>
+        <a class = "signup" href="{% url 'signup' %}">Registro | </a>
         <a class ='login' href="{% url 'login_page' %}">Login</a>
       </div>
     </div>

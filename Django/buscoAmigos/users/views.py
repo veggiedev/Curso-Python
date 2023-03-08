@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import AuthenticationForm
-
+import random
 # Create your views here.
 
 from .forms import NewUserForm
@@ -66,4 +66,6 @@ def my_view(request):
 #     form_class = User
 
 
-                                                                                      
+def rand_prof_pic(request):
+    rand_photo = (f'/templates/buscoAmigosApp/Images/{random.randint(1, 2031)}.jpg')
+    return render(request, 'home.html',{'rand_photo':rand_photo})

@@ -57,7 +57,7 @@ today_formated = today.strftime("%Y-%m-%d")
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    nombre_usuario = models.CharField(verbose_name=('Nombre completo'),max_length=264,unique=False)   
+    username = models.CharField(verbose_name=('Nombre completo'),max_length=264,unique=False)   
     email = models.EmailField(null=True,verbose_name=('Correo electronico'),max_length=264,unique=True)
     foto_perfil = models.ImageField(upload_to='fotos_perfil', blank=True)
     nacimiento = models.DateField(null=True,verbose_name=('Fecha de nacimiento (dd/mm/aaaa)'),)

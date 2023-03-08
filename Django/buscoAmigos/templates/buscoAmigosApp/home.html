@@ -7,9 +7,30 @@
     <title>Home</title>
   </head>
     {% extends "base.html" %}
+    {% load static %}
+
     {% block title %}Coolegas.com{% endblock %}
     {% block content %}
-    <h1 class = "title">Pagina Principal</h1>
+    <h1 class = "title">Bienvenido a Coolegas!</h1>
     <h3>Bienvenido a tu red social de amigos y colegas</h3>
-    {% endblock %}
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Maiores similique sunt possimus, doloribus quae fugiat dignissimos? 
+      Voluptas magni facere necessitatibus hic dignissimos doloribus 
+      dolores nulla voluptatum nemo. Soluta, nostrum a?</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      Officia, dolore repellat. Minima hic commodi fugit repudiandae, 
+      ullam sequi? Dolorum consequatur eaque laboriosam a architecto? 
+      Minus ipsam soluta quo velit molestiae!</p>
+      <h3>Conoce a gente, prueba nuevas actividades! Disfruta la vida al maximo!</h3>
+      <div class="home-photos">
+        <img class="home-photo" src="{% static  'Images/6.jpg' %}">
+        <img class="home-photo" src="{% static  'Images/500.jpg' %}">
+        <img class="home-photo" src="{% static  'Images/1000.jpg' %}">
+        <img class="home-photo" src="{% static  'Images/2000.jpg' %}">
+
+      </div>
+
+      {% endblock %}
+
 </html>

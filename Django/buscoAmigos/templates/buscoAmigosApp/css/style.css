@@ -22,7 +22,7 @@ header {
     border-style: solid;
     padding: 1em;
     text-align: center;
-    min-height: 1em;
+    height: 1em;
 }
 
 header a {
@@ -60,24 +60,35 @@ header a {
 }
 
 /* .dropdown-nav {
-    border-style: solid;
+    border-style: solid;    min-width: 160px;
+
     border-color: rgb(231, 157, 157);;
     background-color:rgb(231, 157, 157);
 } */
 
-
+ul {
+    list-style-type: none;
+    list-style: none;
+}
 
 .navegacion-dropdown:hover .dropdown-content {
     display: block;
+}
+
+.menu-item {
+    background-color: rgb(231, 157, 157);
+    /* padding: 0.1em; */
+    border-style: solid;
+    border-color: rgb(231, 157, 157);
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color:rgb(231, 157, 157);
-    min-width: 160px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 0.4em;
+    padding: 0.1em;
     z-index: 1;
   }
 
@@ -126,10 +137,22 @@ li {
 
 main {
     color: rgb(46, 38, 38);
-    margin-left: 20%;
-    margin-right: 20%;
-    
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 1080px;
+}
 
+.home-photo {
+    /* max-height: 200px; */
+    float: left;
+    max-width:48%;
+    border-style: solid;
+    border-color: rgb(236, 137, 153);
+}
+
+.home-photos {
+    min-width: 100%;
+    background-color: rgb(236, 137, 153);
 }
 
 h1 {
@@ -174,22 +197,26 @@ a:hover {
 
 h3 {
     text-align: center;
+    color: rgb(235, 98, 121);
 }
 
 .pie-de-pagina {
     background-color:rgb(231, 157, 157);
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
+    border-color:rgb(231, 157, 157); ;
+    border-style: solid;
+    padding: 1em;
     text-align: center;
-    margin-bottom: 0px;
-    padding-bottom: 0.6em;
+    width: 100%;
+    height: 1em;
+    position: fixed;
+    bottom: 0px;
 }
 
 
 
 .intro-pie-pagina {
-    margin-bottom: 0.2em;
+    margin-top: -0.4em;
+    margin-bottom: 0.05em;
  
 }
 

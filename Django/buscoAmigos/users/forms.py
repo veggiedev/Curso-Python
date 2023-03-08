@@ -31,6 +31,6 @@ class NewUserForm(forms.ModelForm):
 
 class login_form(forms.ModelForm):
 	class Meta:
-		model = UserProfile
+		model = User
 		fields = ['email', 'password']
 

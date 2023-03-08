@@ -134,7 +134,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "templates/buscoAmigosApp/css"),
     STATIC_URL,
 ]
-
 STATIC_ROOT = Path.joinpath(BASE_DIR, 'templates/buscoAmigosApp/')
 MEDIA_URL = 'templates/buscoAmigosApp/media/'
 
@@ -142,4 +141,4 @@ MEDIA_URL = 'templates/buscoAmigosApp/media/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-LOGIN_REDIRECT_URL = 'users/sugerencias'
+LOGIN_REDIRECT_URL = '/'

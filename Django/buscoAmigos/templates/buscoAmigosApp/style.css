@@ -1,22 +1,212 @@
 body {
- color: rgb(233, 80, 105);
- text-align: justify;
+    min-height: 98vh; 
+    margin:0;
+    color: rgb(233, 80, 105);
+    background-color: rgb(255, 236, 243);
+    font-family: Arial, Helvetica, sans-serif;
  } 
 
-.navbar {
-    color:rgb(192, 60, 60);
+ /* header{ 
+    /* min-height:50px;  */
+    /* background: rgb(255, 236, 243); */
+/* } */
+a {
+    transition: 0.5s;
+    color:rgb(88, 18, 24);
+    text-decoration: none;    
+}
+
+header {
+    background-color:rgb(231, 157, 157);
+    border-color:rgb(231, 157, 157); ;
+    border-style: solid;
+    padding: 1em;
     text-align: center;
+    min-height: 1em;
+}
+
+header a {
+    color: antiquewhite;
+}
+
+.navbar-all {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: antiquewhite;
+    text-align: center;
+    /* border-color:rgb(231, 157, 157); */
+    
+}
+
+.navegacion {
+    float: left;
+}
+
+.dropdown-button {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: -0.3em;
+}
+
+
+
+.navegacion-dropdown {
+    position: relative;
+    display: inline-block;
+    /* float: left; */
+    /* width: 50%; */
+    color:antiquewhite;
+}
+
+/* .dropdown-nav {
+    border-style: solid;    min-width: 160px;
+
+    border-color: rgb(231, 157, 157);;
+    background-color:rgb(231, 157, 157);
+} */
+
+ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+.navegacion-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-item {
+    background-color: rgb(231, 157, 157);
+    /* padding: 0.1em; */
+    border-style: solid;
+    border-color: rgb(231, 157, 157);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(231, 157, 157);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0.2em;
+    z-index: 1;
+  }
+
+.page-name {
+    float: left;
+    border-style: solid;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    border-width: 0.1em;
+    border-right: 0em;
+    color: rgb(233, 80, 105);
+}
+
+.page-name:hover {
+    border-style: solid;
+    border-color: rgb(231, 157, 157);
+    background-color: rgb(231, 157, 157);
+    border-width: 0.1em;
+    border-right: 0em;
+    color: #faebd7;
+    font-weight: 1.5em;
+}
+
+
+.user {
+    color: antiquewhite;;
+    float: right;
+    /* width: 50%; */
+}
+
+
+li {
+    text-decoration: none;
+}
+
+
+
+
+    
+
+.title {
+    text-align: center;
+    margin: 4em;
+}
+
+
+main {
+    color: rgb(46, 38, 38);
+    margin-left: 15%;
+    margin-right: 15%;
+    
+
 }
 
 h1 {
+    font-size: 1.5em;
+    color: rgb(233, 80, 105);
+
+}
+
+.main-content {
+    color: rgb(233, 80, 105);
+    font-size: 110%;
+    width: 100%;
+    float: left;
+}
+
+.boton {
+    float: left;
+    transition: 0.5s;
+    font-size: 1.2em;
+    background-color: rgb(236, 137, 153);
+    color: rgb(247, 236, 239);
+    padding: 0.4em;
+    border-style: solid;
+    border-radius: 0.15em;
+    border-color: rgb(236, 137, 153);
+}
+
+.boton:hover {
+    transition: 0.5s;
+    font-size: 1.2em;
+    background-color: rgb(235, 98, 121);
+    color: rgb(247, 209, 218);
+    border-style: solid;
+    border-color: rgb(235, 98, 121);
+}
+
+a:hover {
+    transition: 0.5s;
+    color: rgb(233, 80, 105);
+
+}
+
+h3 {
     text-align: center;
 }
 
-a {
-    color:rgb(206, 36, 101);
-    text-decoration: none;
-    
+.pie-de-pagina {
+    background-color:rgb(231, 157, 157);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0.6em;
 }
-a:hover {
-    color:rgb(116, 20, 100);
+
+
+
+.intro-pie-pagina {
+    margin-bottom: 0.2em;
+ 
 }
+
+
+/* 
+.main-centered {
+    width: 110%;
+    background-color: black;
+} */
