@@ -1,4 +1,4 @@
-# Curso-Python
+# My Projects
 
 My name is Jonathan A E, and this is my portfolio
 
@@ -30,7 +30,7 @@ Built using tkinter and other modules with python. To run it, you must pip insta
 
 ---------------------------------------------------------------------------------------------------------
 
-4 - Simple Twitter Bot (can be used in any account) -----<b>In active development</b>------<br>
+4 - Simple Twitter Bot (can be used in any account)
 Built using webdriver for chrome, selenium,  and other modules with python. To run it, you must pip install selenium.
 The bot will make log in, make searches, like and retweet and even post photos.
 Features in development:
@@ -43,3 +43,8 @@ More...
 
 5 - Squirrels Census with Pandas<br>
 A census done using pandas in python, where we analize the squirrels population in Central Park in 2018 and check the numbers of different colors of the rodent
+
+---------------------------------------------------------------------------------------------------------
+
+6 - Django Website -----<b>In active development</b>------<br>
+A website, curerntly under development, created using Django.
