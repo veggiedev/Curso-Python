@@ -1,9 +1,10 @@
 body {
-    min-height: 98vh; 
+    /* min-height: 98vh;  */
     margin:0;
     color: rgb(233, 80, 105);
     background-color: rgb(255, 236, 243);
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5em;
  } 
 
  /* header{ 
@@ -22,7 +23,7 @@ header {
     border-style: solid;
     padding: 1em;
     text-align: center;
-    height: 1em;
+    height: 1.2em;
 }
 
 header a {
@@ -34,6 +35,7 @@ header a {
     margin-right: 5%;
     color: antiquewhite;
     text-align: center;
+    font-size: 1.2em;
     /* border-color:rgb(231, 157, 157); */
     
 }
@@ -43,10 +45,10 @@ header a {
 }
 
 .dropdown-button {
-    width: 30px;
-    height: 30px;
+    width: 2.2em;
+    /* height: 30px; */
     float: left;
-    margin-top: -0.3em;
+    margin-top: -0.5em;
 }
 
 
@@ -71,16 +73,23 @@ ul {
     list-style: none;
 }
 
+
 .navegacion-dropdown:hover .dropdown-content {
     display: block;
 }
 
 .menu-item {
     background-color: rgb(231, 157, 157);
-    /* padding: 0.1em; */
+    padding: 0.1em;
     border-style: solid;
+    /* border-bottom: rgb(233, 80, 105); */
     border-color: rgb(231, 157, 157);
 }
+
+/* .menu-item:hover {
+    background-color: black;
+} */
+
 
 .dropdown-content {
     display: none;
@@ -92,22 +101,24 @@ ul {
     z-index: 1;
   }
 
+
 .page-name {
+    margin-top: -0.2em;
     float: left;
     border-style: solid;
     border-color: antiquewhite;
     background-color: antiquewhite;
-    border-width: 0.1em;
-    border-right: 0em;
-    color: rgb(233, 80, 105);
+    border-radius: 2px;
+    border-width: 0.3em;
+    color: rgb(231, 157, 157);
 }
 
 .page-name:hover {
     border-style: solid;
     border-color: rgb(231, 157, 157);
     background-color: rgb(231, 157, 157);
-    border-width: 0.1em;
-    border-right: 0em;
+    /* border-width: 0.1em; */
+    /* border-right: 0em; */
     color: #faebd7;
     font-weight: 1.5em;
 }
@@ -126,45 +137,40 @@ li {
 
 
 
-
-    
-
 .title {
     text-align: center;
-    margin: 4em;
+    margin: 2em;
 }
 
 
 main {
     color: rgb(46, 38, 38);
-    margin-left: 15%;
-    margin-right: 15%;
-    max-width: 1080px;
+    margin-left: 14.5%;
+    margin-right: 14.5%;
 }
 
 .home-photo {
-    /* max-height: 200px; */
     float: left;
-    max-width:48%;
+    max-width: 48%;
     border-style: solid;
     border-color: rgb(236, 137, 153);
 }
 
 .home-photos {
-    min-width: 100%;
     background-color: rgb(236, 137, 153);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
-    font-size: 1.5em;
     color: rgb(233, 80, 105);
-
 }
 
 .main-content {
     color: rgb(233, 80, 105);
     font-size: 110%;
-    width: 100%;
+    /* width: 100%; */
     float: left;
 }
 
@@ -192,12 +198,20 @@ h1 {
 a:hover {
     transition: 0.5s;
     color: rgb(233, 80, 105);
-
 }
 
 h3 {
     text-align: center;
     color: rgb(235, 98, 121);
+}
+
+.bottom-margin {
+    height: 5em;
+    width: 100%;
+    text-align: center;
+    /* bottom: 1em; */
+    float: left;
+    color: rgb(255, 236, 243);
 }
 
 .pie-de-pagina {
