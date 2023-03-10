@@ -4,22 +4,17 @@
 <header>
     <div class="navbar-all">
       <div class = "navegacion">
-        <a class = "page-name" href="{% url 'home' %}">Coolegas.com</a>
         <div class="navegacion-dropdown">
             <img class="dropdown-button" src="{% static 'dropdown-icon.png' %}" alt="drop-down">
-
           <ul class="dropdown-content">
               <a class="menu-boton" href="{% url 'sugerencias' %}"><li>Sugerencias</li></a>
               <a class="menu-boton" href="{% url 'about' %}"><li>Nosotros</li></a>
-
           </ul>
         </div>
-        
       </div>
-      
+      <a class = "page-name" href="{% url 'home' %}">Coolegas.com</a>
       <div class = "user">
-        <a class = "signup" href="{% url 'signup' %}">Registro | </a>
-        <a class ='login' href="{% url 'login_page' %}">Iniciar sesión</a>
+        <a class ='login' href="{% url 'entrar' %}">Entrar</a>
       </div>
     </div>
 </header>

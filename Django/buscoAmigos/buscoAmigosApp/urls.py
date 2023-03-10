@@ -23,7 +23,7 @@ urlpatterns = [
     # path("about", views.about, name="about"),
     # path('', views.index, name='index'),
     # path('second_page', views.second_page, name='second page'),
-    # path('help', views.help, name='help page' ),
+    path('entrar', views.entrar, name='entrar' ),
     path('sugerencias', views.sugerencias, name='sugerencias'),
     # path('signup', views.signup, name='signup'),
     

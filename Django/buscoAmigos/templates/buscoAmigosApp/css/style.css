@@ -18,11 +18,14 @@ a {
 }
 
 header {
+    margin:0;
+
     z-index: 10;
     background-color:rgb(231, 157, 157);
     border-color:rgb(231, 157, 157); ;
     border-style: solid;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
     height: 1.2em;
     position: fixed;
@@ -37,8 +40,7 @@ header a {
 
 .navbar-all {
     z-index: 1;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
     color: antiquewhite;
     text-align: center;
     font-size: 1.2em;
@@ -47,16 +49,18 @@ header a {
 }
 
 .navegacion {
+    position: relative;
     float: left;
+    width: 33%;
 }
 
 .dropdown-button {
+    /* width: 33%; */
+    float: left;
     transition: 0.5s;
     z-index: 2;
     width: 2.7em;
-    float: left;
     margin-top: -0.7em;
-    padding: -5px;
 }
 
 .dropdown-button:hover {
@@ -68,20 +72,15 @@ header a {
 
 .navegacion-dropdown {
     position: relative;
+    width: 33%;
     display: inline-block;
-    color:antiquewhite;
-}
-
-
-ul {
-    list-style-type: none;
     list-style: none;
+
 }
 
 
 .navegacion-dropdown:hover .dropdown-content {
     display: block;
-    margin-top: 1em;
 
 }
 
@@ -91,18 +90,22 @@ ul {
     top: 0.9em;
     display: none;
     position: absolute;
+    float: left;
     background-color:rgba(231, 157, 157, 0);
     min-width: 120px;
+    max-width: 60px;
     padding: 0.1em;
     z-index: 3;
-    margin-top: 10px;
-    margin-left: -4%;
+    margin-top: 19px;
+    margin-left: -1%;
   }
 
 
 .page-name {
-    margin-top: -0.2em;
-    float: left;
+    width: 33%;
+    text-align: center;
+    margin-top: -2em;
+    position: relative;
     border-style: solid;
     border-color: antiquewhite;
     background-color: antiquewhite;
@@ -123,8 +126,11 @@ ul {
 
 
 .user {
-    color: antiquewhite;;
-    float: right;
+    width: 33%;
+    color: antiquewhite;
+    position: relative;
+    float: left;
+
     /* width: 50%; */
 }
 
@@ -137,44 +143,46 @@ li {
 
 .title {
     text-align: center;
-    margin: 2em;
+    margin-top: 3em;
+    width: 100%;
 }
 
-
 main {
+    z-index: 1;
     color: rgb(78, 76, 76);
     margin-left: 14.5%;
     margin-right: 14.5%;
 }
 
 .home-photo {
-    z-index: 2;
+    z-index: 1200;
+    max-width: 100%;
+}
+
+
+.home-photos img:hover{
+    transition: 0.5s;
+    opacity: 10%;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.photos-column-left {
     float: left;
-    max-width: 48%;
+    max-width: 49%;
 }
 
-.home-photos {
-    position: relative;
-    z-index: 5;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.home-photo-link {
-    z-index: 2;
+.photos-column-right {
+    float: left;
+    max-width: 49%;
 }
 
 .photo-description {
-    float: left;
     z-index: 1;
-    width: 0px;
-    text-align: left;
-
+    background-color: rgb(233, 80, 105);
+    margin-top: -10%;
 }
 
-.home-photo-link:hover {
-    opacity: 10%;
-}
 
 
 
@@ -308,6 +316,7 @@ a:hover {
 }
 
 h3 {
+    z-index: 3;
     text-align: center;
     color: rgb(235, 98, 121);
 }

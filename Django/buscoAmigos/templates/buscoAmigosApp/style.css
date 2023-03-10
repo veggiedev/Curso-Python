@@ -6,10 +6,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
  } 
 
- /* header{ 
-    /* min-height:50px;  */
-    /* background: rgb(255, 236, 243); */
-/* } */
+p {
+    color: rgb(238, 165, 165);
+}
 a {
     transition: 0.5s;
     color:rgb(88, 18, 24);
@@ -27,7 +26,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0px;
-    opacity: 90%;
+    /* opacity: 90%; */
 }
 
 header a {
@@ -35,6 +34,7 @@ header a {
 }
 
 .navbar-all {
+    width: 100%;
     z-index: 1;
     margin-left: 5%;
     margin-right: 5%;
@@ -49,10 +49,15 @@ header a {
     float: left;
 }
 
+.user {
+    color: antiquewhite;;
+    float: right;
+}
+
 .dropdown-button {
     transition: 0.5s;
     z-index: 2;
-    width: 2.7em;
+    height: 2.7em;
     float: left;
     margin-top: -0.7em;
     padding: -5px;
@@ -63,7 +68,10 @@ header a {
     background-color: rgb(233, 80, 105);
 }
 
-
+.signup-form p{
+    color: rgb(233, 80, 105);
+    text-align: center;
+}
 
 .navegacion-dropdown {
     position: relative;
@@ -290,7 +298,6 @@ h3 {
     height: 5em;
     width: 100%;
     text-align: center;
-    /* bottom: 1em; */
     float: left;
     color: rgb(255, 236, 243);
 }
@@ -308,25 +315,9 @@ h3 {
     bottom: 0px;
 }
 
-.creador {
-    margin-bottom: 30px;
-
-
-.user {
-    color: antiquewhite;;
-    float: right;
-    /* width: 50%; */
-}
-
-
 li {
     text-decoration: none;
 }
-
-
-
-
-    
 
 .title {
     text-align: center;
@@ -338,8 +329,7 @@ main {
     color: rgb(46, 38, 38);
     margin-left: 15%;
     margin-right: 15%;
-    
-
+    text-align: center;
 }
 
 h1 {

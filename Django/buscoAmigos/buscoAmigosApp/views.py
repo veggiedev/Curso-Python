@@ -11,15 +11,15 @@ from django.views.generic import TemplateView
 # Create your views here.
 
 
-def index(request):
-    return render(request, 'home.html')
+# def index(request):
+#     return render(request, 'home.html')
 
-def second_page(request):
-    return HttpResponse("<em>Second Page!</em>")
+# def second_page(request):
+#     return HttpResponse("<em>Second Page!</em>")
 
-def help(request):
+def entrar(request):
     inject_help = {'inject_help':'Help Page (Injected from  views)'}
-    return render(request, 'help.html', context=inject_help)
+    return render(request, 'entrar.html', context=inject_help)
 
 def sugerencias(request):
     my_dict = {'pagina_sugerencias':'Hello this is the sugerencias page.'}
@@ -27,20 +27,20 @@ def sugerencias(request):
 
 
 
-def signup(request):
+# def signup(request):
 
-    form = NewUserForm()
-    if request.method == 'POST':
-        form = NewUserForm(request.POST)
-        if form.is_valid():
-            form.save(commit=True)
-            return index(request)
-        else:
-            print('Error, Form is invalid')
-    return render(request, 'templates/buscoAmigosApp/users/signup.html',{'form':form})
+#     form = NewUserForm()
+#     if request.method == 'POST':
+#         form = NewUserForm(request.POST)
+#         if form.is_valid():
+#             form.save(commit=True)
+#             return index(request)
+#         else:
+#             print('Error, Form is invalid')
+#     return render(request, 'templates/buscoAmigosApp/users/signup.html',{'form':form})
 
-# def login_page(request):
-#     return render(request, 'templates/buscoAmigosApp/users/login.html')
+# # def login_page(request):
+# #     return render(request, 'templates/buscoAmigosApp/users/login.html')
 
 
 class HomePageView(TemplateView):
