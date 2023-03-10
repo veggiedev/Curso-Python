@@ -17,12 +17,17 @@ a {
 }
 
 header {
+    z-index: 10;
     background-color:rgb(231, 157, 157);
     border-color:rgb(231, 157, 157); ;
     border-style: solid;
     padding: 1em;
     text-align: center;
-    min-height: 1em;
+    height: 1.2em;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    opacity: 90%;
 }
 
 header a {
@@ -30,10 +35,12 @@ header a {
 }
 
 .navbar-all {
+    z-index: 1;
     margin-left: 5%;
     margin-right: 5%;
     color: antiquewhite;
     text-align: center;
+    font-size: 1.2em;
     /* border-color:rgb(231, 157, 157); */
     
 }
@@ -43,10 +50,17 @@ header a {
 }
 
 .dropdown-button {
-    width: 30px;
-    height: 30px;
+    transition: 0.5s;
+    z-index: 2;
+    width: 2.7em;
     float: left;
-    margin-top: -0.3em;
+    margin-top: -0.7em;
+    padding: -5px;
+}
+
+.dropdown-button:hover {
+    transition: 0.5s;
+    background-color: rgb(233, 80, 105);
 }
 
 
@@ -54,63 +68,248 @@ header a {
 .navegacion-dropdown {
     position: relative;
     display: inline-block;
-    /* float: left; */
-    /* width: 50%; */
     color:antiquewhite;
 }
 
-/* .dropdown-nav {
-    border-style: solid;    min-width: 160px;
-
-    border-color: rgb(231, 157, 157);;
-    background-color:rgb(231, 157, 157);
-} */
 
 ul {
     list-style-type: none;
     list-style: none;
 }
 
+
 .navegacion-dropdown:hover .dropdown-content {
     display: block;
+    margin-top: 1em;
+
 }
 
-.menu-item {
-    background-color: rgb(231, 157, 157);
-    /* padding: 0.1em; */
-    border-style: solid;
-    border-color: rgb(231, 157, 157);
-}
+
 
 .dropdown-content {
+    top: 0.9em;
     display: none;
     position: absolute;
-    background-color:rgb(231, 157, 157);
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 0.2em;
-    z-index: 1;
+    background-color:rgba(231, 157, 157, 0);
+    min-width: 120px;
+    padding: 0.1em;
+    z-index: 3;
+    margin-top: 10px;
+    margin-left: -4%;
   }
 
+
 .page-name {
+    margin-top: -0.2em;
     float: left;
     border-style: solid;
     border-color: antiquewhite;
     background-color: antiquewhite;
-    border-width: 0.1em;
-    border-right: 0em;
-    color: rgb(233, 80, 105);
+    border-radius: 2px;
+    border-width: 0.3em;
+    color: rgb(231, 157, 157);
 }
 
 .page-name:hover {
     border-style: solid;
     border-color: rgb(231, 157, 157);
     background-color: rgb(231, 157, 157);
-    border-width: 0.1em;
-    border-right: 0em;
-    color: #faebd7;
+    /* border-width: 0.1em; */
+    /* border-right: 0em; */
+    color: rgb(233, 80, 105);
     font-weight: 1.5em;
 }
+
+
+.home-photo {
+    z-index: 2;
+    float: left;
+    max-width: 48%;
+}
+
+.home-photos {
+    position: relative;
+    z-index: 5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-photo-link {
+    z-index: 2;
+}
+
+.photo-description {
+    float: left;
+    z-index: 1;
+    width: 0px;
+    text-align: left;
+
+}
+
+.home-photo-link:hover {
+    opacity: 10%;
+}
+
+
+
+h1 {
+    color: rgb(233, 80, 105);
+}
+
+.main-content {
+    color: rgb(233, 80, 105);
+    font-size: 110%;
+    /* width: 100%; */
+    float: left;
+}
+
+.boton:active {
+    transition:0.5ms;
+    background-color: rgb(197, 82, 101);
+}
+
+.boton {
+    float: left;
+    transition: 0.5s;
+    font-size: 1.2em;
+    background-color: rgb(236, 137, 153);
+    color: rgb(247, 236, 239);
+    padding: 0.4em;
+    border-style: solid;
+    border-radius: 0.15em;
+    border-color: rgb(236, 137, 153);
+}
+
+.boton:hover {
+    transition: 0.5s;
+    font-size: 1.2em;
+    background-color: rgb(235, 98, 121);
+    color: rgb(247, 209, 218);
+    border-style: solid;
+    border-color: rgb(235, 98, 121);
+}
+
+.boton:active {
+    transition:0.3ms;
+    font-size: 1.2em;
+    background-color: rgb(180, 74, 92);
+    color: rgb(247, 209, 218);
+    border-style: solid;
+    border-radius: 0.15em;
+    border-color: rgb(180, 74, 92);
+
+}
+
+.boton-main {
+    /* float: left; */
+    text-align: center;
+    /* transition: 0.5s; */
+    font-size: 1.2em;
+    background-color: rgb(236, 137, 153);
+    color: rgb(247, 236, 239);
+    padding: 0.4em;
+    margin: 2px;
+    border-style: solid;
+    border-radius: 0.15em;
+    border-color: rgb(236, 137, 153);
+}
+
+.boton-main:hover {
+    transition: 0.5s;
+    font-size: 1.2em;
+    background-color: rgb(235, 98, 121);
+    color: rgb(247, 209, 218);
+    border-style: solid;
+    border-color: rgb(235, 98, 121);
+}
+
+.boton-main:active {
+    transition:0.3ms;
+    font-size: 1.2em;
+    background-color: rgb(180, 74, 92);
+    color: rgb(247, 209, 218);
+    border-style: solid;
+    border-radius: 0.15em;
+    border-color: rgb(180, 74, 92);
+}
+
+.menu-boton {
+    z-index: 2;
+    min-width: 120px;
+    max-width: 125px;
+    text-align: center;
+    padding-left: 15em;
+    padding-right: 15em;
+    float: left;
+    transition: 0.5s;
+    font-size: 1em;
+    background-color: rgb(231, 157, 157);
+    color: antiquewhite;    
+    padding: 0.4em;
+    border-style: solid;
+    border-color: rgb(231, 157, 157);
+}
+
+.menu-boton:hover {
+    transition: 0.5s;
+    font-size: 1em;
+    background-color: rgb(235, 98, 121);
+    color: antiquewhite;    
+    border-style: solid;
+    border-color: rgb(235, 98, 121);
+}
+
+.menu-boton:active {
+    transition:0.3ms;
+    font-size: 1em;
+    background-color: rgb(180, 74, 92);
+    color: antiquewhite;    
+    border-style: solid;
+    border-color: rgb(180, 74, 92);
+
+}
+
+.main-login {
+    margin-top: 2em;
+    margin-bottom: 4em;
+    text-align: center;
+    width: 100%;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: rgb(233, 80, 105);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(235, 98, 121);
+}
+
+.bottom-margin {
+    height: 5em;
+    width: 100%;
+    text-align: center;
+    /* bottom: 1em; */
+    float: left;
+    color: rgb(255, 236, 243);
+}
+
+.pie-de-pagina {
+    background-color:rgb(231, 157, 157);
+    border-color:rgb(231, 157, 157); ;
+    border-style: solid;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: 1em;
+    position: fixed;
+    z-index: 10;
+    bottom: 0px;
+}
+
+.creador {
+    margin-bottom: 30px;
 
 
 .user {

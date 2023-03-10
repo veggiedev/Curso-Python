@@ -13,20 +13,27 @@
     {% block content %}
     <h1 class = "title">Bienvenido a Coolegas.com!</h1>
     <h3>Bienvenido a tu red social de amigos y colegas</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      Maiores similique sunt possimus, doloribus quae fugiat dignissimos? 
-      Voluptas magni facere necessitatibus hic dignissimos doloribus 
-      dolores nulla voluptatum nemo. Soluta, nostrum a?</p>
+    <p>En Coolegas.com puedes encontrar a gente con la que salir, beber.... ir de montañismo, ciclismo etc.
+      Puedes buscar a gente o actividades a tu alrededor, ver sugerencias de actividades y mucho más.</p>
+    <p>Esperamos que te guste y encuentres a coolegas geniales ;).</p>
+    <div class="main-login">
+      <a class = "boton-main" href="{% url 'signup' %}">Registro</a>
+      <a class ='boton-main' href="{% url 'login_page' %}">Iniciar sesión</a>
+    </div>
 
-    
-      <h3>Conoce a gente, prueba nuevas actividades! Disfruta la vida al maximo!</h3>
-      <div class="home-photos">
-        <img class="home-photo" src="{% static  'Images/6.jpg' %}">
-        <img class="home-photo" src="{% static  'Images/500.jpg' %}">
-        <img class="home-photo" src="{% static  'Images/1000.jpg' %}">
-        <img class="home-photo" src="{% static  'Images/2000.jpg' %}">
 
-      </div>
+    <h3>Conoce a gente, prueba nuevas actividades! Disfruta la vida al maximo!</h3>
+    <div class="home-photos">
+      <a class="home-photo-link" href="#"><img class="home-photo" src="{% static  'Images/36.jpg' %}"></a>
+      <h3 class="photo-description">Nombre:</h3>
+      <a class="home-photo-link" href="#"><img class="home-photo" src="{% static  'Images/406.jpg' %}"></a>
+      <h3 class="photo-description">Nombre:</h3>
+      <a class="home-photo-link" href="#"><img class="home-photo" src="{% static  'Images/1006.jpg' %}"></a>
+      <h3 class="photo-description">Nombre:</h3>
+      <a class="home-photo-link" href="#"><img class="home-photo" src="{% static  'Images/2006.jpg' %}"></a>
+      <h3 class="photo-description">Nombre:</h3>
+
+    </div>
 
       {% endblock %}
 

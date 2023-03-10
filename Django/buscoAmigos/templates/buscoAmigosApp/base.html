@@ -9,8 +9,8 @@
             <img class="dropdown-button" src="{% static 'dropdown-icon.png' %}" alt="drop-down">
 
           <ul class="dropdown-content">
-              <a class="menu-item" href="{% url 'sugerencias' %}"><li>Sugerencias</li></a>
-              <a class="menu-item" href="{% url 'about' %}"><li>Nosotros</li></a>
+              <a class="menu-boton" href="{% url 'sugerencias' %}"><li>Sugerencias</li></a>
+              <a class="menu-boton" href="{% url 'about' %}"><li>Nosotros</li></a>
 
           </ul>
         </div>
@@ -19,7 +19,7 @@
       
       <div class = "user">
         <a class = "signup" href="{% url 'signup' %}">Registro | </a>
-        <a class ='login' href="{% url 'login_page' %}">Login</a>
+        <a class ='login' href="{% url 'login_page' %}">Iniciar sesión</a>
       </div>
     </div>
 </header>
@@ -29,8 +29,7 @@
   </main>
   <div class="bottom-margin">--------------</div>
   <div class="pie-de-pagina" >
-    <p class = "intro-pie-pagina" >Creado por </p>
-    <a class = "enlace-veggiedev" href="https://github.com/veggiedev">@veggiedev</a>
+    <p class="creador">Creado por <a href="https://github.com/veggiedev">@veggiedev</a></p> 
   </div>
 
 
