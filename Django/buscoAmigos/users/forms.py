@@ -19,10 +19,10 @@ class NewUserForm(forms.ModelForm):
 			user.save()
 		return user
 	
-	class UserProfile(forms.ModelForm):
-		class Meta():
-			model = UserProfile
-			fields = ('nacimiento', 'genero', 'provincia', 'ciudad', 'disponibilidad', 'lugar_comida', 'musica', 'musica_relax', 'musica_animada', 'salir', 'actividades', 'latitud', 'longitud')
+class UserProfileForm(forms.ModelForm):
+	class Meta():
+		model = UserProfile
+		fields = ('provincia', 'ciudad')
 
 
 
@@ -31,6 +31,6 @@ class NewUserForm(forms.ModelForm):
 
 class login_form(forms.ModelForm):
 	class Meta:
-		model = User
+		model = UserProfile
 		fields = ['email', 'password']
 

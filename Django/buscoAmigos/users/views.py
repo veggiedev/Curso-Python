@@ -4,35 +4,42 @@ from django.contrib.auth.forms import AuthenticationForm
 import random
 # Create your views here.
 
-from .forms import NewUserForm
-from .models import User
+from .forms import NewUserForm, UserProfileForm, login_form
 
 
 def index(request):
     return render(request, 'home.html')
 
-def signup (request):
+def signup(request):
+    registered = False
 
-    form = NewUserForm()
     if request.method == 'POST':
-        form = NewUserForm(request.POST)
-        if form.is_valid():
-            form.save(commit=True)
-            return index(request)
+        user_form = NewUserForm(data=request.POST)
+        user_profile = UserProfileForm(data=request.POST)
+        if user_form.is_valid() and user_profile.is_valid():
+            user = user_form.save()
+            user.set_password(user.password)
+            user.save()
+            profile = user_profile.save(commit=False)
+            profile.user = user 
+            registered = True
         else:
             print('Error, Form is invalid')
-    return render(request, 'signup.html',{'user_form':form})
-# class SignUpView(generic.CreateView):
-#     form_class = UserCreationForm
-#     success_url = reverse_lazy("login")
-#     template_name = "users/signup.html"
+    else:
+        user_form = NewUserForm()
+        user_profile = UserProfileForm()
+    return render(request, 'signup.html',
+                  {'user_form':user_form,
+                  'user_profile':user_profile,
+                  'regiusterd':registered})
+
 
 def about(request):
     return render(request, 'about.html')    
 
 
 def login_page(request):
-    return render(request, 'login.html')
+    return render(request, 'login.html', {'login_form':login_form})
 
 def logout_page(request):
     return render(request, 'logout.html')

@@ -16,9 +16,10 @@
   {% else %}
   <h1 class = "title">Registro</h1>
   <div class = "signup-form">
-    <form  enctype='multipart/form-data' method="post">
+    <form  method="post">
       {% csrf_token %}
       {{ user_form.as_p }}
+      {{ user_profile.as_p }}
       <button class = "boton" type="submit">Registrate</button>
     </form>
   </div>
