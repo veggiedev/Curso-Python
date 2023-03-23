@@ -10,7 +10,7 @@ class NewUserForm(forms.ModelForm):
 
 	class Meta():
 		model = User
-		fields = ['username', 'email', 'password']
+		fields = '__all__'
 	
 	def save(self, commit=True):
 		user = super(NewUserForm, self).save(commit=False)
@@ -30,7 +30,7 @@ class UserProfileForm(forms.ModelForm):
 
 
 class login_form(forms.ModelForm):
-	class Meta:
-		model = UserProfile
+	class Meta():
+		model = User
 		fields = ['email', 'password']
 

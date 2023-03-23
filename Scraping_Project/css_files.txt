@@ -1,0 +1,7 @@
+https://www.classcentral.com
+https://classcentral.com/apple-touch-icon.png
+https://classcentral.com/favicon-32x32.png
+https://classcentral.com/favicon-16x16.png
+https://classcentral.com/site.webmanifest
+https://classcentral.com/safari-pinned-tab.svg
+https://classcentral.com/opensearch.xml
