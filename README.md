@@ -21,7 +21,7 @@ Built using tkinter and other modules with python. To run it, you must pip insta
 
 ---------------------------------------------------------------------------------------------------------
 
-3 - Snake<br>
+3 - <a href="https://github.com/veggiedev/Curso-Python/tree/2bde1a37661d84240e6feecd1ac486870926a4e7/snake%20game">Snake</a><br>
 Classic Snake. You must feed the snake, who doesn't stop at any time, unless collission happens with walls or snake itself. The target is a highscore:
 the snake grows longer and faster as you feed it.
 Controls:
