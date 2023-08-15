@@ -30,7 +30,7 @@ Built using tkinter and other modules with python. To run it, you must pip insta
 
 ---------------------------------------------------------------------------------------------------------
 
-4 - <a href="https://github.com/veggiedev/Curso-Python/tree/122a8334a412f85eeb18c79ed24abad67acc27e0/TweetBot">Simple Twitter Bot"</a> (can be used in any account)<br>
+4 - <a href="https://github.com/veggiedev/Curso-Python/tree/122a8334a412f85eeb18c79ed24abad67acc27e0/TweetBot">Simple Twitter Bot</a> (can be used in any account)<br>
 Built using webdriver for chrome, selenium,  and other modules with python. To run it, you must pip install selenium.
 The bot will make log in, make searches, like and retweet and even post photos.
 Features in development:
@@ -41,7 +41,7 @@ More...
 
 ---------------------------------------------------------------------------------------------------------
 
-5 - Squirrels Census with Pandas<br>
+5 - <a href="https://github.com/veggiedev/Curso-Python/tree/2212adb1771b65886d95696c4f79dbb2fbf52757/Censo%20Ardillas%20CP">Squirrels Census</a> with Pandas<br>
 A census done using pandas in python, where we analize the squirrels population in Central Park in 2018 and check the numbers of different colors of the rodent
 
 ---------------------------------------------------------------------------------------------------------
