@@ -13,7 +13,7 @@ Built using tkinter and other modules with python. To run it, you must pip insta
 
 ---------------------------------------------------------------------------------------------------------
 
-2 - Pong<br>
+2 - <a href="https://github.com/veggiedev/Curso-Python/tree/a87febe7bc89de7b8353da83bb9aa9433f4aa4f5/Pong">Pong</a><br>
 Classsic Pong. Ball starts in a random direction, and both sides need to hit it to make it bounce back to the other side. Loses who misses the ball.
 Controls:
 Left side: "ws" Right Side: "ik"
